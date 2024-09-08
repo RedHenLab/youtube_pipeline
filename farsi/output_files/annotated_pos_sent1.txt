@@ -1,0 +1,3431 @@
+# newdoc id = /mnt/rds/redhen/gallina/home/akp165/GSOC/new/youtube_pipeline/farsi/output.txt
+# newpar
+# sent_id = 1
+1	WEBVTT	WEBVTT	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 2
+1	لحظه	لحظه	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	معود	معود	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	فرا	فرا	ADP	PREV	_	4	case	_	_
+4	رسید	رسید#رس	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 3
+1	اگر	اگر	SCONJ	CON	_	2	mark	_	_
+2	طرفتار	طرفتار	NOUN	N_SING	Number=Sing	0	root	_	_
+3	شیامی	شيامی	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	سامسونگ	سامسونگ	ADJ	ADJ	Degree=Pos	3	conj	_	_
+6	هستید	هست	AUX	V_PRS	Number=Plur|Person=2|Tense=Pres	2	cop	_	_
+
+# sent_id = 4
+1	این	این	DET	DET	_	2	det	_	_
+2	ویدیو	_	NOUN	N_SING	Number=Sing	6	obj	_	_
+3	رو	رو	PART	CLITIC	_	2	case	_	_
+4	تا	تا	ADP	P	_	5	case	_	_
+5	ته	_	NOUN	N_SING	Number=Sing	6	obl	_	_
+6	ببینید	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 5
+1	بفرستید	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+2	واسه	واسه	SCONJ	CON	_	1	advmod	_	_
+3	رفیقای	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	اپلیتون	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+
+# sent_id = 6
+1	با	با	ADP	P	_	2	case	_	_
+2	یه	_	NOUN	N_SING	Number=Sing	4	nmod	_	_
+3	مشتو	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	صورتشون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 7
+1	چرا؟	چرا؟	PUNCT	DELM	_	3	punct	_	_
+2	چون	چون	SCONJ	CON	_	3	mark	_	_
+3	میخواییم	ميخوايیم	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	4	acl:relcl	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	افتزاهات	افتزاه	NOUN	N_PL	Number=Plur	0	root	_	_
+
+# sent_id = 8
+1	اپل	اپل	NOUN	N_SING	Number=Sing	2	obj	_	_
+2	بپردازیم	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 9
+1	پس	پس	ADV	ADV	_	2	advmod	_	_
+2	بریم	برد#ر	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+3	که	که	SCONJ	CON	_	5	mark	_	_
+4	چیکار	چيکار	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	کنیم	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	2	ccomp	_	_
+
+# sent_id = 10
+1	سلام	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	به	به	ADP	P	_	3	case	_	_
+3	مواقع	_	NOUN	N_PL	Number=Plur	4	nmod	_	_
+4	دوست	دوست	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+5	داشتنی	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+
+# sent_id = 11
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	مهدی	مهدی	NOUN	N_SING	Number=Sing	0	root	_	_
+3	شجریم	شجریم	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	خیلی	خیلی	ADV	ADV	_	5	advmod	_	_
+5	خوش	خوش	ADJ	ADJ	Degree=Pos	2	amod	_	_
+6	اومدید	_	AUX	V_PA	Number=Plur|Person=2|Polarity=Neg|Tense=Past	5	cop	_	_
+7	به	به	ADP	P	_	9	case	_	_
+8	یه	_	NUM	NUM	NumType=Card	9	nummod	_	_
+9	ویدیو	_	NOUN	N_SING	Number=Sing	5	obl	_	_
+10	دیگه	_	ADJ	ADJ	Degree=Pos	9	amod	_	_
+
+# sent_id = 12
+1	توی	توی	ADP	P	_	2	case	_	_
+2	هفته	هفته	NOUN	N_SING	Number=Sing	4	obl	_	_
+3	های	_	NOUN	N_PL	Number=Plur	2	nmod:poss	_	_
+4	گذاشته	گذاشت#گذار	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+
+# sent_id = 13
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	روزهای	روز	NOUN	N_PL	Number=Plur	0	root	_	_
+3	گذاشته	گذاشت#گذار	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	ویدیو	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+5	افتزاهات	افتزاه	NOUN	N_PL	Number=Plur	4	nmod:poss	_	_
+6	سامسونگ	سامسونگ	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 14
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	افتزاهات	افتزاه	NOUN	N_PL	Number=Plur	0	root	_	_
+3	شیامی	شيامی	ADJ	ADJ	Degree=Pos	2	amod	_	_
+
+# sent_id = 15
+1	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+2	زمینه	زمینه	NOUN	N_SING	Number=Sing	5	obj	_	_
+3	موبایل	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	رو	رو	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	گذاشتم	گذاشت#گذار	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+
+# sent_id = 16
+1	این	این	DET	DET	_	2	det	_	_
+2	یکی	یک	NUM	NUM	NumType=Card	4	nsubj	_	_
+3	میخواییم	ميخوايیم	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	بپردازیم	_	VERB	V_PA	Number=Plur|Person=1|Tense=Past	0	root	_	_
+5	به	به	ADP	P	_	6	case	_	_
+6	اپل	اپل	NOUN	N_SING	Number=Sing	4	obl	_	_
+
+# sent_id = 17
+1	که	که	SCONJ	CON	_	2	mark	_	_
+2	ببینیم	دید#بین	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	3	acl:relcl	_	_
+3	افتزاهات	افتزاه	NOUN	N_PL	Number=Plur	0	root	_	_
+4	اپل	اپل	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+
+# sent_id = 18
+1	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	بازار	بازار	NOUN	N_SING	Number=Sing	0	root	_	_
+3	موبایل	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	چیا	_	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	بوده	بود#باش	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	2	cop	_	_
+
+# sent_id = 19
+1	پس	پس	ADV	ADV	_	3	advmod	_	_
+2	ویدیو	_	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+3	رو	رو	NOUN	N_SING	Number=Sing	7	obl	_	_
+4	همین	همین	DET	DET	_	5	det	_	_
+5	الان	الان	ADV	ADV_TIME	Case=Tem	7	advmod	_	_
+6	لایک	_	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7	کنید	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+8	اگر	اگر	SCONJ	CON	_	9	mark	_	_
+9	طرفتار	طرفتار	NOUN	N_SING	Number=Sing	7	advcl	_	_
+
+# sent_id = 20
+1	شیامی	شيامی	NOUN	N_SING	Number=Sing	0	root	_	_
+2	و	و	CCONJ	CON	_	3	cc	_	_
+3	سامسونگ	سامسونگ	NOUN	N_SING	Number=Sing	1	conj	_	_
+4	هستید	هست	AUX	V_PRS	Number=Plur|Person=2|Tense=Pres	1	cop	_	_
+
+# sent_id = 21
+1	اگر	اگر	SCONJ	CON	_	3	mark	_	_
+2	طرفتار	طرفتار	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	8	advcl	_	_
+4	هستید	هستید	AUX	V_PRS	Number=Plur|Person=2|Tense=Pres	3	cop	_	_
+5	چنل	چنل	ADV	ADV_COMP	_	6	advmod	_	_
+6	رو	رو	NOUN	N_SING	Number=Sing	8	obl	_	_
+7	ساب	ساب	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+8	دارید	داشت#دار	VERB	V_PRS	Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 22
+1	چنل	_	NOUN	N_SING	Number=Sing	4	obj	_	_
+2	رو	رو	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	ساب	ساب	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	کنید	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 23
+1	زنگولو	_	NOUN	N_SING	Number=Sing	2	obj	_	_
+2	بزنید	زد#زن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 24
+1	کلن	_	NOUN	N_SING	Number=Sing	6	obj	_	_
+2	همه	همه	PRON	PRO	PronType=Tot	3	det	_	_
+3	الویدیو	آلويدیو	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+4	رو	رو	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+5	لایک	_	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+6	کنید	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 25
+1	بریم	بریم	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+2	ببینیم	دید#بین	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	1	ccomp	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+4	تا	تا	ADP	P	_	5	case	_	_
+5	حالا	حالا	ADV	ADV_TIME	Case=Tem	6	advcl	_	_
+6	چه	چه	ADV	ADV_I	PronType=Int	2	ccomp	_	_
+
+# sent_id = 26
+1	گنده	گنده	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	هایی	_	NOUN	N_PL	Number=Plur	1	nmod:poss	_	_
+3	رو	رو	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	بارو	بارو	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	برده	برد#بر	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+
+# sent_id = 27
+1	گنده	گنده	NOUN	N_SING	Number=Sing	0	root	_	_
+2	اول	اول	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	برمیگرده	_	ADJ	ADJ_INO	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	1	amod	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	سال	سال	NOUN	N_SING	Number=Sing	1	nmod	_	_
+6	2005	2005	NUM	NUM	NumType=Card	5	nummod	_	_
+
+# sent_id = 28
+1	اون	_	DET	DET	_	2	det	_	_
+2	موقعی	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	که	که	SCONJ	CON	_	7	mark	_	_
+4	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	5	det	_	_
+5	آیفونی	_	NOUN	N_SING	Number=Sing	7	nsubj	_	_
+6	وجود	وجود	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7	نداشت	داشت#دار	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	_
+
+# sent_id = 29
+1	اپل	اپل	NOUN	N_SING	Number=Sing	0	root	_	_
+2	با	با	ADP	P	_	3	case	_	_
+3	رهبری	رهبر	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	استیف	استیف	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	جابز	جابز	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 30
+1	یه	_	NOUN	N_SING	Number=Sing	3	obj	_	_
+2	محصول	محصول	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	داشت	داشت#دار	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	اسم	اسم	NOUN	N_SING	Number=Sing	3	obl	_	_
+6	آیپاد	ايپاد	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 31
+1	که	که	SCONJ	CON	_	2	mark	_	_
+2	محصول	محصول	NOUN	N_SING	Number=Sing	0	root	_	_
+3	پرفروش	پرفروش	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	داغی	داغی	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	هم	هم	SCONJ	CON	_	2	advmod	_	_
+6	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
+
+# sent_id = 32
+1	استیف	استیف	NOUN	N_SING	Number=Sing	0	root	_	_
+2	جابز	جابز	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	سال	سال	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	2004-2005	2004-2005	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	به	به	ADP	P	_	7	case	_	_
+6	این	این	DET	DET	_	7	det	_	_
+7	زفف	زفف	NOUN	N_SING	Number=Sing	4	nmod	_	_
+
+# sent_id = 33
+1	فکرش	فكرش	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	خطور	خطر	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	که	که	SCONJ	CON	_	7	mark	_	_
+5	اگر	اگر	SCONJ	CON	_	6	mark	_	_
+6	یکی	یک	NUM	NUM	NumType=Card	7	nsubj	_	_
+7	بیاد	_	NOUN	N_SING	Number=Sing	3	ccomp	_	_
+
+# sent_id = 34
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	گوشی	گوشی	NOUN	N_SING	Number=Sing	0	root	_	_
+3	بسازه	بسازه	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	که	که	SCONJ	CON	_	9	mark	_	_
+5	باش	بود#باش	ADP	P	_	6	case	_	_
+6	بتونه	_	NOUN	N_SING	Number=Sing	9	obl	_	_
+7	آهنگ	اهنگ	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+8	گوش	گوش	NOUN	N_SING	Number=Sing	7	nmod:poss	_	_
+9	بده	داد#ده	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	3	acl:relcl	_	_
+
+# sent_id = 35
+1	اون	_	DET	DET	_	2	det	_	_
+2	موقع	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	آیپاد	ايپاد	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	3	nmod:poss	_	_
+5	که	که	SCONJ	CON	_	7	mark	_	_
+6	به	به	ADP	P	_	7	case	_	_
+7	فنا	_	NOUN	N_SING	Number=Sing	2	acl:relcl	_	_
+8	میره	میره	NOUN	N_SING	Number=Sing	7	flat	_	_
+
+# sent_id = 36
+1	ترسید	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	و	و	CCONJ	CON	_	3	cc	_	_
+3	رفت	رفت#رو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	1	conj	_	_
+4	با	با	ADP	P	_	5	case	_	_
+5	موتورولا	موتورولا	NOUN	N_SING	Number=Sing	3	obl	_	_
+
+# sent_id = 37
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	قرارداد	قرارداد	NOUN	N_SING	Number=Sing	0	root	_	_
+3	بست	بُست	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+
+# sent_id = 38
+1	موتورولا	موتورولاً	ADV	ADV	_	7	advmod	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	اون	_	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	هر	هر	DET	DET	_	5	det	_	_
+5	گوشی	گوشی	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+6	های	_	NOUN	N_PL	Number=Plur	3	nmod:poss	_	_
+7	ریزرش	ريزرش	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 39
+1	خوب	خوب	ADV	ADV	_	2	advmod	_	_
+2	داشت	داشت#دار	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	فروش	فروش	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	میرفت	ميرفت#گیر	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	ccomp	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	میخواست	ميخواست#خواه	VERB	V_PA	Number=Sing|Person=3|Tense=Past	4	conj	_	_
+
+# sent_id = 40
+1	یه	_	NOUN	N_SING	Number=Sing	2	det	_	_
+2	کاری	کار	NOUN	N_SING	Number=Sing	3	obj	_	_
+3	بکنه	_	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
+4	که	که	SCONJ	CON	_	6	mark	_	_
+5	بتونن	_	NOUN	N_SING	Number=Sing	6	obj	_	_
+6	باش	بود#باش	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	3	ccomp	_	_
+7	موزیک	موزیک	NOUN	N_SING	Number=Sing	9	nsubj	_	_
+8	هم	هم	SCONJ	CON	_	9	advmod	_	_
+9	گوش	گوش	NOUN	N_SING	Number=Sing	6	obl	_	_
+10	بدن	بدن	NOUN	N_SING	Number=Sing	9	nmod:poss	_	_
+
+# sent_id = 41
+1	و	و	CCONJ	CON	_	5	cc	_	_
+2	جای	جا	NOUN	N_SING	Number=Sing	5	obj	_	_
+3	آیپاد	ايپاد	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	رو	رو	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	بگیره	بگیره	VERB	V_SUB	Mood=Sub	0	root	_	_
+
+# sent_id = 42
+1	وقتی	وقتی	SCONJ	CON	_	4	advmod	_	_
+2	این	این	DET	DET	_	3	det	_	_
+3	دوتا	_	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+4	اومدن	آومدن	NOUN	N_SING	Number=Sing	0	root	_	_
+5	کناره	_	NOUN	N_SING	Number=Sing	4	flat	_	_
+6	همدیگه	همديگه	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 43
+1	هر	هر	DET	DET	_	2	det	_	_
+2	کدونشون	_	NOUN	N_SING	Number=Sing	7	nsubj	_	_
+3	میخواستن	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	همدیگه	همديگه	NOUN	N_SING	Number=Sing	3	nmod	_	_
+6	یه	_	NUM	NUM	NumType=Card	7	nummod	_	_
+7	سری	سری	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 44
+1	به	به	ADP	P	_	2	case	_	_
+2	نفیت	نفیت	NOUN	N_SING	Number=Sing	4	obl	_	_
+3	ها	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	بگیرن	_	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+
+# sent_id = 45
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	قراردادی	قرارداد	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	بستن	بستن	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 46
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	گوشی	گوش	NOUN	N_SING	Number=Sing	0	root	_	_
+3	به	به	ADP	P	_	4	case	_	_
+4	اسم	اسم	NOUN	N_SING	Number=Sing	2	nmod	_	_
+5	راکر	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+
+# sent_id = 47
+1	راکر	_	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	ایوان	ايوان	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	قرار	قرار	NOUN	N_SING	Number=Sing	0	root	_	_
+4	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	3	cop	_	_
+5	ساخته	ساخت#ساز	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	6	compound:lvc	_	_
+6	بشه	بشه	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	3	ccomp	_	_
+
+# sent_id = 48
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	ساخته	ساخت#ساز	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+3	شد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	aux:pass	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	استیب	آستیب	NOUN	N_SING	Number=Sing	2	conj	_	_
+6	جابز	جابز	NOUN	N_SING	Number=Sing	5	flat	_	_
+7	که	که	SCONJ	CON	_	10	mark	_	_
+8	اینو	_	PRON	PRO	Number=Sing|PronType=Dem	10	obj	_	_
+9	دید	دید	NOUN	N_SING	Number=Sing	8	nmod:poss	_	_
+10	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	6	acl:relcl	_	_
+
+# sent_id = 49
+1	این	این	DET	DET	_	2	det	_	_
+2	دیگه	_	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	چه	چه	ADV	ADV_I	PronType=Int	4	det	_	_
+4	آشقالیه	اشقالیه	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 50
+1	و	و	CCONJ	CON	_	4	cc	_	_
+2	همونجا	همونجا	CCONJ	CON	_	1	fixed	_	_
+3	در	در	ADP	P	_	4	case	_	_
+4	بطن	بطن	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 51
+1	بطن	بطن	NOUN	N_SING	Number=Sing	0	root	_	_
+2	میگن	ميگن	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+
+# sent_id = 52
+1	در	در	ADP	P	_	0	root	_	_
+
+# sent_id = 53
+1	از	از	ADP	P	_	2	case	_	_
+2	همون	همون	NOUN	N_SING	Number=Sing	0	root	_	_
+3	اول	اول	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	زدن	زدن	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+5	پاچوندن	پاچوندن	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+
+# sent_id = 54
+1	این	این	PRON	PRO	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	بزرگترین	بزرگ	ADJ	ADJ_SUP	Degree=Sup	3	amod	_	_
+3	شکست	شکست	NOUN	N_SING	Number=Sing	0	root	_	_
+4	سپل	سپل	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+
+# sent_id = 55
+1	موقع	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	ورودش	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	به	به	ADP	P	_	4	case	_	_
+4	بازار	بازار	NOUN	N_SING	Number=Sing	1	nmod	_	_
+5	موبایل	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	1	cop	_	_
+
+# sent_id = 56
+1	که	که	SCONJ	CON	_	5	mark	_	_
+2	اصلا	اصلاً	ADV	ADV	_	5	advmod	_	_
+3	با	با	ADP	P	_	4	case	_	_
+4	یه	_	NOUN	N_SING	Number=Sing	5	nmod	_	_
+5	همکاری	همکاری	NOUN	N_SING	Number=Sing	0	root	_	_
+6	موتورولا	موتورولا	ADV	ADV	_	5	advmod	_	_
+7	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	5	cop	_	_
+
+# sent_id = 57
+1	که	که	SCONJ	CON	_	2	mark	_	_
+2	دوربینش	دوربينش	NOUN	N_SING	Number=Sing	0	root	_	_
+3	افتضاه	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
+
+# sent_id = 58
+1	یو	_	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	ایکس	_	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	و	و	CCONJ	CON	_	4	cc	_	_
+4	رابط	رابط	NOUN	N_SING	Number=Sing	2	conj	_	_
+5	کاربریش	_	NOUN	N_SING	Number=Sing	4	flat	_	_
+6	آشقال	اشقال	NOUN	N_SING	Number=Sing	0	root	_	_
+7	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	6	cop	_	_
+
+# sent_id = 59
+1	در	در	ADP	P	_	2	case	_	_
+2	مجموعه	مجموعه	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 60
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	واقعایی	واقعایی	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+3	آشقال	اشقال	ADJ	ADJ	Degree=Pos	0	root	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	تمامانه	_	ADJ	ADJ	Degree=Pos	3	conj	_	_
+6	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	3	cop	_	_
+
+# sent_id = 61
+1	که	که	SCONJ	CON	_	5	mark	_	_
+2	اصلا	اصلاً	ADV	ADV	_	5	advmod	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	5	obj	_	_
+4	تصمیم	تصمیم	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	گرفت	گرفت#گیر	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 62
+1	بعد	بعد	ADV	ADV_TIME	Case=Tem	5	advmod	_	_
+2	از	از	ADP	P	_	4	case	_	_
+3	اون	_	DET	DET	_	4	det	_	_
+4	خودش	_	NOUN	N_SING	Number=Sing	1	nmod	_	_
+5	گوشی	گوشی	NOUN	N_SING	Number=Sing	0	root	_	_
+6	بسازه	بسازه	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 63
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	فهمید	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	که	که	SCONJ	CON	_	10	mark	_	_
+4	آقا	آقا	NOUN	N_SING	Number=Sing	10	vocative	_	_
+5	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+6	دیگه	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	خودم	_	PRON	PRO	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	nsubj	_	_
+8	باید	بایست#باید	AUX	V_AUX	VerbForm=Inf	10	aux	_	_
+9	ورود	ورود	NOUN	N_SING	Number=Sing	10	compound:lvc	_	_
+10	بزنم	زد#زن	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	2	ccomp	_	_
+
+# sent_id = 64
+1	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	این	این	DET	DET	_	3	det	_	_
+3	بازی	بازی	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 65
+1	و	و	CCONJ	CON	_	3	cc	_	_
+2	اون	_	DET	DET	_	3	det	_	_
+3	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+4	2015	2015	NUM	NUM	NumType=Card	3	nummod	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	همکاری	همکاری	NOUN	N_SING	Number=Sing	3	conj	_	_
+7	با	با	ADP	P	_	8	case	_	_
+8	موتورولا	موتورولا	NOUN	N_SING	Number=Sing	6	nmod	_	_
+
+# sent_id = 66
+1	یکی	یک	NUM	NUM	NumType=Card	0	root	_	_
+2	از	از	ADP	P	_	4	case	_	_
+3	بزرگترین	بزرگ	ADJ	ADJ_SUP	Degree=Sup	4	amod	_	_
+4	شکستایی	_	NOUN	N_SING	Number=Sing	1	nmod	_	_
+5	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	1	cop	_	_
+
+# sent_id = 67
+1	که	که	SCONJ	CON	_	7	mark	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	7	nsubj	_	_
+3	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
+4	زمینه	زمینه	NOUN	N_SING	Number=Sing	2	appos	_	_
+5	موبایل	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	انجام	انجام	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7	داد	داد#ده	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 68
+1	قبل	قبل	ADV	ADV_TIME	Case=Tem	6	advmod	_	_
+2	از	از	ADP	P	_	1	fixed	_	_
+3	این	این	PRON	PRO	Number=Sing|PronType=Dem	1	fixed	_	_
+4	که	که	CCONJ	CON	_	1	fixed	_	_
+5	اصلا	اصلاً	ADV	ADV	_	6	advmod	_	_
+6	آیفونی	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 69
+1	ساخته	ساخت#ساز	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+2	بشه	بشه	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	1	aux:pass	_	_
+
+# sent_id = 70
+1	وایسی	وایسی	NOUN	N_SING	Number=Sing	0	root	_	_
+2	تنوز	تنوز	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	مونده	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+
+# sent_id = 71
+1	اپل	اپل	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	خیلی	خیلی	ADV	ADV	_	3	advmod	_	_
+3	گردهای	گرد	NOUN	N_PL	Number=Plur	0	root	_	_
+4	بزرگتری	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	داره	_	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+
+# sent_id = 72
+1	اشتباه	اشتباه	NOUN	N_SING	Number=Sing	0	root	_	_
+2	بعدی	بعد	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	برمیگرده	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	سال	سال	NOUN	N_SING	Number=Sing	1	nmod	_	_
+6	2007	2007	NUM	NUM	NumType=Card	5	nummod	_	_
+
+# sent_id = 73
+1	جایی	جا	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	5	mark	_	_
+3	آیفون	_	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+4	اول	اول	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	رونمایی	رونمایی	NOUN	N_SING	Number=Sing	1	acl:relcl	_	_
+6	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	5	cop	_	_
+
+# sent_id = 74
+1	کل	کل	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	دنیا	دنیا	NOUN	N_SING	Number=Sing	0	root	_	_
+3	به	به	ADP	P	_	4	case	_	_
+4	وجد	_	NOUN	N_SING	Number=Sing	2	nmod	_	_
+5	اومد	اومد	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 75
+1	همه	همه	PRON	PRO	PronType=Tot	2	det	_	_
+2	یه	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	و	و	CCONJ	CON	_	2	fixed	_	_
+4	و	و	CCONJ	CON	_	2	fixed	_	_
+5	چه	چه	ADV	ADV_I	PronType=Int	2	fixed	_	_
+6	و	و	CCONJ	CON	_	2	fixed	_	_
+
+# sent_id = 76
+1	به	به	ADP	P	_	3	case	_	_
+2	به	به	ADP	P	_	1	fixed	_	_
+3	کنان	_	NOUN	N_PL	Number=Plur	0	root	_	_
+
+# sent_id = 77
+1	گفتن	گفتن	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	3	mark	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	1	acl:relcl	_	_
+4	ترکوند	تركوند	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+
+# sent_id = 78
+1	وایسا	_	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	یه	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	بخشی	بخش	NOUN	N_SING	Number=Sing	0	root	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	رونمایی	رونمایی	NOUN	N_SING	Number=Sing	3	nmod	_	_
+
+# sent_id = 79
+1	آیفون	_	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	هفت	هفت	NUM	NUM	NumType=Card	1	nummod	_	_
+3	اولین	اولین	ADJ	ADJ_SUP	Degree=Sup	4	amod	_	_
+4	آیفونو	_	NOUN	N_SING	Number=Sing	5	obj	_	_
+5	ببینید	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 80
+1	وایسا	_	ADV	ADV	_	4	advmod	_	_
+2	وایسا	_	ADV	ADV	_	4	advmod	_	_
+3	چرا	چرا	ADV	ADV_I	PronType=Int	4	advmod	_	_
+4	گفتم	گفت#گو	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	آیفون	_	NOUN	N_SING	Number=Sing	4	appos	_	_
+6	هفت	هفت	NUM	NUM	NumType=Card	5	nummod	_	_
+
+# sent_id = 81
+1	آیفون	_	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	یک	یک	NUM	NUM	NumType=Card	3	nummod	_	_
+3	سال	سال	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	2007	2007	NUM	NUM	NumType=Card	0	root	_	_
+
+# sent_id = 82
+1	ببینید	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 83
+1	دیدین	ديدین	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	دیگه	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	این	این	DET	DET	_	4	det	_	_
+4	استیف	استیف	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+5	جابز	جابز	NOUN	N_SING	Number=Sing	0	root	_	_
+6	لعنتی	لعنت	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 84
+1	می	می	NOUN	N_SING	Number=Sing	0	root	_	_
+2	اومد	اومد	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	رو	رو	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	استیج	استيج	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	دیگه	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+
+# sent_id = 85
+1	پرای	پرا	NOUN	N_SING	Number=Sing	0	root	_	_
+2	داره	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+
+# sent_id = 86
+1	دنیا	دنیا	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	می	می	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	ریخت	ریخت#ریز	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 87
+1	اما	اما	CCONJ	CON	_	3	cc	_	_
+2	دو	دو	NUM	NUM	NumType=Card	3	nummod	_	_
+3	ماه	ماه	NOUN	N_SING	Number=Sing	0	root	_	_
+4	بعد	بعد	ADV	ADV_TIME	Case=Tem	3	advmod	_	_
+5	از	از	ADP	P	_	6	case	_	_
+6	عرضه	عرضه	NOUN	N_SING	Number=Sing	4	nmod	_	_
+7	ای	آی	NOUN	N_SING	Number=Sing	8	det	_	_
+8	آیفون	_	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+
+# sent_id = 88
+1	توی	توی	ADP	P	_	2	case	_	_
+2	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+3	2007	2007	NUM	NUM	NumType=Card	4	nummod	_	_
+4	اومدن	آومدن	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+
+# sent_id = 89
+1	دیویست	ديویست	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	دولار	دولار	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	تخفیف	تخفیف	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	زدن	زدن	NOUN	N_SING	Number=Sing	0	root	_	_
+5	روی	رو	ADP	P	_	6	case	_	_
+6	آیفون	_	NOUN	N_SING	Number=Sing	4	nmod	_	_
+
+# sent_id = 90
+1	و	و	CCONJ	CON	_	6	cc	_	_
+2	با	با	ADP	P	_	4	case	_	_
+3	این	این	DET	DET	_	4	det	_	_
+4	حرکت	حرکت	NOUN	N_SING	Number=Sing	6	obl	_	_
+5	میخواستن	_	NOUN	N_SING	Number=Sing	6	obj	_	_
+6	بگن	بگن	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+
+# sent_id = 91
+1	که	که	SCONJ	CON	_	3	mark	_	_
+2	دیگه	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ترکونی	تركونی	NOUN	N_SING	Number=Sing	0	root	_	_
+4	تحلیلگرهای	تحليلگر	NOUN	N_PL	Number=Plur	3	nmod:poss	_	_
+
+# sent_id = 92
+1	مختلف	مختلف	ADJ	ADJ	Degree=Pos	3	amod	_	_
+2	اومدن	آومدن	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	گفتن	گفتن	NOUN	N_SING	Number=Sing	0	root	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	اپل	اپل	NOUN	N_SING	Number=Sing	3	acl:relcl	_	_
+6	میخواد	_	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 93
+1	سمبازار	سمبازار	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	بیشتر	بیش	ADJ	ADJ_CMPR	Degree=Cmp	3	xcomp	_	_
+3	بگیره	بگیره	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+
+# sent_id = 94
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	نکتهی	نكتهی	NOUN	N_SING	Number=Sing	0	root	_	_
+3	به	به	ADP	P	_	4	case	_	_
+4	وجود	وجود	NOUN	N_SING	Number=Sing	2	nmod	_	_
+5	اومد	آومد#آ	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+
+# sent_id = 95
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	سری	سری	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+3	از	از	ADP	P	_	4	case	_	_
+4	تحلیلگرها	تحليلگر	NOUN	N_PL	Number=Plur	8	obl	_	_
+5	گفتن	گفتن	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	اپل	اپل	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	شکست	شکست	NOUN	N_SING	Number=Sing	8	compound:lvc	_	_
+8	خورده	خورد#خور	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+9	پروژهش	پروژهش	NOUN	N_SING	Number=Sing	8	obj	_	_
+
+# sent_id = 96
+1	در	در	ADP	P	_	5	mark	_	_
+2	حالی	حال	NOUN	N_SING	Number=Sing	1	fixed	_	_
+3	که	که	CCONJ	CON	_	1	fixed	_	_
+4	شکست	شکست	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	نخورده	خورد#بر	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+6	بود	بود#باش	VERB	V_PA	Number=Sing|Person=3|Tense=Past	5	aux	_	_
+
+# sent_id = 97
+1	صرف	صرف	NOUN	N_SING	Number=Sing	0	root	_	_
+2	هم	هم	SCONJ	CON	_	3	advmod	_	_
+3	میخواست	ميخواست	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	یه	_	NUM	NUM	NumType=Card	5	nummod	_	_
+5	تخفیف	تخفیف	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+6	بزنه	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+
+# sent_id = 98
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	میگفتن	ميگفتن	NOUN	N_SING	Number=Sing	0	root	_	_
+3	که	که	SCONJ	CON	_	6	mark	_	_
+4	اپل	اپل	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+5	دیگه	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+6	نابود	نابود	ADJ	ADJ	Degree=Pos	2	acl:relcl	_	_
+7	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	6	cop	_	_
+
+# sent_id = 99
+1	با	با	ADP	P	_	3	case	_	_
+2	این	این	DET	DET	_	3	det	_	_
+3	آیفونه	_	NOUN	N_SING	Number=Sing	5	nmod	_	_
+4	یه	_	NOUN	N_SING	Number=Sing	5	obj	_	_
+5	شکسته	شکسته	ADJ	ADJ_INO	Number=Sing|Person=3|VerbForm=Part	6	amod	_	_
+6	براش	براش	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 100
+1	اپل	اپل	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	یه	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	لحظه	لحظه	NOUN	N_SING	Number=Sing	0	root	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	خورش	خورش	NOUN	N_SING	Number=Sing	3	nmod	_	_
+6	اومد	اومد	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 101
+1	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	طرفی	طرف	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	خیلی	خیلی	ADV	ADV	_	5	advmod	_	_
+5	از	از	ADP	P	_	6	case	_	_
+6	کسایی	_	NOUN	N_PL	Number=Plur	3	nmod	_	_
+7	که	که	SCONJ	CON	_	8	mark	_	_
+8	آیفونو	_	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+
+# sent_id = 102
+1	اونو	_	PRON	PRO	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	اول	اول	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	خریده	خریده	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	4	compound:lvc	_	_
+4	بودن	بودن	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 103
+1	ایمیل	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	ایمیل	_	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	ایمیل	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	آقا	آقا	NOUN	N_SING	Number=Sing	1	appos	_	_
+6	چرا	چرا	ADV	ADV_I	PronType=Int	7	advmod	_	_
+7	دیویست	ديویست	NOUN	N_SING	Number=Sing	5	flat	_	_
+8	دولار	دولار	NOUN	N_SING	Number=Sing	7	flat	_	_
+
+# sent_id = 104
+1	کمتر	کم	ADJ	ADJ_CMPR	Degree=Cmp	2	xcomp	_	_
+2	کردین	كردین	NOUN	N_SING	Number=Sing	0	root	_	_
+3	پن	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	_
+5	چی	چه	ADV	ADV_I	PronType=Int	2	advmod	_	_
+6	خب	خب	ADV	ADV	_	2	advmod	_	_
+7	دیویست	ديویست	NOUN	N_SING	Number=Sing	2	flat	_	_
+8	دولار	دولار	NOUN	N_SING	Number=Sing	7	flat	_	_
+
+# sent_id = 105
+1	رو	رو	NOUN	N_SING	Number=Sing	0	root	_	_
+2	برای	برای	ADP	P	_	3	case	_	_
+3	چی	_	ADV	ADV_I	PronType=Int	7	advcl	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	7	nmod	_	_
+6	بیشتر	بیش	ADJ	ADJ_CMPR	Degree=Cmp	7	xcomp	_	_
+7	دادین	دادین	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+
+# sent_id = 106
+1	چرا	چرا	ADV	ADV_I	PronType=Int	5	advmod	_	_
+2	الان	الان	ADV	ADV_TIME	Case=Tem	5	advmod	_	_
+3	باید	بایست#باید	AUX	V_AUX	VerbForm=Inf	5	aux	_	_
+4	تخفیف	تخفیف	NOUN	N_SING	Number=Sing	5	obj	_	_
+5	بدین	بد	VERB	V_SUB	Mood=Sub	0	root	_	_
+
+# sent_id = 107
+1	که	که	SCONJ	CON	_	6	mark	_	_
+2	استیف	استیف	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+3	جابز	جابز	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	فهمید	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	قضیه	قضیه	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+6	رو	رو	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 108
+1	اومد	اومد	NOUN	N_SING	Number=Sing	2	nsubj	_	_
+2	گفتش	گفتش	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
+3	که	که	SCONJ	CON	_	7	mark	_	_
+4	آقا	آقا	NOUN	N_SING	Number=Sing	7	nsubj	_	_
+5	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	4	flat	_	_
+6	یه	_	NUM	NUM	NumType=Card	7	nummod	_	_
+7	سد	سد	NOUN	N_SING	Number=Sing	2	ccomp	_	_
+8	دولاری	_	NOUN	N_SING	Number=Sing	7	nmod:poss	_	_
+
+# sent_id = 109
+1	به	به	ADP	P	_	3	case	_	_
+2	اون	_	DET	DET	_	3	det	_	_
+3	کسایی	_	NOUN	N_PL	Number=Plur	8	nmod	_	_
+4	که	که	SCONJ	CON	_	7	mark	_	_
+5	تا	تا	ADP	P	_	6	case	_	_
+6	الان	الان	ADV	ADV_TIME	Case=Tem	7	advcl	_	_
+7	آیفون	_	NOUN	N_SING	Number=Sing	3	acl:relcl	_	_
+8	خریدن	خریدن	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 110
+1	کردیت	كردیت	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	میدین	_	NOUN	N_SING	Number=Sing	3	obj	_	_
+3	برن	_	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	6	nmod	_	_
+6	آیتینوز	_	NOUN	N_SING	Number=Sing	3	obj	_	_
+
+# sent_id = 111
+1	و	و	CCONJ	CON	_	4	cc	_	_
+2	اینا	اینا	ADV	ADV	_	4	advmod	_	_
+3	چیز	چیز	NOUN	N_SING	Number=Sing	4	obj	_	_
+4	بگیرن	_	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+5	و	و	CCONJ	CON	_	7	cc	_	_
+6	از	از	ADP	P	_	7	case	_	_
+7	بقیه	بقیه	NOUN	N_SING	Number=Sing	4	conj	_	_
+
+# sent_id = 112
+1	خدمات	خدمت	NOUN	N_PL	Number=Plur	5	nsubj	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	بتونن	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	استفاده	استفاده	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	بکنن	_	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+
+# sent_id = 113
+1	سد	سد	NOUN	N_SING	Number=Sing	4	obj	_	_
+2	دولار	دولار	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	رو	رو	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	داد	داد#ده	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	و	و	CCONJ	CON	_	7	cc	_	_
+6	از	از	ADP	P	_	7	case	_	_
+7	اونجا	_	PRON	PRO	Number=Plur|PronType=Dem	4	conj	_	_
+
+# sent_id = 114
+1	به	به	ADP	P	_	2	case	_	_
+2	بعد	بعد	ADV	ADV_TIME	Case=Tem	4	advcl	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	فهمید	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	که	که	SCONJ	CON	_	8	mark	_	_
+6	آقا	آقا	NOUN	N_SING	Number=Sing	8	vocative	_	_
+7	دیگه	_	ADJ	ADJ	Degree=Pos	6	amod	_	_
+8	همینجوری	_	ADV	ADV	_	4	ccomp	_	_
+
+# sent_id = 115
+1	یلقی	_	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	نباید	بایست#باید	AUX	V_AUX	Polarity=Neg|VerbForm=Inf	3	aux	_	_
+3	بیاد	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=3|Tense=Pres	4	acl:relcl	_	_
+4	تبلیغ	تبلیغ	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 116
+1	چیز	چیز	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	تخفیف	تخفیف	NOUN	N_SING	Number=Sing	3	obj	_	_
+3	بده	داد#ده	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+4	و	و	CCONJ	CON	_	3	cc	_	_
+
+# sent_id = 117
+1	باسه	باسه	NOUN	N_SING	Number=Sing	0	root	_	_
+2	خودش	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	پروموشن	پروموشن	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	بزنه	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	اونم	_	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 118
+1	یکی	یک	NUM	NUM	NumType=Card	0	root	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	اشتباهاتی	اشتباه	NOUN	N_PL	Number=Plur	1	nmod	_	_
+4	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	1	cop	_	_
+5	که	که	SCONJ	CON	_	6	mark	_	_
+6	نزیک	نزیک	NOUN	N_SING	Number=Sing	1	ccomp	_	_
+7	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	6	cop	_	_
+
+# sent_id = 119
+1	دامن	دامن	NOUN	N_SING	Number=Sing	4	obj	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+3	رو	رو	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	بگیره	بگیره	VERB	V_SUB	Mood=Sub	0	root	_	_
+5	ولی	ولی	CCONJ	CON	_	6	cc	_	_
+6	قصر	_	NOUN	N_SING	Number=Sing	4	conj	_	_
+7	در	در	ADP	P	_	8	case	_	_
+8	رفت	رفت#رو	NOUN	N_SING	Number=Sing	6	nmod	_	_
+
+# sent_id = 120
+1	البته	البته	ADV	ADV	_	5	advmod	_	_
+2	برایش	برایش	NOUN	N_SING	Number=Sing	5	obj	_	_
+3	زرر	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	هم	هم	SCONJ	CON	_	5	advmod	_	_
+5	داشت	داشت#دار	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	دیگه	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+
+# sent_id = 121
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	سد	سد	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+3	دولار	دولار	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	به	به	ADP	P	_	6	case	_	_
+5	همه	همه	PRON	PRO	PronType=Tot	6	det	_	_
+6	ای	آی	INTJ	INT	_	7	det	_	_
+7	اونا	_	NOUN	N_SING	Number=Sing	8	obj	_	_
+8	داد	داد#ده	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 122
+1	از	از	ADP	P	_	2	case	_	_
+2	طرف	طرف	NOUN	N_SING	Number=Sing	5	nmod	_	_
+3	دیگه	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	هم	هم	SCONJ	CON	_	5	advmod	_	_
+5	یه	_	NOUN	N_SING	Number=Sing	7	obj	_	_
+6	خیلی	خیلی	ADV	ADV	_	5	fixed	_	_
+7	تحلیلیه	تحليلیه	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 123
+1	رو	رو	NOUN	N_SING	Number=Sing	3	obj	_	_
+2	اومدن	آومدن	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	گفتن	گفتن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	شکست	شکست	NOUN	N_SING	Number=Sing	3	punct	_	_
+6	خوردی	خوردی	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	در	در	ADP	P	_	8	case	_	_
+8	حالی	حال	NOUN	N_SING	Number=Sing	5	nmod	_	_
+
+# sent_id = 124
+1	که	که	SCONJ	CON	_	3	mark	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	اون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	بعد	بعد	ADV	ADV_TIME	Case=Tem	3	nmod	_	_
+6	دیگه	_	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	تخفیف	تخفیف	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+8	نداد	داد#ده	NOUN	N_SING	Number=Sing	7	flat	_	_
+
+# sent_id = 125
+1	اما	اما	CCONJ	CON	_	0	root	_	_
+
+# sent_id = 126
+1	اشتباه	اشتباه	NOUN	N_SING	Number=Sing	0	root	_	_
+2	استراتیجیک	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	بعدی	بعد	ADJ	ADJ	Degree=Pos	2	amod	_	_
+
+# sent_id = 127
+1	که	که	SCONJ	CON	_	3	mark	_	_
+2	خیلی	خیلی	ADV	ADV	_	3	advmod	_	_
+3	زود	زود	ADJ	ADJ	Degree=Pos	5	advcl	_	_
+4	باز	باز	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	جمع	جمع	NOUN	N_SING	Number=Sing	0	root	_	_
+6	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	5	cop	_	_
+
+# sent_id = 128
+1	برمیگرده	_	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	5	nummod	_	_
+2	به	به	ADP	P	_	4	case	_	_
+3	همون	همون	DET	DET	_	4	det	_	_
+4	سال	سال	NOUN	N_SING	Number=Sing	1	obl	_	_
+5	2007-2008	2007-2008	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 129
+1	که	که	SCONJ	CON	_	4	mark	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	اصلا	اصلاً	ADV	ADV	_	4	advmod	_	_
+4	اسلوگانش	آسلوگانش	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 130
+1	شعارش	شعارش	NOUN	N_SING	Number=Sing	2	nsubj	_	_
+2	این	این	PRON	PRO	Number=Sing|PronType=Dem	0	root	_	_
+3	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
+4	که	که	SCONJ	CON	_	2	mark	_	_
+
+# sent_id = 131
+1	هرچی	_	ADP	P	_	2	case	_	_
+2	بخوای	_	NOUN	N_SING	Number=Sing	5	nmod	_	_
+3	واسه	واسه	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	اش	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
+5	اپ	اپ	NOUN	N_SING	Number=Sing	0	root	_	_
+6	هست	هست	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	5	cop	_	_
+
+# sent_id = 132
+1	در	در	ADP	P	_	7	mark	_	_
+2	حالی	حال	NOUN	N_SING	Number=Sing	1	fixed	_	_
+3	که	که	CCONJ	CON	_	1	fixed	_	_
+4	هیچ	هیچ	ADV	ADV_NEG	Polarity=Neg	5	det	_	_
+5	اپی	اپی	NOUN	N_SING	Number=Sing	7	nsubj	_	_
+6	وجود	وجود	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7	نداشت	داشت#دار	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 133
+1	اپستور	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	اجازه	اجازه	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	دسترسی	دسترسی	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+
+# sent_id = 134
+1	توسه	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	دندگان	_	NOUN	N_PL	Number=Plur	1	nmod:poss	_	_
+
+# sent_id = 135
+1	توسه	_	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	دندگان	_	NOUN	N_PL	Number=Plur	1	nmod:poss	_	_
+3	سبوم	سبوم	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	شخص	شخص	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+5	رو	رو	NOUN	N_SING	Number=Sing	4	flat	_	_
+6	نمیداد	ميداد#ده	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 136
+1	نمیذاشت	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	کس	کس	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	دیگه	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+
+# sent_id = 137
+1	شرکت	شرکت	NOUN	N_SING	Number=Sing	0	root	_	_
+2	دیگه	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	فرد	فرد	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	دیگه	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+
+# sent_id = 138
+1	بیاد	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	واسه	واسه	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	ایتیوز	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	اپستور	_	NOUN	N_SING	Number=Sing	3	conj	_	_
+
+# sent_id = 139
+1	اون	_	DET	DET	_	2	det	_	_
+2	موقع	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	که	که	SCONJ	CON	_	5	mark	_	_
+4	اپستور	_	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+5	نبود	بود#باش	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	_
+
+# sent_id = 140
+1	واسه	واسه	NOUN	N_SING	Number=Sing	0	root	_	_
+2	بازار	بازار	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+
+# sent_id = 141
+1	اپلیکیشن	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	های	_	NOUN	N_PL	Number=Plur	1	nmod:poss	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+
+# sent_id = 142
+1	اپلیکیشن	_	NOUN	N_SING	Number=Sing	3	obj	_	_
+2	توسه	_	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	بده	داد#ده	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+
+# sent_id = 143
+1	و	و	CCONJ	CON	_	5	cc	_	_
+2	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	nsubj	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	هم	هم	SCONJ	CON	_	5	advmod	_	_
+5	نمیتونست	ميتونست#دان	VERB	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	_
+
+# sent_id = 144
+1	واسه	واسه	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	هرچیزی	هرچیز	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	اپلیکیشن	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	درست	درست	ADJ	ADJ	Degree=Pos	5	advmod	_	_
+5	بکنه	_	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
+
+# sent_id = 145
+1	خیلی	خیلی	ADV	ADV	_	6	advmod	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	کارشناس	کارشناس	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	های	_	NOUN	N_PL	Number=Plur	3	nmod:poss	_	_
+5	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	nmod:poss	_	_
+6	اپل	اپل	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 146
+1	رفتن	رفتن	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	پیش	پیش	ADP	P	_	3	case	_	_
+3	استیف	استیف	NOUN	N_SING	Number=Sing	5	nmod	_	_
+4	جابز	جابز	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	گفتن	گفتن	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 147
+1	آقا	آقا	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	1	flat	_	_
+3	داریم	داشت#دار	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	0	root	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	فنا	فنا	NOUN	N_SING	Number=Sing	3	obl	_	_
+6	میریم	_	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 148
+1	بیا	آمد#آ	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	4	aux	_	_
+2	یه	_	NOUN	N_SING	Number=Sing	3	det	_	_
+3	کاری	کار	NOUN	N_SING	Number=Sing	4	obj	_	_
+4	بکنیم	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+5	واسه	واسه	SCONJ	CON	_	6	advmod	_	_
+6	هرچیزی	هرچیز	NOUN	N_SING	Number=Sing	4	obj	_	_
+
+# sent_id = 149
+1	اپ	اپ	NOUN	N_SING	Number=Sing	0	root	_	_
+2	نیست	هست	AUX	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	1	cop	_	_
+3	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	نمیتونیم	_	VERB	V_PRS	Number=Plur|Person=1|Polarity=Neg|Tense=Pres	1	ccomp	_	_
+5	این	این	DET	DET	_	7	det	_	_
+6	همه	همه	PRON	PRO	PronType=Tot	7	det	_	_
+7	اپ	اپ	NOUN	N_SING	Number=Sing	9	obj	_	_
+8	توسه	_	NOUN	N_SING	Number=Sing	9	compound:lvc	_	_
+9	بدیم	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	4	ccomp	_	_
+
+# sent_id = 150
+1	که	که	SCONJ	CON	_	2	mark	_	_
+2	استیف	استیف	NOUN	N_SING	Number=Sing	0	root	_	_
+3	جابز	جابز	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	اوائلش	آوايلش	NOUN	N_SING	Number=Sing	3	flat	_	_
+
+# sent_id = 151
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	ذره	ذره	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	گارد	گارد	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	داشت	داشت#دار	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	که	که	SCONJ	CON	_	6	mark	_	_
+6	آقا	آقا	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+7	کسی	کس	NOUN	N_SING	Number=Sing	6	flat	_	_
+
+# sent_id = 152
+1	این	این	DET	DET	_	2	det	_	_
+2	گفلای	_	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	امنیتی	امنیتی	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	سیستم	سیستم	NOUN	N_SING	Number=Sing	0	root	_	_
+5	آی	آی	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	اویس	_	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 153
+1	رو	رو	NOUN	N_SING	Number=Sing	0	root	_	_
+2	نباید	بایست#باید	AUX	V_AUX	Polarity=Neg|VerbForm=Inf	4	aux	_	_
+3	بتونه	_	ADV	ADV	_	4	advmod	_	_
+4	ورود	ورود	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+5	بزنه	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	بهش	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+
+# sent_id = 154
+1	ولی	ولی	CCONJ	CON	_	6	cc	_	_
+2	بعد	بعد	ADV	ADV_TIME	Case=Tem	6	advmod	_	_
+3	از	از	ADP	P	_	4	case	_	_
+4	یه	_	NOUN	N_SING	Number=Sing	6	nmod	_	_
+5	چند	چند	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	ماهی	ماه	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 155
+1	توی	توی	ADP	P	_	2	case	_	_
+2	مارچ	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	دو	دو	NUM	NUM	NumType=Card	4	nummod	_	_
+4	هزار	هزار	NUM	NUM	NumType=Card	5	compound	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	هشت	هشت	NUM	NUM	NumType=Card	2	conj	_	_
+
+# sent_id = 156
+1	دیگه	_	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	باز	باز	ADJ	ADJ	Degree=Pos	3	compound:lvc	_	_
+3	کردن	کردن	NOUN	N_SING	Number=Sing	0	root	_	_
+4	دسترسی	دسترسی	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+5	رو	رو	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+6	دادن	دادن	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+
+# sent_id = 157
+1	که	که	SCONJ	CON	_	2	mark	_	_
+2	آدم	آدم	NOUN	N_SING	Number=Sing	0	root	_	_
+3	هایی	_	NOUN	N_PL	Number=Plur	2	nmod:poss	_	_
+4	دیگه	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	بیان	بیان	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+6	و	و	CCONJ	CON	_	7	cc	_	_
+7	اپو	_	NOUN	N_SING	Number=Sing	5	conj	_	_
+
+# sent_id = 158
+1	توسه	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	بدن	بدن	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	که	که	SCONJ	CON	_	6	mark	_	_
+4	الان	الان	ADV	ADV_TIME	Case=Tem	6	advmod	_	_
+5	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+6	اپستور	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+
+# sent_id = 159
+1	میلیون	میلیون	NUM	NUM	NumType=Card	2	nummod	_	_
+2	ها	_	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	اپ	اپ	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	وجود	وجود	NOUN	N_SING	Number=Sing	0	root	_	_
+5	داره	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+
+# sent_id = 160
+1	که	که	SCONJ	CON	_	6	mark	_	_
+2	اگر	اگر	SCONJ	CON	_	4	case	_	_
+3	اون	_	DET	DET	_	4	det	_	_
+4	تغییر	تغییر	NOUN	N_SING	Number=Sing	6	obl	_	_
+5	روی	رو	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+6	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 161
+1	و	و	CCONJ	CON	_	4	cc	_	_
+2	استیف	استیف	NOUN	N_SING	Number=Sing	4	obj	_	_
+3	جابز	جابز	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	نمیداد	ميداد#ده	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 162
+1	الان	الان	ADV	ADV_TIME	Case=Tem	6	advmod	_	_
+2	احتمالا	احتمالا	ADV	ADV	_	6	advmod	_	_
+3	از	از	ADP	P	_	4	case	_	_
+4	آیفون	_	NOUN	N_SING	Number=Sing	6	nmod	_	_
+5	مثل	مثل	ADV	ADV_COMP	_	6	case	_	_
+6	نوکیا	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 163
+1	یاد	یاد	NOUN	N_SING	Number=Sing	2	compound:lvc	_	_
+2	میکردیم	_	VERB	V_PA	Number=Plur|Person=1|Tense=Past	0	root	_	_
+3	و	و	CCONJ	CON	_	4	cc	_	_
+4	میگفتیم	_	VERB	V_PA	Number=Plur|Person=1|Tense=Past	2	conj	_	_
+5	که	که	SCONJ	CON	_	2	mark	_	_
+
+# sent_id = 164
+1	خداحافظی	خداحافظی	NOUN	N_SING	Number=Sing	2	compound:lvc	_	_
+2	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	دیگه	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+
+# sent_id = 165
+1	همون	همون	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	اول	اول	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	اومد	اومد	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	همون	همون	NOUN	N_SING	Number=Sing	3	conj	_	_
+6	اولم	اولم	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 166
+1	هست	هست	ADJ	ADJ	Degree=Pos	0	root	_	_
+2	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	1	cop	_	_
+3	ولی	ولی	CCONJ	CON	_	7	cc	_	_
+4	به	به	ADP	P	_	7	case	_	_
+5	از	از	ADP	P	_	4	fixed	_	_
+6	این	این	DET	DET	_	7	det	_	_
+7	موقع	_	NOUN	N_SING	Number=Sing	1	obl	_	_
+
+# sent_id = 167
+1	توی	توی	ADP	P	_	2	case	_	_
+2	بیزینس	بيزینس	NOUN	N_SING	Number=Sing	5	obl	_	_
+3	شاید	شاید	ADV	ADV	_	5	advmod	_	_
+4	اون	_	DET	DET	_	5	det	_	_
+5	بوتای	بوتا	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 168
+1	ذهنی	ذهن	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	3	mark	_	_
+3	داریم	داشت#دار	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	1	acl:relcl	_	_
+4	اون	_	DET	DET	_	5	det	_	_
+5	تابعای	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+
+# sent_id = 169
+1	ذهنی	ذهن	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	3	mark	_	_
+3	داریم	داشت#دار	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	1	acl:relcl	_	_
+4	و	و	CCONJ	CON	_	7	cc	_	_
+5	اگر	اگر	SCONJ	CON	_	6	mark	_	_
+6	بذاریم	گذاشت#ذار	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	7	advcl	_	_
+7	کنار	کنار	ADP	P	_	3	conj	_	_
+
+# sent_id = 170
+1	باعثش	باعثش	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	گفایی	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	بشه	بشه	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	1	cop	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	استیف	استیف	NOUN	N_SING	Number=Sing	0	root	_	_
+6	جابز	جابز	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 171
+1	لعنتی	لعنت	SCONJ	CON	_	2	advmod	_	_
+2	اینو	_	PRON	PRO	Number=Sing|PronType=Dem	0	root	_	_
+3	خوب	خوب	ADV	ADV	_	2	advmod	_	_
+4	میدونست	ميدونست	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+5	دیگه	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+
+# sent_id = 172
+1	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+2	دو	دو	NUM	NUM	NumType=Card	3	nummod	_	_
+3	هزار	هزار	NUM	NUM	NumType=Card	1	nummod	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	هفت	هفت	NUM	NUM	NumType=Card	3	conj	_	_
+6	ولی	ولی	CCONJ	CON	_	1	cc	_	_
+
+# sent_id = 173
+1	یه	_	NOUN	N_SING	Number=Sing	3	obj	_	_
+2	مقتعی	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	داشت	داشت#دار	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	دوچار	دوچار	SCONJ	CON	_	7	advmod	_	_
+5	این	این	DET	DET	_	6	det	_	_
+6	اشتباه	_	NOUN	N_SING	Number=Sing	7	obj	_	_
+7	میشد	ميشد	VERB	V_PA	Number=Sing|Person=3|Tense=Past	3	ccomp	_	_
+
+# sent_id = 174
+1	اما	اما	CCONJ	CON	_	2	cc	_	_
+2	شکست	شکست	NOUN	N_SING	Number=Sing	0	root	_	_
+3	بعدی	بعد	ADJ	ADJ	Degree=Pos	2	amod	_	_
+
+# sent_id = 175
+1	شکست	شکست	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	3	mark	_	_
+3	نه	نه	ADV	ADV_NEG	Polarity=Neg	1	advmod	_	_
+
+# sent_id = 176
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	چیزی	چیز	NOUN	N_SING	Number=Sing	3	det	_	_
+3	رو	رو	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+4	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	3	nmod:poss	_	_
+5	پرانتز	پرانتز	NOUN	N_SING	Number=Sing	6	obj	_	_
+6	بگم	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 177
+1	کلن	_	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	اینایی	اينایی	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	که	که	SCONJ	CON	_	4	mark	_	_
+4	میگم	ميگم	VERB	V_PA	Number=Sing|Person=1|Tense=Past	2	acl:relcl	_	_
+5	خیلی	خیلی	ADV	ADV	_	6	advmod	_	_
+6	آشون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+7	شکست	_	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+8	نیست	هست	AUX	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	6	cop	_	_
+
+# sent_id = 178
+1	اشتباهه	_	ADV	ADV	_	3	advmod	_	_
+2	ولی	ولی	CCONJ	CON	_	3	cc	_	_
+3	شکست	شکست	NOUN	N_SING	Number=Sing	0	root	_	_
+4	بعدی	بعد	ADJ	ADJ	Degree=Pos	3	amod	_	_
+
+# sent_id = 179
+1	اپل	اپل	NOUN	N_SING	Number=Sing	0	root	_	_
+2	سال	سال	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	دو	دو	NUM	NUM	NumType=Card	4	nummod	_	_
+4	هزار	هزار	NUM	NUM	NumType=Card	5	compound	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	ده	ده	NUM	NUM	NumType=Card	1	conj	_	_
+7	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	1	cop	_	_
+
+# sent_id = 180
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	داستان	داستان	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	خیلی	خیلی	ADV	ADV	_	4	advmod	_	_
+4	جذاب	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	بانمک	_	NOUN	N_SING	Number=Sing	4	conj	_	_
+7	داره	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 181
+1	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+2	دو	دو	NUM	NUM	NumType=Card	3	nummod	_	_
+3	هزار	هزار	NUM	NUM	NumType=Card	1	nummod	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	ده	ده	NUM	NUM	NumType=Card	1	conj	_	_
+
+# sent_id = 182
+1	آیفون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	چهار	چهار	NUM	NUM	NumType=Card	3	nummod	_	_
+3	میخواست	ميخواست	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	رونمایی	رونمایی	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	بشه	بشه	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 183
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	شیش	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	هفته	هفته	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	زودتر	زود	ADJ	ADJ_CMPR	Degree=Cmp	3	amod	_	_
+
+# sent_id = 184
+1	از	از	ADP	P	_	4	case	_	_
+2	این	این	PRON	PRO	Number=Sing|PronType=Dem	1	fixed	_	_
+3	که	که	CCONJ	CON	_	1	fixed	_	_
+4	آیفون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+5	رونمایی	رونمایی	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	بشه	بشه	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 185
+1	تمام	تمام	DET	DET	_	2	det	_	_
+2	اطلاعاتش	آطلاعاتش	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+3	پخ	_	NOUN	N_SING	Number=Sing	0	root	_	_
+4	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	3	cop	_	_
+5	همه	همه	PRON	PRO	PronType=Tot	6	det	_	_
+6	جا	جا	NOUN	N_SING	Number=Sing	3	obj	_	_
+
+# sent_id = 186
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	0	root	_	_
+3	توی	توی	ADP	P	_	4	case	_	_
+4	اون	_	NOUN	N_SING	Number=Sing	2	nmod	_	_
+
+# sent_id = 187
+1	هایپ	_	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	خبری	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	شکست	شکست	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	خورد	خورد#خور	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 188
+1	چرا؟	چرا؟	PUNCT	DELM	_	5	punct	_	_
+2	حالا	حالا	ADV	ADV_TIME	Case=Tem	5	advmod	_	_
+3	داستانش	داستانش	NOUN	N_SING	Number=Sing	5	obj	_	_
+4	رو	رو	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	بشنوید	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 189
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	آقایی	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	به	به	ADP	P	_	4	case	_	_
+4	اسم	اسم	NOUN	N_SING	Number=Sing	2	nmod	_	_
+5	گری	گری	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	پاول	_	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 190
+1	ترراح	ترراح	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	نرمفضاری	نرمفضاری	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	0	root	_	_
+4	بوده	بود#باش	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	3	cop	_	_
+
+# sent_id = 191
+1	نسخه	نسخه	NOUN	N_SING	Number=Sing	0	root	_	_
+2	اولیه	اولیه	ADJ	ADJ	Degree=Pos	1	amod	_	_
+
+# sent_id = 192
+1	پروتو	_	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	تایپ	_	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	آیفون	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	چهار	چهار	NUM	NUM	NumType=Card	5	nummod	_	_
+5	رو	رو	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 193
+1	میگیره	ميگیره	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	و	و	CCONJ	CON	_	3	cc	_	_
+3	میخواسته	_	NOUN	N_SING	Number=Sing	1	conj	_	_
+4	روش	روش	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+5	کار	کار	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	بکنه	_	VERB	V_SUB	Mood=Sub	0	root	_	_
+
+# sent_id = 194
+1	که	که	SCONJ	CON	_	5	mark	_	_
+2	توصیح	توصیح	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+3	نرمفضاری	نرمفضاری	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	روش	روش	NOUN	N_SING	Number=Sing	5	obj	_	_
+5	بده	داد#ده	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+
+# sent_id = 195
+1	پا	پا	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	میشه	میشه	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	داشتون	داشتن	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	آخر	آخر	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	هفته	هفته	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 196
+1	میره	میره	NOUN	N_SING	Number=Sing	0	root	_	_
+2	یه	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	بار	بار	NOUN	N_SING	Number=Sing	4	nmod	_	_
+4	میشینه	ميشینه	NOUN	N_SING	Number=Sing	1	flat	_	_
+
+# sent_id = 197
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	دوتا	_	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+3	پیک	پیک	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	آبجی	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	بزنه	_	VERB	V_SUB	Mood=Sub	0	root	_	_
+
+# sent_id = 198
+1	موقعی	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	4	mark	_	_
+3	دوتا	دوتاً	ADV	ADV	_	4	advmod	_	_
+4	پیک	پیک	NOUN	N_SING	Number=Sing	1	acl:relcl	_	_
+5	آبجشو	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	میخوره	ميخوره	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 199
+1	احتمالا	احتمالا	ADV	ADV	_	4	advmod	_	_
+2	یه	_	NOUN	N_SING	Number=Sing	4	obj	_	_
+3	زیباروی	زيبارو	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	داشته	داشت#دار	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+5	رد	رد	NOUN	N_SING	Number=Sing	4	obj	_	_
+6	میشده	_	ADJ	ADJ_INO	Number=Sing|Person=3|VerbForm=Part	5	amod	_	_
+
+# sent_id = 200
+1	زیباروی	زيبارو	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	3	mark	_	_
+3	رد	رد	NOUN	N_SING	Number=Sing	1	acl:relcl	_	_
+4	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	3	cop	_	_
+
+# sent_id = 201
+1	دوتا	دوتاً	ADV	ADV	_	6	advmod	_	_
+2	پیک	پیک	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+3	آبج	ابج	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	هم	هم	SCONJ	CON	_	6	advmod	_	_
+5	تأثیراتشو	_	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+6	گذاشته	گذاشت#گذار	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+
+# sent_id = 202
+1	سرگرم	سرگرم	ADJ	ADJ	Degree=Pos	0	root	_	_
+2	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	1	cop	_	_
+3	گوشا	گوشا	NOUN	N_SING	Number=Sing	1	nsubj	_	_
+4	قرمز	قرمز	ADJ	ADJ	Degree=Pos	3	amod	_	_
+
+# sent_id = 203
+1	داده	داد#ده	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	4	advcl	_	_
+2	شما	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+3	آقایی	_	ADV	ADV_COMP	_	4	advmod	_	_
+4	گری	گری	NOUN	N_SING	Number=Sing	0	root	_	_
+5	پاول	پاول	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	هم	هم	SCONJ	CON	_	4	advmod	_	_
+
+# sent_id = 204
+1	گری	گری	NOUN	N_SING	Number=Sing	0	root	_	_
+2	پاول	پاول	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	1	cop	_	_
+4	اسمش؟	اسمش؟	PUNCT	DELM	_	1	punct	_	_
+
+# sent_id = 205
+1	گری	گری	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	پاول	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	بودی	بودی	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	یه	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 206
+1	حالا	حالا	ADV	ADV_TIME	Case=Tem	2	advmod	_	_
+2	گری	گری	NOUN	N_SING	Number=Sing	0	root	_	_
+3	پاول	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	یه	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	پاولگری	پاولگری	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 207
+1	نگاه	نگاه	NOUN	N_SING	Number=Sing	2	compound:lvc	_	_
+2	کرده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+3	به	به	ADP	P	_	5	case	_	_
+4	اون	_	DET	DET	_	5	det	_	_
+5	زیبارو	زيبارو	NOUN	N_SING	Number=Sing	2	obl	_	_
+
+# sent_id = 208
+1	چشم	چشم	NOUN	N_SING	Number=Sing	5	obj	_	_
+2	که	که	SCONJ	CON	_	3	mark	_	_
+3	داشته	داشت#دار	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	1	acl:relcl	_	_
+4	دودو	_	ADV	ADV_COMP	_	5	advmod	_	_
+5	میزده	ميزده	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+
+# sent_id = 209
+1	پاشده	_	ADJ	ADJ_INO	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+2	رفته	رفت#رو	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	1	aux:pass	_	_
+
+# sent_id = 210
+1	پروتو	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	تایپ	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	آیفون	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	چار	چار	NOUN	N_SING	Number=Sing	3	flat	_	_
+
+# sent_id = 211
+1	میمونه	_	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	رو	رو	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	بار	بار	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 212
+1	کلابی	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	3	mark	_	_
+3	رفته	رفت#رو	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	1	acl:relcl	_	_
+4	بوده	بود#باش	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	3	aux	_	_
+
+# sent_id = 213
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	جا	جا	NOUN	N_SING	Number=Sing	3	conj	_	_
+3	میمونه	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 214
+1	و	و	CCONJ	CON	_	4	cc	_	_
+2	یه	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	نفر	نفر	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+4	میاد	_	NOUN	N_SING	Number=Sing	0	root	_	_
+5	اینو	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	ور	_	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	میداره	_	NOUN	N_SING	Number=Sing	6	flat	_	_
+
+# sent_id = 215
+1	میگه	ميگه	NOUN	N_SING	Number=Sing	2	nsubj	_	_
+2	این	این	PRON	PRO	Number=Sing|PronType=Dem	0	root	_	_
+3	چیه؟	چيه؟	PUNCT	DELM	_	2	punct	_	_
+
+# sent_id = 216
+1	میره	میره	NOUN	N_SING	Number=Sing	0	root	_	_
+2	به	به	ADP	P	_	3	case	_	_
+3	یه	_	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	نشریه	نشریه	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	خفن	خفن	NOUN	N_SING	Number=Sing	4	flat	_	_
+6	میفروشه	ميفروشه	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 217
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	لو	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	میره	میره	NOUN	N_SING	Number=Sing	2	flat	_	_
+
+# sent_id = 218
+1	شیش	_	NOUN	N_SING	Number=Sing	7	nsubj	_	_
+2	هفته	هفته	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	زودتر	زود	ADJ	ADJ_CMPR	Degree=Cmp	7	xcomp	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	این	این	PRON	PRO	Number=Sing|PronType=Dem	3	nmod	_	_
+6	که	که	CCONJ	CON	_	5	fixed	_	_
+7	آیفون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+8	رو	رو	NOUN	N_SING	Number=Sing	7	nmod:poss	_	_
+9	نمایی	_	NOUN	N_SING	Number=Sing	8	nmod:poss	_	_
+10	بشه	بشه	NOUN	N_SING	Number=Sing	9	flat	_	_
+
+# sent_id = 219
+1	آیفون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	چار	چار	NUM	NUM	NumType=Card	3	nummod	_	_
+3	لو	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	میره	میره	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+
+# sent_id = 220
+1	اینجاست	اينجاست	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	4	mark	_	_
+3	میگن	ميگن	NOUN	N_SING	Number=Sing	4	obj	_	_
+4	آقا	آقا	NOUN	N_SING	Number=Sing	1	flat	_	_
+5	کم	کم	ADJ	ADJ	Degree=Pos	4	amod	_	_
+6	بخور	خورد#خور	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 221
+1	ولی	ولی	CCONJ	CON	_	3	cc	_	_
+2	همیشه	همیشه	ADV	ADV_TIME	Case=Tem	3	advmod	_	_
+3	بخور	خورد#خور	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 222
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	کمپانیو	_	NOUN	N_SING	Number=Sing	5	obj	_	_
+3	به	به	ADP	P	_	4	case	_	_
+4	فنا	فنا	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	داده	داد#ده	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+6	سال	سال	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	2010	2010	NUM	NUM	NumType=Card	6	nummod	_	_
+
+# sent_id = 223
+1	سر	سر	NOUN	N_SING	Number=Sing	0	root	_	_
+2	این	این	PRON	PRO	Number=Sing|PronType=Dem	5	det	_	_
+3	که	که	SCONJ	CON	_	5	mark	_	_
+4	دوتا	دوتاً	ADV	ADV	_	5	advmod	_	_
+5	پیک	پیک	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+6	آبجو	_	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	بخوره	بخوره	NOUN	N_SING	Number=Sing	6	flat	_	_
+
+# sent_id = 224
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	پروتو	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	تایپ	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	لو	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	میره	میره	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 225
+1	همه	همه	PRON	PRO	PronType=Tot	2	nsubj	_	_
+2	میفهمن	ميفهمن	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+3	که	که	SCONJ	CON	_	6	mark	_	_
+4	این	این	DET	DET	_	5	det	_	_
+5	آیفون	_	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+6	چیه	_	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	2	ccomp	_	_
+
+# sent_id = 226
+1	دیگه	ديگه	ADV	ADV	_	3	advmod	_	_
+2	اون	_	DET	DET	_	3	det	_	_
+3	های	_	NOUN	N_PL	Number=Plur	0	root	_	_
+4	پخبری	_	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	که	که	SCONJ	CON	_	8	mark	_	_
+6	اپل	اپل	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+7	میتونسته	ميتونسته	ADJ	ADJ	Degree=Pos	6	amod	_	_
+8	ایجاد	ایجاد	NOUN	N_SING	Number=Sing	4	acl:relcl	_	_
+9	بکنه	_	NOUN	N_SING	Number=Sing	8	nmod:poss	_	_
+
+# sent_id = 227
+1	رو	رو	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	ایجاد	ایجاد	NOUN	N_SING	Number=Sing	4	obj	_	_
+3	نمی	نمی	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	کنه	_	VERB	V_SUB	Mood=Sub	0	root	_	_
+
+# sent_id = 228
+1	اپل	اپل	NOUN	N_SING	Number=Sing	0	root	_	_
+2	میره	میره	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	شکاعت	شكاعت	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	میکنه	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	از	از	ADP	P	_	7	case	_	_
+6	اون	_	DET	DET	_	7	det	_	_
+7	دوستمون	دوستمون	NOUN	N_SING	Number=Sing	4	nmod	_	_
+
+# sent_id = 229
+1	و	و	CCONJ	CON	_	3	cc	_	_
+2	دیگه	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+3	ادامه	ادامه	NOUN	N_SING	Number=Sing	0	root	_	_
+4	داستانی	داستان	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	که	که	SCONJ	CON	_	6	mark	_	_
+6	اتفاق	اتفاق	NOUN	N_SING	Number=Sing	4	acl:relcl	_	_
+7	میفته	ميفته	ADJ	ADJ	Degree=Pos	6	amod	_	_
+
+# sent_id = 230
+1	این	این	DET	DET	_	2	det	_	_
+2	همی	همی	NOUN	N_SING	Number=Sing	0	root	_	_
+3	که	که	SCONJ	CON	_	10	mark	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	داستان	داستان	NOUN	N_SING	Number=Sing	10	nmod	_	_
+6	ها	_	NOUN	N_PL	Number=Plur	5	nmod:poss	_	_
+7	و	و	CCONJ	CON	_	8	cc	_	_
+8	اجتباهات	اجتباه	NOUN	N_PL	Number=Plur	6	conj	_	_
+9	عجیب	عجیب	ADJ	ADJ	Degree=Pos	8	amod	_	_
+10	غریبیه	غريبیه	NOUN	N_SING	Number=Sing	2	acl:relcl	_	_
+
+# sent_id = 231
+1	که	که	SCONJ	CON	_	3	mark	_	_
+2	توی	توی	ADP	P	_	3	case	_	_
+3	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+4	2010	2010	NUM	NUM	NumType=Card	3	nummod	_	_
+
+# sent_id = 232
+1	واسه	واسه	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	اتفاق	اتفاق	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	افتاده	افتاد#افت	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+
+# sent_id = 233
+1	اما	اما	CCONJ	CON	_	2	cc	_	_
+2	اشتباه	اشتباه	NOUN	N_SING	Number=Sing	0	root	_	_
+3	بعدی	بعد	ADJ	ADJ	Degree=Pos	2	amod	_	_
+
+# sent_id = 234
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	اشتباه	اشتباه	NOUN	N_SING	Number=Sing	0	root	_	_
+3	محلکتره	محلكتره	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+
+# sent_id = 235
+1	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	همون	همون	ADV	ADV_COMP	_	3	advmod	_	_
+3	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 236
+1	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+2	2010	2010	NUM	NUM	NumType=Card	3	nummod	_	_
+3	همون	همون	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	آیفون	_	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	چهار	چهار	NUM	NUM	NumType=Card	4	nummod	_	_
+
+# sent_id = 237
+1	موقعی	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	3	mark	_	_
+3	بارد	بارد	NOUN	N_SING	Number=Sing	1	acl:relcl	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	بازار	بازار	NOUN	N_SING	Number=Sing	3	conj	_	_
+6	میشه	میشه	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 238
+1	خیلی	خیلی	ADV	ADV	_	4	advmod	_	_
+2	و	و	CCONJ	CON	_	3	cc	_	_
+3	بعد	بعد	ADV	ADV_TIME	Case=Tem	1	conj	_	_
+4	از	از	ADP	P	_	6	case	_	_
+5	چند	چند	ADJ	ADJ	Degree=Pos	6	amod	_	_
+6	وقت	وقت	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 239
+1	گزارش	گزارش	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	میکنن	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	که	که	SCONJ	CON	_	0	root	_	_
+
+# sent_id = 240
+1	وقتی	وقتی	SCONJ	CON	_	7	advmod	_	_
+2	گوشی	گوشی	NOUN	N_SING	Number=Sing	7	obj	_	_
+3	رو	رو	PART	CLITIC	_	2	case	_	_
+4	با	با	ADP	P	_	5	case	_	_
+5	دست	دست	NOUN	N_SING	Number=Sing	7	obl	_	_
+6	چپ	چپ	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	میگیریم	_	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 241
+1	و	و	CCONJ	CON	_	3	cc	_	_
+2	میخواییم	_	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	3	aux	_	_
+3	باش	بود#باش	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+4	صحبت	صحبت	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	بکنیم	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	3	ccomp	_	_
+
+# sent_id = 242
+1	آنتن	_	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	نمیده	نامید#نم	AUX	V_PP	_	4	aux	_	_
+3	یه	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	قط	_	NOUN	N_SING	Number=Sing	0	root	_	_
+5	میشه	میشه	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 243
+1	مکالمه	مكالمه	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	همون	_	ADV	ADV_COMP	_	3	advmod	_	_
+3	نتمون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+4	میمونه	_	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+
+# sent_id = 244
+1	چه	چه	ADV	ADV_I	PronType=Int	2	det	_	_
+2	اتفاقی	اتفاق	NOUN	N_SING	Number=Sing	0	root	_	_
+3	افتاده؟	افتاده؟	PUNCT	DELM	_	2	punct	_	_
+
+# sent_id = 245
+1	هر	هر	DET	DET	_	2	det	_	_
+2	گوشی	گوشی	NOUN	N_SING	Number=Sing	9	nsubj	_	_
+3	که	که	SCONJ	CON	_	4	mark	_	_
+4	میبینید	_	VERB	V_PRS	Number=Plur|Person=2|Tense=Pres	2	acl:relcl	_	_
+5	بدنه	بدنه	ADV	ADV	_	9	advmod	_	_
+6	شیشه	شیشه	NOUN	N_SING	Number=Sing	9	obj	_	_
+7	یا	یا	CCONJ	CON	_	8	cc	_	_
+8	آلمینیوم	آلمینیوم	NOUN	N_SING	Number=Sing	6	conj	_	_
+9	داشته	داشت#دار	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+10	باشه	_	VERB	V_SUB	Mood=Sub	9	aux	_	_
+
+# sent_id = 246
+1	باید	بایست#باید	AUX	V_AUX	VerbForm=Inf	4	aux	_	_
+2	یه	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	سری	سری	NOUN	N_SING	Number=Sing	4	det	_	_
+4	خطای	خطا	NOUN	N_SING	Number=Sing	0	root	_	_
+5	پلاستیکی	پلاستیکی	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+
+# sent_id = 247
+1	توش	توش	NOUN	N_SING	Number=Sing	0	root	_	_
+2	باشه	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	واسه	واسه	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	یه	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	آنتندهی	انتندهی	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 248
+1	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+2	2010	2010	NUM	NUM	NumType=Card	1	nummod	_	_
+
+# sent_id = 249
+1	اپل	اپل	NOUN	N_SING	Number=Sing	10	nsubj	_	_
+2	روی	رو	ADP	P	_	3	case	_	_
+3	آیفون	_	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	چهار	چهار	NUM	NUM	NumType=Card	5	nummod	_	_
+5	یه	_	NOUN	N_SING	Number=Sing	6	det	_	_
+6	تغییر	تغییر	NOUN	N_SING	Number=Sing	10	obj	_	_
+7	توی	توی	ADP	P	_	8	case	_	_
+8	ترراهی	ترراهی	NOUN	N_SING	Number=Sing	10	obl	_	_
+9	ایجاد	ایجاد	NOUN	N_SING	Number=Sing	10	compound:lvc	_	_
+10	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 250
+1	که	که	SCONJ	CON	_	7	mark	_	_
+2	یه	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	ترراهی	ترراهی	NOUN	N_SING	Number=Sing	7	obj	_	_
+4	تختی	تخت	NOUN	N_SING	Number=Sing	3	conj	_	_
+5	و	و	CCONJ	CON	_	4	cc	_	_
+6	تحویل	تحویل	NOUN	N_SING	Number=Sing	7	compound:lvc	_	_
+7	داد	داد#ده	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 251
+1	اون	_	DET	DET	_	2	det	_	_
+2	موقع	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	جانیه	جانیه	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	هایی	_	NOUN	N_PL	Number=Plur	3	nmod:poss	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	ترراه	ترراه	NOUN	N_SING	Number=Sing	4	conj	_	_
+7	عجیب	عجیب	ADJ	ADJ	Degree=Pos	6	amod	_	_
+8	و	و	CCONJ	CON	_	9	cc	_	_
+9	غریب	غریب	ADJ	ADJ	Degree=Pos	7	conj	_	_
+
+# sent_id = 252
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	خفن	خفن	NOUN	N_SING	Number=Sing	0	root	_	_
+3	و	و	CCONJ	CON	_	4	cc	_	_
+4	معروف	معروف	ADJ	ADJ	Degree=Pos	2	conj	_	_
+5	اپل	اپل	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+
+# sent_id = 253
+1	یه	_	NOUN	N_SING	Number=Sing	2	det	_	_
+2	حرکتی	_	NOUN	N_SING	Number=Sing	3	obj	_	_
+3	زده	زد#زن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+4	بود	بود#باش	VERB	V_PA	Number=Sing|Person=3|Tense=Past	3	aux	_	_
+
+# sent_id = 254
+1	که	که	SCONJ	CON	_	2	mark	_	_
+2	میگفت	ميگفت#گو	NOUN	N_SING	Number=Sing	0	root	_	_
+3	دیگه	ديگه	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	این	این	DET	DET	_	5	det	_	_
+5	خفنه	خفنه	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+
+# sent_id = 255
+1	و	و	CCONJ	CON	_	5	cc	_	_
+2	واسه	واسه	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+3	زیبایی	زیبایی	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	بیشترش	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+5	اومده	آومد#آ	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+6	بود	بود#باش	VERB	V_PA	Number=Sing|Person=3|Tense=Past	5	aux	_	_
+
+# sent_id = 256
+1	اون	_	DET	DET	_	2	det	_	_
+2	نوارای	_	NOUN	N_PL	Number=Plur	0	root	_	_
+3	پلاستیکی	پلاستیکی	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	واسه	واسه	NOUN	N_SING	Number=Sing	2	acl:relcl	_	_
+6	آنتندهیه	انتندهیه	NOUN	N_SING	Number=Sing	7	nmod:poss	_	_
+7	رو	رو	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 257
+1	حذف	حذف	NOUN	N_SING	Number=Sing	2	compound:lvc	_	_
+2	کرده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+3	بود	بود#باش	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	aux	_	_
+
+# sent_id = 258
+1	و	و	CCONJ	CON	_	3	cc	_	_
+2	همین	همین	PRON	PRO	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	باعث	باعث	NOUN	N_SING	Number=Sing	0	root	_	_
+4	میشد	ميشد	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	3	ccomp	_	_
+5	که	که	SCONJ	CON	_	6	mark	_	_
+6	موقعی	_	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+7	که	که	SCONJ	CON	_	6	fixed	_	_
+
+# sent_id = 259
+1	حوشی	حوشی	NOUN	N_SING	Number=Sing	0	root	_	_
+2	و	و	CCONJ	CON	_	3	cc	_	_
+3	دست	دست	NOUN	N_SING	Number=Sing	1	conj	_	_
+4	میگیری	ميگیری	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	احتمال	احتمال	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	این	این	PRON	PRO	Number=Sing|PronType=Dem	8	det	_	_
+7	که	که	SCONJ	CON	_	8	mark	_	_
+8	آنتندهش	آنتندهش	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 260
+1	به	به	ADP	P	_	2	case	_	_
+2	پر	پر	NOUN	N_SING	Number=Sing	3	nmod	_	_
+3	موقعی	_	NOUN	N_SING	Number=Sing	0	root	_	_
+4	مکالمه	مكالمه	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+
+# sent_id = 261
+1	از	از	ADP	P	_	2	case	_	_
+2	در	در	ADP	P	_	5	case	_	_
+3	از	از	ADP	P	_	2	fixed	_	_
+4	بین	بین	ADP	P	_	2	fixed	_	_
+5	بره	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 262
+1	احتمالش	آحتمالش	NOUN	N_SING	Number=Sing	0	root	_	_
+2	این	این	PRON	PRO	Number=Sing|PronType=Dem	1	nmod:poss	_	_
+3	که	که	SCONJ	CON	_	4	mark	_	_
+4	بره	_	VERB	V_SUB	Mood=Sub	2	acl:relcl	_	_
+
+# sent_id = 263
+1	وجود	وجود	NOUN	N_SING	Number=Sing	2	compound:lvc	_	_
+2	داشته	داشت#دار	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+3	باشه	_	VERB	V_SUB	Mood=Sub	2	aux	_	_
+4	و	و	CCONJ	CON	_	6	cc	_	_
+5	این	این	DET	DET	_	6	det	_	_
+6	همی	هم	NOUN	N_SING	Number=Sing	2	conj	_	_
+7	که	که	SCONJ	CON	_	9	mark	_	_
+8	از	از	ADP	P	_	9	case	_	_
+9	شکستایی	_	NOUN	N_SING	Number=Sing	6	acl:relcl	_	_
+10	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	9	cop	_	_
+
+# sent_id = 264
+1	که	که	SCONJ	CON	_	5	mark	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+3	هم	هم	SCONJ	CON	_	5	advmod	_	_
+4	خیلی	خیلی	ADV	ADV	_	5	advmod	_	_
+5	سریح	سریح	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 265
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	شفاف	شفاف	ADJ	ADJ	Degree=Pos	4	amod	_	_
+3	اومد	اومد	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	اصخایی	اصخایی	NOUN	N_SING	Number=Sing	5	obj	_	_
+5	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 266
+1	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+2	آقا	آقا	NOUN	N_SING	Number=Sing	3	vocative	_	_
+3	شرمنده	شرمنده	ADJ	ADJ_INO	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	1	amod	_	_
+
+# sent_id = 267
+1	توی	توی	ADP	P	_	2	case	_	_
+2	نسلای	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	بعدی	بعد	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	دیگه	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+
+# sent_id = 268
+1	کارایی	کارآیی	NOUN	N_SING	Number=Sing	0	root	_	_
+2	و	و	CCONJ	CON	_	4	cc	_	_
+3	نه	نه	ADV	ADV_NEG	Polarity=Neg	4	advmod	_	_
+4	آره	_	NOUN	N_SING	Number=Sing	1	conj	_	_
+5	دیگه	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+
+# sent_id = 269
+1	کارایی	کارآیی	NOUN	N_SING	Number=Sing	5	obj	_	_
+2	و	و	CCONJ	CON	_	3	cc	_	_
+3	فدای	فدا	NOUN	N_SING	Number=Sing	1	conj	_	_
+4	زیبایی	زیبا	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	نکرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 270
+1	توی	توی	ADP	P	_	2	case	_	_
+2	نسلای	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	بعدی	بعد	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	اون	_	DET	DET	_	5	det	_	_
+5	خطای	خطا	NOUN	N_SING	Number=Sing	2	appos	_	_
+6	پلاستیکی	پلاستیکی	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 271
+1	رو	رو	NOUN	N_SING	Number=Sing	2	compound:lvc	_	_
+2	گذاشت	گذاشت#گذار	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	و	و	CCONJ	CON	_	6	cc	_	_
+4	اصخایی	_	NOUN	N_SING	Number=Sing	6	obj	_	_
+5	هم	هم	SCONJ	CON	_	6	advmod	_	_
+6	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	conj	_	_
+
+# sent_id = 272
+1	و	و	CCONJ	CON	_	9	cc	_	_
+2	دیگه	_	ADJ	ADJ	Degree=Pos	4	amod	_	_
+3	یه	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	جوری	_	NOUN	N_SING	Number=Sing	9	obl	_	_
+5	سراتش	سراتش	NOUN	N_SING	Number=Sing	9	obj	_	_
+6	رو	رو	NOUN	N_SING	Number=Sing	5	flat	_	_
+7	هم	هم	SCONJ	CON	_	9	advmod	_	_
+8	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	برد	برد#بر	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 273
+1	ولی	ولی	CCONJ	CON	_	3	cc	_	_
+2	فکر	فکر	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	کن	کرد#کن	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+
+# sent_id = 274
+1	هنوزم	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	4	mark	_	_
+3	هنوز	هنوز	ADV	ADV	_	4	advmod	_	_
+4	اپل	اپل	NOUN	N_SING	Number=Sing	1	acl:relcl	_	_
+
+# sent_id = 275
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	تیم	تیم	NOUN	N_SING	Number=Sing	0	root	_	_
+3	تراهی	تراهی	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	محصولات	محصول	NOUN	N_PL	Number=Plur	3	nmod:poss	_	_
+5	اپل	اپل	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+
+# sent_id = 276
+1	خیلی	خیلی	ADV	ADV	_	3	advmod	_	_
+2	خیلی	خیلی	ADV	ADV	_	3	advmod	_	_
+3	خیلی	خیلی	ADV	ADV	_	0	root	_	_
+
+# sent_id = 277
+1	چالش	_	NOUN	N_SING	Number=Sing	7	nsubj	_	_
+2	دارن	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	واسه	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	این	این	PRON	PRO	Number=Sing|PronType=Dem	2	nmod:poss	_	_
+5	که	که	CCONJ	CON	_	4	fixed	_	_
+6	یه	_	NUM	NUM	NumType=Card	7	nummod	_	_
+7	محصول	محصول	NOUN	N_SING	Number=Sing	0	root	_	_
+8	زیبا	زیبا	ADJ	ADJ	Degree=Pos	7	amod	_	_
+9	بدن	بدن	NOUN	N_SING	Number=Sing	7	nmod:poss	_	_
+
+# sent_id = 278
+1	ولی	ولی	CCONJ	CON	_	4	cc	_	_
+2	کارامت	كارامت	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	هم	هم	SCONJ	CON	_	4	advmod	_	_
+4	باشه	_	VERB	V_SUB	Mood=Sub	0	root	_	_
+
+# sent_id = 279
+1	یعنی	یعنی	SCONJ	CON	_	3	advmod	_	_
+2	اون	_	DET	DET	_	3	det	_	_
+3	نکته	نکته	NOUN	N_SING	Number=Sing	0	root	_	_
+4	هایی	_	NOUN	N_PL	Number=Plur	3	nmod:poss	_	_
+5	که	که	SCONJ	CON	_	6	mark	_	_
+6	باید	بایست#باید	AUX	V_AUX	VerbForm=Inf	3	acl:relcl	_	_
+
+# sent_id = 280
+1	رعایت	رعایت	NOUN	N_SING	Number=Sing	5	obj	_	_
+2	بکنن	_	ADP	P	_	3	case	_	_
+3	رو	رو	NOUN	N_SING	Number=Sing	5	obl	_	_
+4	رعایت	رعایت	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	بکنن	_	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+
+# sent_id = 281
+1	و	و	CCONJ	CON	_	5	cc	_	_
+2	در	در	ADP	P	_	4	case	_	_
+3	این	این	DET	DET	_	4	det	_	_
+4	حال	حال	NOUN	N_SING	Number=Sing	5	nmod	_	_
+5	زیبا	زیبا	ADJ	ADJ	Degree=Pos	0	root	_	_
+6	باشه	_	AUX	V_SUB	Mood=Sub	5	cop	_	_
+
+# sent_id = 282
+1	این	این	DET	DET	_	2	det	_	_
+2	اتفاق	اتفاق	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	توی	توی	ADP	P	_	4	case	_	_
+4	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+5	2010	2010	NUM	NUM	NumType=Card	4	nummod	_	_
+
+# sent_id = 283
+1	یکی	یک	NUM	NUM	NumType=Card	0	root	_	_
+2	از	از	ADP	P	_	4	case	_	_
+3	بزرگترین	بزرگ	ADJ	ADJ_SUP	Degree=Sup	4	amod	_	_
+4	اشتباهات	اشتباه	NOUN	N_PL	Number=Plur	1	nmod	_	_
+5	اپل	اپل	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+
+# sent_id = 284
+1	اما	اما	CCONJ	CON	_	2	cc	_	_
+2	بریم	بریم	NOUN	N_SING	Number=Sing	0	root	_	_
+3	سراغی	سراغی	ADJ	ADJ	Degree=Pos	2	amod	_	_
+
+# sent_id = 285
+1	اشتباه	اشتباه	NOUN	N_SING	Number=Sing	0	root	_	_
+2	نرم	نرم	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	افزاری	افزار	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+
+# sent_id = 286
+1	برمی	برمی	ADP	P	_	2	case	_	_
+2	گرده	_	NOUN	N_SING	Number=Sing	5	nmod	_	_
+3	به	به	ADP	P	_	4	case	_	_
+4	سال	سال	NOUN	N_SING	Number=Sing	2	nmod	_	_
+5	2012	2012	NUM	NUM	NumType=Card	0	root	_	_
+
+# sent_id = 287
+1	موقعی	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	8	mark	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+4	اپل	اپل	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	مپ	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	رو	رو	NOUN	N_SING	Number=Sing	5	flat	_	_
+7	نمایی	_	NOUN	N_SING	Number=Sing	8	compound:lvc	_	_
+8	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	1	acl:relcl	_	_
+
+# sent_id = 288
+1	مپ	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	که	که	SCONJ	CON	_	4	mark	_	_
+4	هنوزم	_	ADV	ADV	_	1	advmod	_	_
+
+# sent_id = 289
+1	که	که	SCONJ	CON	_	4	mark	_	_
+2	هنوزه	_	ADV	ADV	_	4	advmod	_	_
+3	یه	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	آشقال	اشقال	NOUN	N_SING	Number=Sing	0	root	_	_
+5	به	به	ADP	P	_	7	case	_	_
+6	تمام	تمام	DET	DET	_	7	det	_	_
+7	معناست	معناست	NOUN	N_SING	Number=Sing	4	nmod	_	_
+
+# sent_id = 290
+1	و	و	CCONJ	CON	_	3	cc	_	_
+2	اصلا	اصلاً	ADV	ADV	_	3	advmod	_	_
+3	نمیتونه	نميتونه	NOUN	N_SING	Number=Sing	0	root	_	_
+4	با	با	ADP	P	_	5	case	_	_
+5	مپ	_	NOUN	N_SING	Number=Sing	3	nmod	_	_
+6	گوگل	گوگل	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 291
+1	رقاوت	رقاوت	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	بکنه	_	SCONJ	CON	_	5	advmod	_	_
+3	البته	البته	ADV	ADV	_	5	advmod	_	_
+4	خیلی	خیلی	ADV	ADV	_	5	advmod	_	_
+5	ها	_	NOUN	N_PL	Number=Plur	0	root	_	_
+
+# sent_id = 292
+1	ازش	ازش	NOUN	N_SING	Number=Sing	0	root	_	_
+2	استفاده	استفاده	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	میکنن	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	عجیبه	عجيبه	NOUN	N_SING	Number=Sing	3	flat	_	_
+
+# sent_id = 293
+1	توی	توی	ADP	P	_	2	case	_	_
+2	ایران	ایران	NOUN	N_SING	Number=Sing	0	root	_	_
+3	که	که	SCONJ	CON	_	8	mark	_	_
+4	اصلا	اصلاً	ADV	ADV	_	8	advmod	_	_
+5	نمیشه	_	NOUN	N_SING	Number=Sing	8	obj	_	_
+6	ازش	ازش	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	استفاده	استفاده	NOUN	N_SING	Number=Sing	8	compound:lvc	_	_
+8	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	acl:relcl	_	_
+
+# sent_id = 294
+1	سال	سال	NOUN	N_SING	Number=Sing	4	obj	_	_
+2	2012	2012	NUM	NUM	NumType=Card	3	nummod	_	_
+3	جالبه	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	بدونید	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 295
+1	که	که	SCONJ	CON	_	3	mark	_	_
+2	وقتی	وقتی	SCONJ	CON	_	3	mark	_	_
+3	معرفی	معرفی	NOUN	N_SING	Number=Sing	0	root	_	_
+4	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	3	cop	_	_
+
+# sent_id = 296
+1	مدیر	مدیر	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	بخش	بخش	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	ای	ای	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
+5	ایس	_	NOUN	N_SING	Number=Sing	4	flat	_	_
+6	مجبور	مجبور	ADJ	ADJ	Degree=Pos	0	root	_	_
+7	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	6	cop	_	_
+
+# sent_id = 297
+1	که	که	SCONJ	CON	_	5	mark	_	_
+2	شرکت	شرکت	NOUN	N_SING	Number=Sing	5	obj	_	_
+3	رو	رو	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	ترک	ترک	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	کنه	_	VERB	V_SUB	Mood=Sub	0	root	_	_
+
+# sent_id = 298
+1	چرا؟	چرا؟	PUNCT	DELM	_	3	punct	_	_
+2	چون	چون	SCONJ	CON	_	3	mark	_	_
+3	یه	_	NOUN	N_SING	Number=Sing	0	root	_	_
+4	فاجعه	فاجعه	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	3	cop	_	_
+
+# sent_id = 299
+1	اولا	اولاً	SCONJ	CON	_	6	advmod	_	_
+2	که	که	SCONJ	CON	_	6	mark	_	_
+3	خیلی	خیلی	ADV	ADV	_	6	advmod	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	منطقه	منطقه	NOUN	N_SING	Number=Sing	3	nmod	_	_
+6	ها	_	NOUN	N_SING	Number=Sing	0	root	_	_
+7	و	و	CCONJ	CON	_	8	cc	_	_
+8	مناظر	_	NOUN	N_PL	Number=Plur	9	conj	_	_
+9	رو	رو	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+
+# sent_id = 300
+1	اصلا	اصلاً	ADV	ADV	_	3	advmod	_	_
+2	دیشیپ	_	NOUN	N_SING	Number=Sing	3	obj	_	_
+3	میکنید	_	VERB	V_PRS	Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 301
+1	دیشیپ؟	ديشيپ؟	PUNCT	DELM	_	2	punct	_	_
+2	نه	نه	ADV	ADV_NEG	Polarity=Neg	0	root	_	_
+
+# sent_id = 302
+1	به	به	ADP	P	_	2	case	_	_
+2	هم	هم	PRON	PRO	PronType=Rcp	0	root	_	_
+3	میریخت	ميريخت	NOUN	N_SING	Number=Sing	2	flat	_	_
+
+# sent_id = 303
+1	یعنی	یعنی	SCONJ	CON	_	6	advmod	_	_
+2	مثلا	مثلاً	ADV	ADV_COMP	_	6	advmod	_	_
+3	نقشه	_	NOUN	N_SING	Number=Sing	6	obj	_	_
+4	رو	رو	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	باز	باز	ADJ	ADJ	Degree=Pos	4	amod	_	_
+6	بیکردید	_	VERB	V_PA	Number=Plur|Person=2|Tense=Past	0	root	_	_
+
+# sent_id = 304
+1	میدیدید	ميديدید	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	ساختمون	ساختمون	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	ها	_	NOUN	N_SING	Number=Sing	0	root	_	_
+4	اینجوری	اینجوری	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	هست	هست	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	3	cop	_	_
+
+# sent_id = 305
+1	یکی	یک	NUM	NUM	NumType=Card	0	root	_	_
+2	از	از	ADP	P	_	4	case	_	_
+3	بدترین	بد	ADJ	ADJ_SUP	Degree=Sup	4	amod	_	_
+4	اتفاقایی	اتفاقا	NOUN	N_SING	Number=Sing	1	nmod	_	_
+5	که	که	SCONJ	CON	_	9	mark	_	_
+6	روی	رو	ADP	P	_	7	case	_	_
+7	مپ	_	NOUN	N_SING	Number=Sing	9	obl	_	_
+8	اپل	اپل	NOUN	N_SING	Number=Sing	7	nmod:poss	_	_
+9	افتاد	افتاد#افت	VERB	V_PA	Number=Sing|Person=3|Tense=Past	4	acl:relcl	_	_
+
+# sent_id = 306
+1	این	این	PRON	PRO	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	1	cop	_	_
+3	که	که	SCONJ	CON	_	0	root	_	_
+
+# sent_id = 307
+1	موقعی	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	6	mark	_	_
+3	میخواست	ميخواست	NOUN	N_SING	Number=Sing	6	obj	_	_
+4	پیکی	_	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	آدرس	_	NOUN	N_SING	Number=Sing	4	flat	_	_
+6	بده	داد#ده	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	1	acl:relcl	_	_
+
+# sent_id = 308
+1	مینداختتش	مينداختتش	NOUN	N_SING	Number=Sing	0	root	_	_
+2	توی	توی	ADP	P	_	1	fixed	_	_
+
+# sent_id = 309
+1	فرودگاه	فرودگاه	NOUN	N_SING	Number=Sing	0	root	_	_
+2	بین	بین	ADP	P	_	3	case	_	_
+3	المللی	_	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	میشیگان	ميشیگان	NOUN	N_SING	Number=Sing	3	flat	_	_
+
+# sent_id = 310
+1	توی	توی	ADP	P	_	2	case	_	_
+2	باند	باند	NOUN	N_SING	Number=Sing	4	obl	_	_
+3	فرودگاه	فرودگاه	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	میگو	ميگو	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 311
+1	بیا	آمد#آ	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	باند	باند	NOUN	N_SING	Number=Sing	5	obl	_	_
+4	فرودگاه	فرودگاه	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	برو	رفت#رو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	1	ccomp	_	_
+6	که	که	SCONJ	CON	_	8	mark	_	_
+7	این	این	DET	DET	_	8	det	_	_
+8	مسیر	مسیر	NOUN	N_SING	Number=Sing	5	obl	_	_
+9	توه	_	NOUN	N_SING	Number=Sing	8	nmod:poss	_	_
+
+# sent_id = 312
+1	یعنی	یعنی	SCONJ	CON	_	4	advmod	_	_
+2	توی	توی	ADP	P	_	3	case	_	_
+3	مسیری	مسیری	NOUN	N_SING	Number=Sing	4	nmod	_	_
+4	ها	_	NOUN	N_SING	Number=Sing	0	root	_	_
+5	بیان	بیان	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	فاجعه	فاجعه	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	4	cop	_	_
+
+# sent_id = 313
+1	سیر	سیر	NOUN	N_SING	Number=Sing	0	root	_	_
+2	خیلی	خیلی	ADV	ADV	_	3	advmod	_	_
+3	زیادی	زیاد	ADJ	ADJ	Degree=Pos	1	amod	_	_
+
+# sent_id = 314
+1	از	از	ADP	P	_	2	case	_	_
+2	این	این	PRON	PRO	Number=Sing|PronType=Dem	0	root	_	_
+
+# sent_id = 315
+1	باگای	_	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	نرمحفظاری	داشت#رمحفظار	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	که	که	SCONJ	CON	_	4	mark	_	_
+4	توی	توی	ADP	P	_	5	case	_	_
+5	اپ	اپ	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 316
+1	مپ	_	ADJ	ADJ	Degree=Pos	3	nsubj	_	_
+2	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	1	cop	_	_
+3	باعث	باعث	NOUN	N_SING	Number=Sing	0	root	_	_
+4	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	3	cop	_	_
+5	که	که	SCONJ	CON	_	3	mark	_	_
+
+# sent_id = 317
+1	گفتم	گفت#گو	VERB	V_PA	Number=Sing|Person=1|Tense=Past	5	nsubj	_	_
+2	رئیس	رئیس	NOUN	N_SING	Number=Sing	1	appos	_	_
+3	ای	هست	INTJ	INT	_	4	det	_	_
+4	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	2	nmod:poss	_	_
+5	ایس	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 318
+1	مدیر	مدیر	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	بخش	بخش	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	ای	ای	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
+5	ایس	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 319
+1	از	از	ADP	P	_	2	case	_	_
+2	شرکت	شرکت	NOUN	N_SING	Number=Sing	0	root	_	_
+3	اخراج	اخراج	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	بشه	بشه	NOUN	N_SING	Number=Sing	3	flat	_	_
+
+# sent_id = 320
+1	یا	یا	CCONJ	CON	_	3	cc	_	_
+2	شرکت	شرکت	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	رو	رو	NOUN	N_SING	Number=Sing	5	obl	_	_
+4	ترک	ترک	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	بکنه	_	VERB	V_SUB	Mood=Sub	0	root	_	_
+
+# sent_id = 321
+1	اون	_	DET	DET	_	2	det	_	_
+2	دوستمون	دوستمون	NOUN	N_SING	Number=Sing	0	root	_	_
+3	تین	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	کوک	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	اومد	اومد	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 322
+1	اصخایی	_	NOUN	N_SING	Number=Sing	2	compound:lvc	_	_
+2	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	و	و	CCONJ	CON	_	6	cc	_	_
+4	هنوزم	_	ADV	ADV	_	6	advmod	_	_
+5	که	که	SCONJ	CON	_	6	mark	_	_
+6	هنوزه	_	NOUN	N_SING	Number=Sing	2	conj	_	_
+
+# sent_id = 323
+1	مپ	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	1	flat	_	_
+
+# sent_id = 324
+1	چنگی	چنگی	NOUN	N_SING	Number=Sing	4	obj	_	_
+2	به	به	ADP	P	_	3	case	_	_
+3	دل	دل	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	نمیزنه	نميزنه	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
+
+# sent_id = 325
+1	او	او	PRON	PRO	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	یکی	یک	NUM	NUM	NumType=Card	0	root	_	_
+3	از	از	ADP	P	_	5	case	_	_
+4	بزرگترین	بزرگ	ADJ	ADJ_SUP	Degree=Sup	5	amod	_	_
+5	فجایه	فجایه	NOUN	N_SING	Number=Sing	2	nmod	_	_
+
+# sent_id = 326
+1	اپل	اپل	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	که	که	SCONJ	CON	_	3	mark	_	_
+3	نمیدونم	_	VERB	V_PA	Number=Sing|Person=1|Tense=Past	1	acl:relcl	_	_
+4	چرا	چرا	ADV	ADV_I	PronType=Int	6	advmod	_	_
+5	ازش	ازش	NOUN	N_SING	Number=Sing	6	obj	_	_
+6	دستم	دستم	VERB	V_PA	Number=Sing|Person=1|Tense=Past	0	root	_	_
+7	نمی	نمی	SCONJ	CON	_	8	advmod	_	_
+8	کشه	كشه	NOUN	N_SING	Number=Sing	6	obl	_	_
+
+# sent_id = 327
+1	اما	اما	CCONJ	CON	_	2	cc	_	_
+2	بریم	بریم	NOUN	N_SING	Number=Sing	0	root	_	_
+3	سال	سال	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	بعدی	بعد	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	سال	سال	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+6	2013	2013	NUM	NUM	NumType=Card	5	nummod	_	_
+
+# sent_id = 328
+1	در	در	ADP	P	_	4	case	_	_
+2	جایی	جا	NOUN	N_SING	Number=Sing	1	fixed	_	_
+3	که	که	CCONJ	CON	_	1	fixed	_	_
+4	اپل	اپل	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 329
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	دونه	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	میم	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	هستش	هستش	NOUN	N_SING	Number=Sing	3	flat	_	_
+
+# sent_id = 330
+1	یارو	يارو	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	میره	میره	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
+4	خونه	_	NOUN	N_SING	Number=Sing	0	root	_	_
+5	کلاهشو	_	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 331
+1	آویزون	_	NOUN	N_PL	Number=Plur	6	nsubj	_	_
+2	میکنه	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	بعد	بعد	ADV	ADV_TIME	Case=Tem	1	nmod:poss	_	_
+4	همونو	_	PRON	PRO	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
+5	دور	دور	ADV	ADV	_	6	advmod	_	_
+6	میزنه	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 332
+1	کلاهشو	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	بر	بر	ADP	P	_	3	case	_	_
+3	میدارد	_	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	میاد	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	بیرون	بیرون	ADV	ADV_LOC	Case=Loc	1	advmod	_	_
+
+# sent_id = 333
+1	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+2	2013	2013	NUM	NUM	NumType=Card	3	nummod	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	آیفون	_	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	530	530	NUM	NUM	NumType=Card	4	nummod	_	_
+
+# sent_id = 334
+1	رو	رو	NOUN	N_SING	Number=Sing	3	obl	_	_
+2	نمایی	_	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 335
+1	که	که	SCONJ	CON	_	3	mark	_	_
+2	یه	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	آیفون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+4	پلاستیکی	پلاستیکی	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	باشه	_	AUX	V_SUB	Mood=Sub	3	cop	_	_
+
+# sent_id = 336
+1	که	که	SCONJ	CON	_	4	mark	_	_
+2	یه	_	NOUN	N_SING	Number=Sing	4	obj	_	_
+3	سهمی	سهم	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	بگیره	بگیره	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 337
+1	اون	_	DET	DET	_	2	det	_	_
+2	موقع	_	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+3	فقط	فقط	ADV	ADV	_	5	advmod	_	_
+4	یه	_	NUM	NUM	NumType=Card	5	nummod	_	_
+5	مودل	مودل	NOUN	N_SING	Number=Sing	0	root	_	_
+6	از	از	ADP	P	_	8	case	_	_
+7	هر	هر	DET	DET	_	8	det	_	_
+8	گوشی	گوشی	NOUN	N_SING	Number=Sing	5	nmod	_	_
+
+# sent_id = 338
+1	رو	رو	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	نمایی	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	میشد	ميشد	VERB	V_PRS	Number=Plur|Person=3|Tense=Pres	0	root	_	_
+4	هر	هر	DET	DET	_	5	det	_	_
+5	سال	سال	NOUN	N_SING	Number=Sing	3	obl	_	_
+
+# sent_id = 339
+1	و	و	CCONJ	CON	_	3	cc	_	_
+2	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	مجبور	مجبور	ADJ	ADJ	Degree=Pos	0	root	_	_
+4	بودی	بودی	AUX	V_PA	Number=Sing|Person=2|Tense=Past	3	cop	_	_
+5	همون	_	NUM	NUM	NumType=Card	8	nummod	_	_
+6	یه	_	NUM	NUM	NumType=Card	7	nummod	_	_
+7	مودل	مودل	NOUN	N_SING	Number=Sing	8	compound	_	_
+8	رو	رو	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+9	از	از	ADP	P	_	10	case	_	_
+10	اپل	اپل	NOUN	N_SING	Number=Sing	8	nmod	_	_
+11	بخری	بخری	NOUN	N_SING	Number=Sing	10	nmod:poss	_	_
+
+# sent_id = 340
+1	ولی	ولی	CCONJ	CON	_	2	cc	_	_
+2	اون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	سال	سال	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+
+# sent_id = 341
+1	اولین	اولین	ADJ	ADJ_SUP	Degree=Sup	2	amod	_	_
+2	سالی	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+3	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	اپل	اپل	NOUN	N_SING	Number=Sing	2	nsubj	_	_
+6	اومد	اومد	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 342
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	مودل	مودل	NOUN	N_SING	Number=Sing	4	obj	_	_
+3	پلاستیکی	پلاستیکی	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	داد	داد#ده	VERB	V_PA	Number=Sing|Person=3|Tense=Past	5	acl:relcl	_	_
+5	گفت	گفت#گو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 343
+1	آقا	آقا	NOUN	N_SING	Number=Sing	7	nsubj	_	_
+2	الان	الان	ADV	ADV_TIME	Case=Tem	7	advmod	_	_
+3	دیگه	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	دوتا	دوتاً	ADV	ADV	_	7	advmod	_	_
+5	حق	حق	NOUN	N_SING	Number=Sing	7	obj	_	_
+6	انتخاب	انتخاب	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	داری	داشت#دار	VERB	V_PRS	Number=Sing|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 344
+1	پنجتا	پنجتاً	ADV	ADV	_	2	advmod	_	_
+2	رنگ	رنگ	NOUN	N_SING	Number=Sing	0	root	_	_
+3	مختلف	مختلف	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	هم	هم	SCONJ	CON	_	2	advmod	_	_
+5	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
+
+# sent_id = 345
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	اتفاقی	اتفاق	NOUN	N_SING	Number=Sing	0	root	_	_
+3	که	که	SCONJ	CON	_	4	mark	_	_
+4	افتادیم	_	ADJ	ADJ	Degree=Pos	2	acl:relcl	_	_
+5	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	4	cop	_	_
+6	که	که	SCONJ	CON	_	7	mark	_	_
+7	فقط	فقط	ADV	ADV	_	4	advmod	_	_
+
+# sent_id = 346
+1	ست	است	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	دولار	دولار	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	ارزون	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	تر	_	ADJ	ADJ_CMPR	Degree=Cmp	0	root	_	_
+5	از	از	ADP	P	_	6	case	_	_
+6	نسخه	نسخه	NOUN	N_SING	Number=Sing	4	nmod	_	_
+
+# sent_id = 347
+1	اصلی	اصلی	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	آیفون	_	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+3	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
+4	اون	_	DET	DET	_	5	det	_	_
+5	موقع	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 348
+1	و	و	CCONJ	CON	_	3	cc	_	_
+2	همه	همه	PRON	PRO	PronType=Tot	3	det	_	_
+3	میگفتن	ميگفتن	NOUN	N_SING	Number=Sing	0	root	_	_
+4	آقا	آقا	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	این	این	DET	DET	_	6	det	_	_
+6	دیگه	_	NOUN	N_SING	Number=Sing	4	flat	_	_
+7	چه	چه	ADV	ADV_I	PronType=Int	8	det	_	_
+8	آشقالیه	اشقالیه	NOUN	N_SING	Number=Sing	3	appos	_	_
+
+# sent_id = 349
+1	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	nsubj	_	_
+2	تیم	تیم	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	هم	هم	SCONJ	CON	_	0	root	_	_
+
+# sent_id = 350
+1	دوستمون	دوستمون	NOUN	N_SING	Number=Sing	0	root	_	_
+2	آقای	آقا	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	تیم	تیم	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	کوک	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	هم	هم	SCONJ	CON	_	1	advmod	_	_
+
+# sent_id = 351
+1	خیلی	خیلی	ADV	ADV	_	3	advmod	_	_
+2	زود	زود	ADJ	ADJ	Degree=Pos	3	compound:lvc	_	_
+3	فهمید	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	که	که	SCONJ	CON	_	3	mark	_	_
+
+# sent_id = 352
+1	آقا	آقا	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	این	این	DET	DET	_	4	det	_	_
+3	اون	_	DET	DET	_	4	det	_	_
+4	چیزی	چیز	NOUN	N_SING	Number=Sing	0	root	_	_
+5	که	که	SCONJ	CON	_	7	mark	_	_
+6	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	فکر	فکر	NOUN	N_SING	Number=Sing	4	acl:relcl	_	_
+8	میکردیم	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+9	نیست	هست	AUX	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	7	cop	_	_
+
+# sent_id = 353
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	آیفون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	530	530	NUM	NUM	NumType=Card	4	nummod	_	_
+4	کلن	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+
+# sent_id = 354
+1	پسفنده	پسفنده	NOUN	N_SING	Number=Sing	0	root	_	_
+2	30	30	NUM	NUM	NumType=Card	3	nummod	_	_
+3	رفت	رفت#رو	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	واسه	واسه	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	خودش	_	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 355
+1	هنوز	هنوز	ADV	ADV	_	2	advmod	_	_
+2	نیمده	_	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
+4	بازار	بازار	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 356
+1	جمع	جمع	NOUN	N_SING	Number=Sing	2	compound:lvc	_	_
+2	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	و	و	CCONJ	CON	_	4	cc	_	_
+4	رفت	رفت#رو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	conj	_	_
+5	البته	البته	ADV	ADV	_	7	advmod	_	_
+6	که	که	SCONJ	CON	_	7	mark	_	_
+7	فروش	فروش	NOUN	N_SING	Number=Sing	4	ccomp	_	_
+
+# sent_id = 357
+1	بدی	بد	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	هم	هم	SCONJ	CON	_	3	advmod	_	_
+3	نداشته	داشت#دار	VERB	V_PP	Number=Sing|Person=3|Polarity=Neg|VerbForm=Part	0	root	_	_
+4	ولی	ولی	CCONJ	CON	_	6	cc	_	_
+5	یه	_	NUM	NUM	NumType=Card	6	nummod	_	_
+6	اشتباه	اشتباه	NOUN	N_SING	Number=Sing	3	conj	_	_
+7	بزرگ	بزرگ	ADJ	ADJ	Degree=Pos	6	amod	_	_
+
+# sent_id = 358
+1	از	از	ADP	P	_	2	case	_	_
+2	افل	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	دیگه	_	NOUN	N_SING	Number=Sing	2	nsubj	_	_
+6	مرتکبش	مرتكبش	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 359
+1	نشد	نشد	NOUN	N_SING	Number=Sing	0	root	_	_
+2	دیگه	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	آیفون	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	پلاستیکی	پلاستیکی	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	_
+6	بعد	بعد	ADV	ADV_TIME	Case=Tem	1	advmod	_	_
+7	از	از	ADP	P	_	8	case	_	_
+8	اون	_	NOUN	N_SING	Number=Sing	6	nmod	_	_
+
+# sent_id = 360
+1	ندیدیم	_	VERB	V_PA	Number=Plur|Person=1|Tense=Past	0	root	_	_
+2	ولی	ولی	CCONJ	CON	_	3	cc	_	_
+3	آیفون	_	NOUN	N_SING	Number=Sing	1	conj	_	_
+4	سی	سی	NUM	NUM	NumType=Card	3	nummod	_	_
+
+# sent_id = 361
+1	بعد	بعد	ADV	ADV_TIME	Case=Tem	4	advmod	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	اون	_	NOUN	N_SING	Number=Sing	4	obl	_	_
+4	دیدیم	_	VERB	V_PA	Number=Plur|Person=1|Tense=Past	0	root	_	_
+5	که	که	SCONJ	CON	_	8	mark	_	_
+6	دیگه	_	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+7	آیفون	_	NOUN	N_SING	Number=Sing	6	flat	_	_
+8	های	_	NOUN	N_PL	Number=Plur	4	ccomp	_	_
+
+# sent_id = 362
+1	سی	سی	NOUN	N_SING	Number=Sing	4	advmod	_	_
+2	هنوز	هنوز	ADV	ADV	_	4	advmod	_	_
+3	یه	_	NUM	NUM	NumType=Card	4	nummod	_	_
+4	سری	سری	NOUN	N_SING	Number=Sing	0	root	_	_
+5	از	از	ADP	P	_	6	case	_	_
+6	گوشی	گوش	NOUN	N_SING	Number=Sing	4	nmod	_	_
+7	های	_	NOUN	N_PL	Number=Plur	6	nmod:poss	_	_
+8	ارزونی	_	ADJ	ADJ	Degree=Pos	7	amod	_	_
+
+# sent_id = 363
+1	هستن	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	3	mark	_	_
+3	بیشتر	بیش	ADJ	ADJ_CMPR	Degree=Cmp	1	acl:relcl	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	ست	است	NOUN	N_SING	Number=Sing	3	nmod	_	_
+6	دولار	دولار	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 364
+1	ارزون	_	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	ترن	ترن	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	حتی	حتی	ADV	ADV	_	6	advmod	_	_
+4	دقیقا	دقیقاً	ADV	ADV	_	6	advmod	_	_
+5	یه	_	NUM	NUM	NumType=Card	6	nummod	_	_
+6	توجیهی	توجيهی	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 365
+1	واسه	واسه	NOUN	N_SING	Number=Sing	9	nsubj	_	_
+2	یه	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	سری	سری	NOUN	N_SING	Number=Sing	6	det	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	آدم	ادم	NOUN	N_SING	Number=Sing	6	nmod	_	_
+6	ها	_	NOUN	N_PL	Number=Plur	1	nmod:poss	_	_
+7	توی	توی	ADP	P	_	8	case	_	_
+8	امریکا	آمریکا	NOUN	N_SING	Number=Sing	6	nmod	_	_
+9	داره	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 366
+1	خریدش	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	اینم	_	PRON	PRO	Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	_
+3	از	از	ADP	P	_	5	case	_	_
+4	این	این	DET	DET	_	5	det	_	_
+5	بریم	بریم	NOUN	N_SING	Number=Sing	1	nmod	_	_
+
+# sent_id = 367
+1	سراغ	سراغ	ADP	P	_	3	case	_	_
+2	بزرگترین	بزرگ	ADJ	ADJ_SUP	Degree=Sup	3	amod	_	_
+3	شکست	شکست	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 368
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	افتضاه	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	توی	توی	ADP	P	_	2	case	_	_
+
+# sent_id = 369
+1	بازار	بازار	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	موبایل	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	میتونیم	_	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 370
+1	بهش	_	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	2	aux	_	_
+2	بگیم	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	0	root	_	_
+3	بزرگترین	بزرگ	ADJ	ADJ_SUP	Degree=Sup	4	amod	_	_
+4	شاید	شاید	ADV	ADV	_	7	advmod	_	_
+5	از	از	ADP	P	_	7	case	_	_
+6	این	این	DET	DET	_	7	det	_	_
+7	بزرگتر	_	NOUN	N_SING	Number=Sing	2	obl	_	_
+
+# sent_id = 371
+1	هم	هم	SCONJ	CON	_	3	advmod	_	_
+2	بوده	بود#باش	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	3	aux	_	_
+3	باشه	_	VERB	V_SUB	Mood=Sub	0	root	_	_
+4	توی	توی	ADP	P	_	5	case	_	_
+5	موردهای	_	NOUN	N_PL	Number=Plur	3	obl	_	_
+6	قبلی	قبل	ADJ	ADJ	Degree=Pos	5	amod	_	_
+
+# sent_id = 372
+1	سال	سال	NOUN	N_SING	Number=Sing	6	advmod	_	_
+2	دوزار	دوزار	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	و	و	CCONJ	CON	_	4	cc	_	_
+4	چارده	_	ADJ	ADJ	Degree=Pos	1	conj	_	_
+5	دوتا	دوتاً	ADV	ADV	_	6	advmod	_	_
+6	گوشی	گوش	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 373
+1	اومد	اومد	NOUN	N_SING	Number=Sing	0	root	_	_
+2	اولین	اولین	ADJ	ADJ_SUP	Degree=Sup	3	amod	_	_
+3	گوشی	گوشی	NOUN	N_SING	Number=Sing	1	flat	_	_
+
+# sent_id = 374
+1	فبلتور	فبلتور	NOUN	N_SING	Number=Sing	0	root	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	1	flat	_	_
+
+# sent_id = 375
+1	اپل	اپل	NOUN	N_SING	Number=Sing	0	root	_	_
+2	از	از	ADP	P	_	4	case	_	_
+3	اون	_	DET	DET	_	4	det	_	_
+4	استراتجی	_	NOUN	N_SING	Number=Sing	1	nmod	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	سیاست	سیاست	NOUN	N_SING	Number=Sing	4	conj	_	_
+
+# sent_id = 376
+1	استیف	استیف	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	جابز	جابز	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	اغب	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	نشینی	_	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 377
+1	گوشیی	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	که	که	SCONJ	CON	_	7	mark	_	_
+3	فقط	فقط	ADV	ADV	_	7	advmod	_	_
+4	با	با	ADP	P	_	5	case	_	_
+5	یه	_	NOUN	N_SING	Number=Sing	7	nmod	_	_
+6	دونه	_	NOUN	N_SING	Number=Sing	5	flat	_	_
+7	شست	شست	NOUN	N_SING	Number=Sing	1	acl:relcl	_	_
+
+# sent_id = 378
+1	بتونی	بتون	NOUN	N_SING	Number=Sing	2	obj	_	_
+2	باش	بود#باش	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+3	کار	کار	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	بکنی	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=2|Tense=Pres	2	ccomp	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	بذاش	بذاش	NOUN	N_SING	Number=Sing	4	obl	_	_
+7	کنار	کنار	ADP	P	_	6	case	_	_
+
+# sent_id = 379
+1	صفحه	صفحه	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	نمایششو	نمايششو	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	بزرگتر	بزرگ	ADJ	ADJ_CMPR	Degree=Cmp	4	xcomp	_	_
+4	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 380
+1	آیفون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	سیکس	_	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	و	و	CCONJ	CON	_	4	cc	_	_
+4	آیفون	_	NOUN	N_SING	Number=Sing	2	conj	_	_
+5	سیکس	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	پلاسو	_	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 381
+1	وارد	وارد	ADJ	ADJ	Degree=Pos	3	compound:lvc	_	_
+2	بازار	بازار	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 382
+1	چندی	چندی	NOUN	N_SING	Number=Sing	2	advmod	_	_
+2	نگذشته	گذشت#گذر	ADJ	ADJ	Degree=Pos	0	root	_	_
+3	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
+
+# sent_id = 383
+1	که	که	SCONJ	CON	_	5	mark	_	_
+2	یه	_	NUM	NUM	NumType=Card	3	nummod	_	_
+3	سری	سری	NOUN	N_SING	Number=Sing	5	det	_	_
+4	ها	_	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	گفتن	گفتن	NOUN	N_SING	Number=Sing	0	root	_	_
+6	آقا	آقا	NOUN	N_SING	Number=Sing	5	appos	_	_
+7	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	6	flat	_	_
+8	این	این	DET	DET	_	9	det	_	_
+9	آیفون	_	NOUN	N_SING	Number=Sing	7	appos	_	_
+10	سیکس	_	NOUN	N_SING	Number=Sing	9	nmod:poss	_	_
+11	پلاسو	_	NOUN	N_SING	Number=Sing	10	flat	_	_
+
+# sent_id = 384
+1	میذاریم	داشت#ميذار	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	جیب	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	اغبم	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	میشینیم	_	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 385
+1	کج	كج	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	میشه	میشه	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	اپل	اپل	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	هم	هم	SCONJ	CON	_	5	advmod	_	_
+5	اومد	اومد	NOUN	N_SING	Number=Sing	0	root	_	_
+6	گفتش	گفتش	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 386
+1	که	که	SCONJ	CON	_	5	mark	_	_
+2	آقا	آقا	NOUN	N_SING	Number=Sing	5	vocative	_	_
+3	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	اصخایی	_	NOUN	N_SING	Number=Sing	5	obj	_	_
+5	میکنم	_	VERB	V_PRS	Number=Plur|Person=1|Tense=Pres	0	root	_	_
+
+# sent_id = 387
+1	ولی	ولی	CCONJ	CON	_	3	cc	_	_
+2	این	این	DET	DET	_	3	det	_	_
+3	اتفاقی	اتفاق	NOUN	N_SING	Number=Sing	0	root	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	میگید	_	VERB	V_PRS	Number=Plur|Person=2|Tense=Pres	3	acl:relcl	_	_
+6	انقدر	_	ADV	ADV	_	8	advmod	_	_
+7	هم	هم	CCONJ	CON	_	6	fixed	_	_
+8	که	که	SCONJ	CON	_	9	mark	_	_
+9	میگید	_	VERB	V_PRS	Number=Plur|Person=2|Tense=Pres	3	acl:relcl	_	_
+
+# sent_id = 388
+1	زیاد	زیاد	ADJ	ADJ	Degree=Pos	0	root	_	_
+2	نیست	هست	AUX	V_PRS	Number=Sing|Person=3|Polarity=Neg|Tense=Pres	1	cop	_	_
+3	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	رو	رو	NOUN	N_SING	Number=Sing	6	xcomp	_	_
+5	خدا	خدا	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+6	ببخشید	درخشید#ببخش	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	1	ccomp	_	_
+
+# sent_id = 389
+1	و	و	CCONJ	CON	_	5	cc	_	_
+2	این	این	DET	DET	_	3	det	_	_
+3	یکی	یک	NUM	NUM	NumType=Card	5	nsubj	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	فجایهی	فجایهی	ADJ	ADJ	Degree=Pos	0	root	_	_
+6	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	5	cop	_	_
+7	که	که	SCONJ	CON	_	5	mark	_	_
+
+# sent_id = 390
+1	کل	کل	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	کمپانیا	_	NOUN	N_SING	Number=Sing	4	obj	_	_
+3	اومدن	آومدن	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	گفتن	گفتن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	که	که	SCONJ	CON	_	4	mark	_	_
+
+# sent_id = 391
+1	این	این	DET	DET	_	2	det	_	_
+2	آیفونه	ایفونه	NOUN	N_SING	Number=Sing	0	root	_	_
+3	با	با	ADP	P	_	5	case	_	_
+4	یه	_	NUM	NUM	NumType=Card	5	nummod	_	_
+5	دست	دست	NOUN	N_SING	Number=Sing	2	nmod	_	_
+
+# sent_id = 392
+1	خم	خم	ADJ	ADJ	Degree=Pos	0	root	_	_
+2	میشه	میشه	AUX	V_PRS	Number=Sing|Person=3|Tense=Pres	1	cop	_	_
+3	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	دیجیب	_	NOUN	N_SING	Number=Sing	1	appos	_	_
+5	پشتت	پشتت	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 393
+1	نزار	_	NOUN	N_SING	Number=Sing	0	root	_	_
+2	آلمینیومی	آلمینیومی	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	که	که	SCONJ	CON	_	4	mark	_	_
+4	استفاده	استفاده	NOUN	N_SING	Number=Sing	1	acl:relcl	_	_
+5	شده	کرد#کن	AUX	V_PP	Number=Sing|Person=3|VerbForm=Part	4	cop	_	_
+6	بود	بود#باش	VERB	V_PA	Number=Sing|Person=3|Tense=Past	5	aux	_	_
+
+# sent_id = 394
+1	آلمینیوم	آلمینیوم	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	خیلی	خیلی	ADV	ADV	_	3	advmod	_	_
+3	مستحکمی	مستحکم	ADJ	ADJ	Degree=Pos	0	root	_	_
+4	نبود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	3	cop	_	_
+
+# sent_id = 395
+1	همین	همین	DET	DET	_	2	det	_	_
+2	قضیه	قضیه	NOUN	N_SING	Number=Sing	0	root	_	_
+3	باشد	بود#باش	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	2	cop	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	سری	سری	NOUN	N_SING	Number=Sing	2	ccomp	_	_
+6	توی	توی	ADP	P	_	7	case	_	_
+7	نسخه	نسخه	NOUN	N_SING	Number=Sing	5	nmod	_	_
+8	بعدی	بعد	ADJ	ADJ	Degree=Pos	7	amod	_	_
+
+# sent_id = 396
+1	یعنی	یعنی	SCONJ	CON	_	2	advmod	_	_
+2	سیکس	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	ایس	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	پلاس	_	NOUN	N_SING	Number=Sing	3	flat	_	_
+
+# sent_id = 397
+1	اومدن	آومدن	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	آلمینیوم	_	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	هفتزار	هفتزار	NUM	NUM	NumType=Card	4	nummod	_	_
+4	استفاده	استفاده	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	کردن	کردن	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 398
+1	اون	_	DET	DET	_	2	det	_	_
+2	جه	_	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+3	هایی	_	NOUN	N_PL	Number=Plur	2	nmod:poss	_	_
+4	هم	هم	SCONJ	CON	_	6	advmod	_	_
+5	که	که	SCONJ	CON	_	6	mark	_	_
+6	حساس	حساس	ADJ	ADJ	Degree=Pos	0	root	_	_
+7	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	6	cop	_	_
+8	و	و	CCONJ	CON	_	9	cc	_	_
+9	خم	خم	ADJ	ADJ	Degree=Pos	6	conj	_	_
+10	میشد	ميشد	AUX	V_SUB	Mood=Sub|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	9	cop	_	_
+
+# sent_id = 399
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	تیتانیوم	تيتانیوم	NOUN	N_SING	Number=Sing	0	root	_	_
+3	توش	توش	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	کار	کار	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	بذاشتن	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+
+# sent_id = 400
+1	ولی	ولی	CCONJ	CON	_	4	cc	_	_
+2	این	این	DET	DET	_	4	det	_	_
+3	خم	خم	ADJ	ADJ	Degree=Pos	4	compound:lvc	_	_
+4	شدن	شدن	NOUN	N_SING	Number=Sing	0	root	_	_
+5	آیفون	_	NOUN	N_SING	Number=Sing	4	nmod:poss	_	_
+
+# sent_id = 401
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	چیزیه	چيزیه	NOUN	N_SING	Number=Sing	0	root	_	_
+3	که	که	SCONJ	CON	_	4	mark	_	_
+4	براوری	برآوری	NOUN	N_SING	Number=Sing	2	acl:relcl	_	_
+5	میکنه	_	NOUN	N_SING	Number=Sing	4	flat	_	_
+
+# sent_id = 402
+1	با	با	ADP	P	_	2	case	_	_
+2	فاجعه	فاجعه	NOUN	N_SING	Number=Sing	0	root	_	_
+3	نوته	نوته	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	هفت	هفت	NUM	NUM	NumType=Card	3	nummod	_	_
+
+# sent_id = 403
+1	سامسونگ	سامسونگ	NOUN	N_SING	Number=Sing	0	root	_	_
+2	اون	_	DET	DET	_	3	det	_	_
+3	داستان	داستان	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+
+# sent_id = 404
+1	یه	_	NOUN	N_SING	Number=Sing	2	nsubj	_	_
+2	داستانی	داستان	ADJ	ADJ	Degree=Pos	9	advcl	_	_
+3	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
+4	که	که	SCONJ	CON	_	6	mark	_	_
+5	خیلی	خیلی	ADV	ADV	_	6	advmod	_	_
+6	پیچید	_	VERB	V_PA	Number=Sing|Person=3|Tense=Past	2	ccomp	_	_
+7	توی	توی	ADP	P	_	8	case	_	_
+8	سوشال	_	NOUN	N_SING	Number=Sing	6	obl	_	_
+9	میدیا	ميدیا	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 405
+1	اینم	اينم	NOUN	N_SING	Number=Sing	2	nsubj	_	_
+2	یکی	یک	NUM	NUM	NumType=Card	0	root	_	_
+3	دیگه	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	از	از	ADP	P	_	5	case	_	_
+5	بزرگترین	بزرگ	ADJ	ADJ_SUP	Degree=Sup	2	nmod	_	_
+
+# sent_id = 406
+1	اشتباهات	اشتباه	NOUN	N_PL	Number=Plur	3	nsubj	_	_
+2	اپل	_	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 407
+1	یه	_	NUM	NUM	NumType=Card	2	nummod	_	_
+2	سری	سری	NOUN	N_SING	Number=Sing	3	det	_	_
+3	اشتباهات	اشتباه	NOUN	N_PL	Number=Plur	0	root	_	_
+4	دیگه	_	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	هم	هم	SCONJ	CON	_	8	advmod	_	_
+6	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+7	وضعی	وضعی	ADJ	ADJ	Degree=Pos	6	amod	_	_
+8	موبایل	_	NOUN	N_SING	Number=Sing	9	nmod:poss	_	_
+9	داره	_	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+
+# sent_id = 408
+1	مثلا	مثلاً	ADV	ADV_COMP	_	2	advmod	_	_
+2	سال	سال	NOUN	N_SING	Number=Sing	0	root	_	_
+3	2015	2015	NUM	NUM	NumType=Card	2	nummod	_	_
+4	با	با	ADP	P	_	5	case	_	_
+5	بند	بند	NOUN	N_SING	Number=Sing	2	nmod	_	_
+6	موسیقی	موسیقی	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+
+# sent_id = 409
+1	یوتو	_	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	اومد	اومد	NOUN	N_SING	Number=Sing	1	flat	_	_
+3	یه	_	NOUN	N_SING	Number=Sing	5	obj	_	_
+4	همکاری	همکاری	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+5	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 410
+1	که	که	SCONJ	CON	_	3	mark	_	_
+2	شما	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+3	گوشیو	_	NOUN	N_SING	Number=Sing	0	root	_	_
+4	که	که	SCONJ	CON	_	5	mark	_	_
+5	میخریدی	ميخریدی	NOUN	N_SING	Number=Sing	3	flat	_	_
+6	توی	توی	ADP	P	_	7	case	_	_
+7	آیتیونز	_	NOUN	N_SING	Number=Sing	5	nmod	_	_
+
+# sent_id = 411
+1	یکی	یک	NUM	NUM	NumType=Card	4	nsubj	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	آلبومای	_	NOUN	N_SING	Number=Sing	1	nmod	_	_
+4	یوتو	_	NOUN	N_SING	Number=Sing	0	root	_	_
+5	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	4	cop	_	_
+
+# sent_id = 412
+1	مردم	مردم	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	گوشیو	_	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+3	میخریدن	ميخریدن	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+4	وامی	وامی	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	کردن	کردن	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 413
+1	میگفتن	ميگفتن	NOUN	N_SING	Number=Sing	7	nsubj	_	_
+2	این	این	DET	DET	_	3	det	_	_
+3	آشخال	اشخال	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+4	چیه	_	NUM	NUM	NumType=Card	5	nummod	_	_
+5	گذاشتی	گذاشت#گذار	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+6	توی	توی	ADP	P	_	7	case	_	_
+7	گوشی	گوش	NOUN	N_SING	Number=Sing	0	root	_	_
+8	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	7	nmod:poss	_	_
+
+# sent_id = 414
+1	خیلی	خیلی	ADV	ADV	_	4	advmod	_	_
+2	هم	هم	SCONJ	CON	_	4	advmod	_	_
+3	سری	سری	NOUN	N_SING	Number=Sing	4	det	_	_
+4	اپل	اپل	NOUN	N_SING	Number=Sing	8	obj	_	_
+5	اومد	آومد#آ	NOUN	N_SING	Number=Sing	4	flat	_	_
+6	و	و	CCONJ	CON	_	7	cc	_	_
+7	اصقایی	اصقایی	NOUN	N_SING	Number=Sing	5	conj	_	_
+8	کرد	کرد#کن	VERB	V_PA	Number=Sing|Person=3|Tense=Past	0	root	_	_
+
+# sent_id = 415
+1	گو	گفت#گو	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	3	aux	_	_
+2	آقا	آقا	NOUN	N_SING	Number=Sing	3	obj	_	_
+3	ببخشید	درخشید#ببخش	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+4	دیگه	ديگه	SCONJ	CON	_	6	advmod	_	_
+5	کلن	_	NOUN	N_SING	Number=Sing	6	obj	_	_
+6	رفت	رفت#رو	VERB	V_PA	Number=Sing|Person=3|Tense=Past	3	ccomp	_	_
+
+# sent_id = 416
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	قراردادای	قراردادا	NOUN	N_SING	Number=Sing	0	root	_	_
+3	سفت	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	سخت	سخت	ADJ	ADJ	Degree=Pos	3	conj	_	_
+6	با	با	ADP	P	_	7	case	_	_
+7	بندهای	بند	NOUN	N_PL	Number=Plur	2	nmod	_	_
+
+# sent_id = 417
+1	موسیقی	موسیقی	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	و	و	CCONJ	CON	_	4	cc	_	_
+3	اون	_	DET	DET	_	4	det	_	_
+4	داستانهای	داستان	NOUN	N_PL	Number=Plur	1	conj	_	_
+5	کوپیرات	كوپیر	NOUN	N_PL	Number=Plur	0	root	_	_
+6	دیگه	_	ADJ	ADJ	Degree=Pos	5	amod	_	_
+
+# sent_id = 418
+1	از	از	ADP	P	_	2	case	_	_
+2	اون	_	NOUN	N_SING	Number=Sing	5	obl	_	_
+3	به	به	ADP	P	_	4	case	_	_
+4	بعد	بعد	ADV	ADV_TIME	Case=Tem	5	advcl	_	_
+5	میبنده	ميبنده	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+
+# sent_id = 419
+1	مثلا	مثلاً	ADV	ADV_COMP	_	2	advmod	_	_
+2	اپل	اپل	NOUN	N_SING	Number=Sing	0	root	_	_
+3	موزیک	موزیک	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	اومد	اومد	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	و	و	CCONJ	CON	_	6	cc	_	_
+6	داستان	داستان	NOUN	N_SING	Number=Sing	4	conj	_	_
+7	شد	کرد#کن	AUX	V_PA	Number=Sing|Person=3|Tense=Past	2	cop	_	_
+
+# sent_id = 420
+1	این	این	PRON	PRO	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	1	cop	_	_
+3	کل	کل	ADJ	ADJ	Degree=Pos	0	root	_	_
+4	اشتباهاتی	اشتباه	AUX	V_PRS	Number=Sing|Person=2|Tense=Pres	3	cop	_	_
+5	که	که	SCONJ	CON	_	6	mark	_	_
+6	اپل	اپل	NOUN	N_SING	Number=Sing	3	ccomp	_	_
+7	توی	توی	ADP	P	_	8	case	_	_
+8	حوزه	حوزه	NOUN	N_SING	Number=Sing	6	nmod	_	_
+
+# sent_id = 421
+1	موبایل	_	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+2	انجام	انجام	NOUN	N_SING	Number=Sing	3	compound:lvc	_	_
+3	داده	داد#ده	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+4	بود	بود#باش	VERB	V_PA	Number=Sing|Person=3|Tense=Past	3	aux	_	_
+
+# sent_id = 422
+1	به	به	ADP	P	_	2	case	_	_
+2	نظر	نظر	NOUN	N_SING	Number=Sing	4	nmod	_	_
+3	شما	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	2	nmod:poss	_	_
+4	بزرگترینش	بزرگترينش	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+5	کدوم	كدوم	ADJ	ADJ	Degree=Pos	0	root	_	_
+6	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	5	cop	_	_
+
+# sent_id = 423
+1	اپل	اپل	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+2	شکست	شکست	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	توی	توی	ADP	P	_	4	case	_	_
+4	حوزه	حوزه	NOUN	N_SING	Number=Sing	8	nmod	_	_
+5	های	_	NOUN	N_PL	Number=Plur	4	nmod:poss	_	_
+6	مختلف	مختلف	ADJ	ADJ	Degree=Pos	5	amod	_	_
+7	زیاد	زیاد	ADJ	ADJ	Degree=Pos	5	amod	_	_
+8	داره	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 424
+1	گجت	_	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	های	_	NOUN	N_PL	Number=Plur	6	obj	_	_
+3	زیادی	زیاد	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	رونمایی	رونمایی	ADJ	ADJ	Degree=Pos	2	conj	_	_
+6	کرده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+
+# sent_id = 425
+1	که	که	SCONJ	CON	_	4	mark	_	_
+2	همشون	_	ADV	ADV_COMP	_	4	advmod	_	_
+3	آشخال	اشخال	NOUN	N_SING	Number=Sing	4	compound:lvc	_	_
+4	بودن	بودن	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 426
+1	ولی	ولی	CCONJ	CON	_	2	cc	_	_
+2	اینا	اینا	NOUN	N_SING	Number=Sing	0	root	_	_
+3	بزرگترینش	بزرگترينش	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	توی	توی	ADP	P	_	5	case	_	_
+5	حوزه	حوزه	NOUN	N_SING	Number=Sing	2	nmod	_	_
+
+# sent_id = 427
+1	موبایل	_	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	بود.	بود.	PUNCT	DELM	_	1	punct	_	_
+3	حالا	حالا	ADV	ADV_TIME	Case=Tem	6	advmod	_	_
+4	به	به	ADP	P	_	5	case	_	_
+5	هم	هم	PRON	PRO	PronType=Rcp	6	compound:lvc	_	_
+6	بگید	_	VERB	V_SUB	Mood=Sub|Number=Sing|Person=3|Tense=Pres	0	root	_	_
+7	که	که	SCONJ	CON	_	6	mark	_	_
+
+# sent_id = 428
+1	شکست	شکست	NOUN	N_SING	Number=Sing	0	root	_	_
+2	های	_	NOUN	N_PL	Number=Plur	1	nmod:poss	_	_
+3	کدوم	كدوم	ADJ	ADJ	Degree=Pos	2	amod	_	_
+4	کمپانی	كمپانی	ADJ	ADJ	Degree=Pos	2	amod	_	_
+5	از	از	ADP	P	_	6	case	_	_
+6	همه	همه	PRON	PRO	PronType=Tot	1	nmod	_	_
+
+# sent_id = 429
+1	فاجعه	فاجعه	NOUN	N_SING	Number=Sing	0	root	_	_
+2	بارتر	بار	ADJ	ADJ_CMPR	Degree=Cmp	1	amod	_	_
+3	بود.	بود.	PUNCT	DELM	_	1	punct	_	_
+4	اگه	_	SCONJ	CON	_	5	case	_	_
+5	شکست	شکست	NOUN	N_SING	Number=Sing	1	nmod	_	_
+6	های	_	NOUN	N_PL	Number=Plur	5	nmod:poss	_	_
+
+# sent_id = 430
+1	شیامی	شيامی	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	و	و	CCONJ	CON	_	3	cc	_	_
+3	سامسونگو	سامسونگو	NOUN	N_SING	Number=Sing	1	conj	_	_
+4	ندیدید	_	VERB	V_PA	Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
+
+# sent_id = 431
+1	توی	توی	ADP	P	_	2	case	_	_
+2	پست	پست	NOUN	N_SING	Number=Sing	5	obl	_	_
+3	های	_	NOUN	N_PL	Number=Plur	2	nmod:poss	_	_
+4	قبلی	قبل	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	میتونید	_	VERB	V_PA	Number=Plur|Person=2|Tense=Past	6	aux	_	_
+6	ببینید	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 432
+1	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	8	dislocated	_	_
+2	خود	خود	PRON	PRO	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	nsubj	_	_
+3	این	این	DET	DET	_	4	det	_	_
+4	شکست	شکست	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+5	های	_	NOUN	N_PL	Number=Plur	4	nmod:poss	_	_
+6	اپل	اپل	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	به	به	ADP	P	_	8	case	_	_
+8	نظرتون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 433
+1	کدومش	كدومش	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	همه	همه	PRON	PRO	PronType=Tot	4	nmod	_	_
+4	بدتر	بد	ADJ	ADJ_CMPR	Degree=Cmp	0	root	_	_
+5	بود	بود#باش	AUX	V_PA	Number=Sing|Person=3|Tense=Past	4	cop	_	_
+6	و	و	CCONJ	CON	_	7	cc	_	_
+7	کدومش	كدومش	NOUN	N_SING	Number=Sing	4	conj	_	_
+
+# sent_id = 434
+1	اصلا	اصلاً	ADV	ADV	_	4	advmod	_	_
+2	شما	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+3	یادتونه.	يادتونه.	PUNCT	DELM	_	4	punct	_	_
+4	امیدوارم	اميدوارم	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 435
+1	که	که	SCONJ	CON	_	5	mark	_	_
+2	این	این	DET	DET	_	3	det	_	_
+3	ویدیو	_	NOUN	N_SING	Number=Sing	5	obj	_	_
+4	سرگرمتون	سرگرمتن	NOUN	N_SING	Number=Sing	5	compound:lvc	_	_
+5	کرده	کرد#کن	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	0	root	_	_
+6	باشه	_	VERB	V_PP	Number=Sing|Person=3|VerbForm=Part	5	aux	_	_
+
+# sent_id = 436
+1	چون	چون	SCONJ	CON	_	6	mark	_	_
+2	خیلی	خیلی	ADV	ADV	_	1	fixed	_	_
+3	که	که	CCONJ	CON	_	1	fixed	_	_
+4	نمیتونه	نميتونه	ADV	ADV	_	6	advmod	_	_
+5	به	به	ADP	P	_	6	case	_	_
+6	دردتون	_	NOUN	N_SING	Number=Sing	0	root	_	_
+7	بخوره	بخوره	NOUN	N_SING	Number=Sing	6	flat	_	_
+
+# sent_id = 437
+1	دمتون	دمتن	NOUN	N_SING	Number=Sing	0	root	_	_
+2	گرم	گرم	ADJ	ADJ	Degree=Pos	1	amod	_	_
+3	که	که	SCONJ	CON	_	6	mark	_	_
+4	روش	روش	NOUN	N_SING	Number=Sing	6	obj	_	_
+5	کلیک	كلیک	ADJ	ADJ	Degree=Pos	4	amod	_	_
+6	کردید	کرد#کن	VERB	V_PA	Number=Plur|Person=2|Tense=Past	1	acl:relcl	_	_
+
+# sent_id = 438
+1	و	و	CCONJ	CON	_	7	cc	_	_
+2	تا	تا	ADP	P	_	3	case	_	_
+3	آخر	آخر	ADJ	ADJ	Degree=Pos	7	advcl	_	_
+4	با	با	ADP	P	_	5	case	_	_
+5	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	7	nmod	_	_
+6	اومدین.	اومدين.	PUNCT	DELM	_	7	punct	_	_
+7	ویدیوهای	ويديو	NOUN	N_PL	Number=Plur	0	root	_	_
+8	بیشتر	بیش	ADJ	ADJ_CMPR	Degree=Cmp	7	amod	_	_
+
+# sent_id = 439
+1	و	و	CCONJ	CON	_	2	cc	_	_
+2	مفیدتر	مفید	ADJ	ADJ_CMPR	Degree=Cmp	7	conj	_	_
+3	توی	توی	ADP	P	_	4	case	_	_
+4	چنل	_	NOUN	N_SING	Number=Sing	2	nmod	_	_
+5	هستین.	هستين.	PUNCT	DELM	_	2	punct	_	_
+6	اگه	_	SCONJ	CON	_	7	mark	_	_
+7	این	این	PRON	PRO	Number=Sing|PronType=Dem	8	nsubj	_	_
+8	اولین	اولین	ADJ	ADJ_SUP	Degree=Sup	0	root	_	_
+
+# sent_id = 440
+1	ویدیو	_	NOUN	N_SING	Number=Sing	5	nsubj	_	_
+2	یکی	یک	NUM	NUM	NumType=Card	1	nmod:poss	_	_
+3	از	از	ADP	P	_	4	case	_	_
+4	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+5	میبینید.	ميبينيد.	PUNCT	DELM	_	0	root	_	_
+6	ما	ما	PRON	PRO	Number=Plur|Person=1|PronType=Prs	5	nmod:poss	_	_
+7	فقط	فقط	ADV	ADV	_	5	advmod	_	_
+
+# sent_id = 441
+1	این	این	DET	DET	_	2	det	_	_
+2	کار	کار	NOUN	N_SING	Number=Sing	4	obj	_	_
+3	رو	رو	PART	CLITIC	_	2	case	_	_
+4	نمی	نمی	VERB	V_PA	Number=Sing|Person=2|Tense=Past	0	root	_	_
+5	کنیم.	كنيم.	PUNCT	DELM	_	4	punct	_	_
+6	گوشی	گوش	NOUN	N_SING	Number=Sing	9	obj	_	_
+7	بررسی	بررسی	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+8	می	می	NOUN	N_SING	Number=Sing	7	nmod:poss	_	_
+9	کنیم	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=1|Tense=Pres	4	ccomp	_	_
+
+# sent_id = 442
+1	گجت	_	NOUN	N_SING	Number=Sing	9	obj	_	_
+2	بررسی	بررسی	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	می	می	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	کنیم.	كنيم.	PUNCT	DELM	_	5	punct	_	_
+5	ترفند	ترفند	NOUN	N_SING	Number=Sing	3	conj	_	_
+6	رو	رو	NOUN	N_SING	Number=Sing	5	nmod:poss	_	_
+7	موزش	موزش	NOUN	N_SING	Number=Sing	6	nmod:poss	_	_
+8	می	می	NOUN	N_SING	Number=Sing	7	flat	_	_
+9	دیم	_	VERB	V_PA	Number=Plur|Person=1|Tense=Past	0	root	_	_
+
+# sent_id = 443
+1	کلی	کلی	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	کارهای	كار	NOUN	N_PL	Number=Plur	6	nsubj	_	_
+3	باحال	باحال	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	می	می	NOUN	N_SING	Number=Sing	3	flat	_	_
+5	کنیم.	كنيم.	PUNCT	DELM	_	2	punct	_	_
+6	کامیونیتی	كاميونیت	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 444
+1	دیویست	ديویست	NUM	NUM	NumType=Card	5	nummod	_	_
+2	و	و	CCONJ	CON	_	4	cc	_	_
+3	سی	سی	NUM	NUM	NumType=Card	4	nummod	_	_
+4	هزار	هزار	NUM	NUM	NumType=Card	1	conj	_	_
+5	نفری	نفر	NOUN	N_SING	Number=Sing	8	nsubj	_	_
+6	که	که	SCONJ	CON	_	7	mark	_	_
+7	توی	توی	ADP	P	_	8	case	_	_
+8	یوتیوب	يوتيوب	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 445
+1	داریم.	داريم.	PUNCT	DELM	_	2	punct	_	_
+2	موبا	_	NOUN	N_SING	Number=Sing	0	root	_	_
+3	نیوز	نيوز	NOUN	N_SING	Number=Sing	2	flat	_	_
+4	خفن.	خفن.	PUNCT	DELM	_	2	punct	_	_
+5	با	با	ADP	P	_	6	case	_	_
+6	موبا	_	NOUN	N_SING	Number=Sing	2	nmod	_	_
+7	وکس	_	NOUN	N_SING	Number=Sing	6	flat	_	_
+
+# sent_id = 446
+1	دوست	دوست	NOUN	N_SING	Number=Sing	0	root	_	_
+2	داشتنی	_	ADJ	ADJ	Degree=Pos	1	amod	_	_
+
+# sent_id = 447
+1	لایک	_	NOUN	N_SING	Number=Sing	6	nsubj	_	_
+2	کنید.	كنيد.	PUNCT	DELM	_	3	punct	_	_
+3	کامت	كامت	NOUN	N_SING	Number=Sing	1	flat	_	_
+4	بذارید.	بذاريد.	PUNCT	DELM	_	6	punct	_	_
+5	ساب	ساب	NOUN	N_SING	Number=Sing	6	compound:lvc	_	_
+6	کنید	کرد#کن	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 448
+1	دمتون	دمتن	NOUN	N_SING	Number=Sing	7	nsubj	_	_
+2	گرم.	گرم.	PUNCT	DELM	_	3	punct	_	_
+3	موبا	_	NOUN	N_PL	Number=Plur	1	nmod:poss	_	_
+4	با	با	ADP	P	_	5	case	_	_
+5	حمایتهای	حمایت	NOUN	N_PL	Number=Plur	7	nmod	_	_
+6	شما	شما	PRON	PRO	Number=Plur|Person=2|PronType=Prs	5	nmod:poss	_	_
+7	زنده	زنده	ADJ	ADJ	Degree=Pos	0	root	_	_
+8	ایم	هست	AUX	V_PRS	Number=Plur|Person=1|Tense=Pres	7	cop	_	_
+
+# sent_id = 449
+1	لایک	_	NOUN	N_SING	Number=Sing	9	nsubj	_	_
+2	و	و	CCONJ	CON	_	3	cc	_	_
+3	کامت	كامت	NOUN	N_SING	Number=Sing	1	conj	_	_
+4	و	و	CCONJ	CON	_	5	cc	_	_
+5	فالو	_	NOUN	N_SING	Number=Sing	3	conj	_	_
+6	و	و	CCONJ	CON	_	7	cc	_	_
+7	سابسکرایب	سابسكریب	NOUN	N_SING	Number=Sing	5	conj	_	_
+8	یادتون	_	NOUN	N_SING	Number=Sing	1	flat	_	_
+9	ندید	_	VERB	V_PA	Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
+
+# sent_id = 450
+1	که	که	SCONJ	CON	_	2	mark	_	_
+2	باعث	باعث	NOUN	N_SING	Number=Sing	0	root	_	_
+3	دلگرمیه.	دلگرميه.	PUNCT	DELM	_	2	punct	_	_
+4	چون	چون	SCONJ	CON	_	7	mark	_	_
+5	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	هرچی	هرچه	NOUN	N_SING	Number=Sing	7	obj	_	_
+7	دارم	داشت#دار	VERB	V_PRS	Number=Sing|Person=1|Tense=Pres	2	advcl	_	_
+
+# sent_id = 451
+1	از	از	ADP	P	_	2	case	_	_
+2	حمایت	حمایت	NOUN	N_SING	Number=Sing	6	obl	_	_
+3	تک	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	تک	_	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+5	شماست.	شماست.	PUNCT	DELM	_	6	punct	_	_
+6	بفرستید	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 452
+1	واسه	واسه	NOUN	N_SING	Number=Sing	0	root	_	_
+2	دوستای	دوستا	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	اپلیتون	_	NOUN	N_SING	Number=Sing	2	nmod:poss	_	_
+4	با	با	ADP	P	_	5	case	_	_
+5	یه	_	NOUN	N_SING	Number=Sing	1	nmod	_	_
+6	مشتوصورتشون	مشتوصورتشون	NOUN	N_SING	Number=Sing	5	flat	_	_
+
+# sent_id = 453
+1	خیلی	خیلی	ADV	ADV	_	2	advmod	_	_
+2	مخلصم	مخلصم	ADV	ADV	_	0	root	_	_
+
+# sent_id = 454
+1	این	این	DET	DET	_	2	det	_	_
+2	مشتوصورت	مشتوصورت	NOUN	N_SING	Number=Sing	3	nsubj	_	_
+3	نمیدونم	_	VERB	V_PRS	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	_
+
+# sent_id = 455
+1	مثلا	مثلاً	ADV	ADV_COMP	_	2	advmod	_	_
+2	بیعدویه	بيعدویه	NOUN	N_SING	Number=Sing	0	root	_	_
+3	یا	یا	CCONJ	CON	_	4	cc	_	_
+4	نه.	نه.	PUNCT	DELM	_	2	conj	_	_
+5	ولی	ولی	CCONJ	CON	_	2	cc	_	_
+
+# sent_id = 456
+1	دیگه	_	ADJ	ADJ	Degree=Pos	2	amod	_	_
+2	کلکله	کلكله	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+3	دیگه.	ديگه.	PUNCT	DELM	_	4	punct	_	_
+4	کلکله	کلكله	NOUN	N_SING	Number=Sing	0	root	_	_
+
+# sent_id = 457
+1	من	من	PRON	PRO	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	طرفدار	طرفدار	NOUN	N_SING	Number=Sing	0	root	_	_
+3	سامسونگم.	سامسونگم.	PUNCT	DELM	_	2	punct	_	_
+4	تو	تو	PRON	PRO	Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	_
+5	طرفدار	طرفدار	NOUN	N_SING	Number=Sing	2	appos	_	_
+
+# sent_id = 458
+1	اپلی.	اپلي.	PUNCT	DELM	_	2	punct	_	_
+2	سامسونگ	سامسونگ	NOUN	N_SING	Number=Sing	0	root	_	_
+3	خوبه	_	NOUN	N_SING	Number=Sing	2	flat	_	_
+
+# sent_id = 459
+1	اپل	اپل	NOUN	N_SING	Number=Sing	4	nsubj	_	_
+2	هاش	هاش	NOUN	N_SING	Number=Sing	1	nmod:poss	_	_
+3	خاله.	خاله.	PUNCT	DELM	_	4	punct	_	_
+4	بفرستید	_	VERB	V_SUB	Mood=Sub|Number=Plur|Person=2|Tense=Pres	0	root	_	_
+
+# sent_id = 460
+1	داره.	داره.	PUNCT	DELM	_	6	punct	_	_
+2	چون	چون	SCONJ	CON	_	3	case	_	_
+3	مصبر	_	NOUN	N_SING	Number=Sing	6	obl	_	_
+4	واضعی	واضع	ADJ	ADJ	Degree=Pos	3	amod	_	_
+5	ها	_	NOUN	N_SING	Number=Sing	3	nmod:poss	_	_
+6	چیه	_	VERB	V_PRS	Number=Sing|Person=3|Tense=Pres	0	root	_	_
+
+# sent_id = 461
+1	ندیش	ندیش	VERB	V_IMP	Mood=Imp|Number=Sing|Person=2	4	acl:relcl	_	_
+2	از	از	ADP	P	_	3	case	_	_
+3	اون.	اون.	PUNCT	DELM	_	1	punct	_	_
+4	کات	_	NOUN	N_SING	Number=Sing	0	root	_	_
+
