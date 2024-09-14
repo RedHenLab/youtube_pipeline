@@ -86,6 +86,8 @@ cat *.vrt > combined_corpus.vrt
 
 Upload the concatenated .vrt file to CQPweb to query and analyze the corpus.
 
+
+# Folder Structure
 ```
 ├── time_frame.py        # Processes .vtt subtitles and generates .conllu files
 ├── final.py             # Post-processes annotated text into .fa.txt format
