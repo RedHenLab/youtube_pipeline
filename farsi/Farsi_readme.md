@@ -37,7 +37,7 @@ You also need the **Farsi Persian Seraji model** for UDPipe: `persian-seraji-ud-
 Use the following command to download videos and Farsi subtitles:
 
 ```
-yt-dlp -i -o "%(id)s.%(ext)s" "URL_of_the_video" --write-info-json --write-auto-sub --sub-lang fa --verbose ```
+yt-dlp -i -o "%(id)s.%(ext)s" "URL_of_the_video" --write-info-json --write-auto-sub --sub-lang fa --verbose 
 ```
 
 This command downloads the video along with its subtitles in Farsi (.vtt format).4
