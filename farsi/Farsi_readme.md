@@ -45,6 +45,9 @@ This command downloads the video along with its subtitles in Farsi (.vtt format)
 ## Step 2: Handle Subtitles
 
 - If Farsi subtitles exist, run the punctuation restoration model.
+```
+python predict_punctuation.py input_file.vtt "models/xlm-roberta-large-fa-1-task2/final/" 2 output_file.vtt
+```
 - If Farsi subtitles do not exist, generate subtitles using OpenAI Whisper:
 
 ```
