@@ -1,5 +1,5 @@
 Pipeline to process YouTube auto-generated captions in multiple languages
-For a given collection of auto-captions and json metadata, the pipeline produces a CWB-compatible corpus in CONLL format with tokenisation, POS tagging, lemmatisation and further token-level features as created by UDPipe.
+For a given collection of auto-captions and json metadata, the pipeline produces a CWB-compatible corpus in CONLL format with tokenization, POS tagging, lemmatization and further token-level features as created by UDPipe.
 
 Scripts are written in bash and Python 3.
 
@@ -10,7 +10,7 @@ You will need the auto-generated subtitles (.vtt files) along with accompanying 
 ## Prerequisites ##
 - You will need an installation of UDPipe 1, along with the relevant model for the language in question ([https://ufal.mff.cuni.cz/udpipe/1](https://ufal.mff.cuni.cz/udpipe/1); English model: [https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3131/english-ewt-ud-2.5-191206.udpipe](https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3131/english-ewt-ud-2.5-191206.udpipe)).
 - You will need an installation of our fork of Alam et al.2020's punctuation restoration tool ([https://github.com/RedHenLab/punctuation-restoration)](https://github.com/RedHenLab/punctuation-restoration)) and [our weights file](http://go.redhenlab.org/pgu/punctuation_restoration/) (1.4 GB)
-- You will need an installation of SoMaJo for tokenisation (https://github.com/tsproisl/SoMaJo/tree/master/somajo)
+- You will need an installation of SoMaJo for tokenization (https://github.com/tsproisl/SoMaJo/tree/master/somajo)
 
 ## Download ##
 To avoid problems with strange characters in filenames, we recommend using the YouTube video ID as filename. The following command will download the auto-generated subtitles and the info json file, but will not download the video:
@@ -53,7 +53,7 @@ CORPUS_NAME specifies the CWB ID for your corpus
 1. `convert_vtt_auto_to_conll-u.sh` Convert your .vtt files to CONLL
 This script assumes the existence of a directory called `conll_input` and takes as input the .vtt file that you would like to convert to CONLL format.
 
-It then calls `vtt_auto_to_conll-u.py` on the specified .vtt file and produces a corresponding `.conll_input`file, which consists of a tab-separated line number, the "token", several "empty" columns with underscores and the start and end time for each word. Tokenisation is done with the help of SoMaJo -- this also means that we do not retain the multi-word units in the vtt files, such as "a little". Instead in such cases, each individual token is set to the same start and end time.
+It then calls `vtt_auto_to_conll-u.py` on the specified .vtt file and produces a corresponding `.conll_input`file, which consists of a tab-separated line number, the "token", several "empty" columns with underscores and the start and end time for each word. Tokenization is done with the help of SoMaJo -- this also means that we do not retain the multi-word units in the vtt files, such as "a little". Instead in such cases, each individual token is set to the same start and end time.
 
 2. `extract_text_connl.py`
 This script takes as input the path of the non-annotated ConLL-files from their directory. It writes the content of the "token" column to a raw-text file, which can then be processed by NLP tools.
