@@ -71,6 +71,38 @@ takes as input path to the UDPipe model, the path to the src/ folder of UDPipe, 
 6. `postprocess_all.sh`
 Takes as an argument the directory containing the sub-directories for individual processing steps, and calls postprocess.sh, which in turn calls `postprocess_youtube_english.py`. This script reads information from the JSON file as text-level metadata and changes the formatting of sentence and token level annotation to match the CWB input format. It creates a .vrt file for each corpus text.
 
+## Notes on Running the English Pipeline (Contributor Guidance)
+
+The English processing pipeline is implemented inside the `english/` directory.
+Scripts such as `vtt_auto_to_conll-u.py` and `convert_vtt_to_conll-u.sh` are expected
+to be run from within this directory, not from the repository root.
+
+### Output Behavior
+Some scripts (e.g. `vtt_auto_to_conll-u.py`) write their output to **STDOUT**.
+When running these scripts directly, output should be redirected to a file, for example:
+
+```bash
+python vtt_auto_to_conll-u.py ../test_corpus/vtt/VIDEO_ID.en.vtt > ../test_corpus/conll_input/VIDEO_ID.conll
+```
+The shell scripts provided in this repository handle output redirection automatically.
+
+### Directory Assumptions
+The pipeline assumes the following directories already exist:
+```bash
+test_corpus/
+test_corpus/vtt/
+test_corpus/json/
+test_corpus/conll_input/
+```
++ These directories are created by `setup_directories.sh` on Unix-based systems.
+On Windows, these directories may need to be created manually before running the scripts.
+
+### Platform Notes
+The pipeline scripts are primarily written for Unix-like environments.
+Individual Python scripts can be run on Windows, but .sh scripts require a Unix-compatible shell
+(e.g. WSL or Git Bash).
+
+
 ## How to cite ##
 ```
 @inproceedings{dykes-et-al-2023-youtube,
