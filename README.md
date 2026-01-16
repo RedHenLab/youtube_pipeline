@@ -1,86 +1,151 @@
-Pipeline to process YouTube auto-generated captions in multiple languages
-For a given collection of auto-captions and json metadata, the pipeline produces a CWB-compatible corpus in CONLL format with tokenisation, POS tagging, lemmatisation and further token-level features as created by UDPipe.
+# YouTube Caption Processing Pipeline
 
-Scripts are written in bash and Python 3.
+## What Does This Project Do? 🎯
 
-## Input files ##
-The pipeline takes as input files created by the Python library [yt-dlp](https://pypi.org/project/yt-dlp/)
-You will need the auto-generated subtitles (.vtt files) along with accompanying json files (for metadata)
+Ever watched a YouTube video with auto-generated captions? This project takes those captions and transforms them into professional, structured text data that researchers can use.
 
-## Prerequisites ##
-- You will need an installation of UDPipe 1, along with the relevant model for the language in question ([https://ufal.mff.cuni.cz/udpipe/1](https://ufal.mff.cuni.cz/udpipe/1); English model: [https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3131/english-ewt-ud-2.5-191206.udpipe](https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3131/english-ewt-ud-2.5-191206.udpipe)).
-- You will need an installation of our fork of Alam et al.2020's punctuation restoration tool ([https://github.com/RedHenLab/punctuation-restoration)](https://github.com/RedHenLab/punctuation-restoration)) and [our weights file](http://go.redhenlab.org/pgu/punctuation_restoration/) (1.4 GB)
-- You will need an installation of SoMaJo for tokenisation (https://github.com/tsproisl/SoMaJo/tree/master/somajo)
+**In simple terms:** YouTube caption files → Clean, organized, analyzable text data with grammar information
 
-## Download ##
-To avoid problems with strange characters in filenames, we recommend using the YouTube video ID as filename. The following command will download the auto-generated subtitles and the info json file, but will not download the video:
+This is useful for:
+- **Linguists** studying how people speak
+- **Researchers** building language datasets
+- **Students** learning about text processing pipelines
+
+The pipeline takes YouTube's auto-generated captions and adds:
+- Proper **sentence boundaries** and punctuation
+- **Grammar tags** (what part of speech each word is)
+- **Timestamps** (when each word was spoken)
+- **Metadata** (video info, language, etc.)
+
+The scripts are written in Bash and Python 3.
+
+## 🚀 Quick Start (5 Minutes!)
+
+**Just want to see it work?**
+
+1. Clone this repo: `git clone https://github.com/RedHenLab/youtube_pipeline.git`
+2. Look at the `english/` folder to see example scripts
+3. Check the Workflow section below to understand the steps
+4. Read **Contributing** to get started with a small doc or bugfix
+
+**Not ready to run it yet?** No problem — understanding this README is a great first contribution.
+
+---
+
+## Prerequisites
+
+Before running this pipeline, you'll need to install three main tools. Here's what each one does:
+
+1. **UDPipe** - Analyzes text to identify parts of speech (verb, noun, adjective, etc.)
+   - Installation: https://ufal.mff.cuni.cz/udpipe/1
+   - You also need the language model for your language (e.g., English model available from Lindat)
+
+2. **Punctuation Restoration Tool** - Adds missing punctuation (periods, question marks) that YouTube captions often lack
+   - Installation: https://github.com/RedHenLab/punctuation-restoration
+   - You'll also need the `weights.pt` file (about 1.4 GB)
+
+3. **SoMaJo** - Tokenizer that breaks text into correct words/tokens
+   - Installation: https://github.com/tsproisl/SoMaJo/tree/master/somajo
+
+System requirements: Linux or macOS recommended; 8+ GB RAM and ~10 GB free disk space (weights and intermediate files).
+
+## Downloading captions
+
+Use `yt-dlp` to download auto-generated subtitles and metadata. We recommend using the video ID as filename to avoid encoding issues.
+
+Example:
 ```
 yt-dlp -i -o "%(id)s.%(ext)s" "https://www.youtube.com/watch?v=jNQXAC9IVRw" --skip-download --write-info-json --write-auto-sub --sub-lang en --verbose
 ```
-Note that yt-dlp regularly needs to be updated to continue working. We recommend running
+
+Update `yt-dlp` before big download sessions:
 ```
 pip install --upgrade yt-dlp
 ```
-before each download session.
 
-## Workflow ##
+## Workflow
 
-0. The scripts assume that you have the following directories in the directory where you want to build your corpus:
-- `vtt` contains your .vtt files
-- `json` contains the associated .json files
-- `webm` contains the video files
+### Overview
+The pipeline transforms YouTube captions through a series of steps. Each step adds or refines information (punctuation, tokens, grammar tags, timestamps, metadata) until the result is a corpus file ready for analysis.
 
-In order to go through all corpus processing steps automatically, you can run
+### Getting Started
+Before you begin, organize your files:
+- Put `.vtt` caption files in a `vtt/` folder
+- Put `.json` metadata files in a `json/` folder
+- (Optional) Put video files in a `webm/` folder
 
-```run_corpus_pipeline.sh CORPUS_PATH INFERENCE_PATH WEIGHT_PATH PATH_TO_UDPIPE_MODEL PATH_TO_UDPIPE CORPUS_NAME```
+Create processing directories:
+```
+./english/setup_directories.sh /path/to/your/corpus
+```
 
-with the following arguments:
-CORPUS_PATH: directory containing the `vtt`, `json` and `webm` directories. The results for other intermediate steps will be stored here.
-INFERENCE_PATH points to the inference script for punctuation restoration. In our repository, this is stored in src/inference.py in the punctuation tool's directory.
-WEIGHT_PATH points to the `weights.pt` file used for punctuation restoration.
-PATH_TO_UDPIPE_MODEL points to the `models` directory of your UDPipe installation
-PATH_TO_UDPIPE points to the `src` directory of your UDPipe installation
-CORPUS_NAME specifies the CWB ID for your corpus
+### Steps (simple)
 
-0.5 run `setup_directories.sh`, passing your desired base directory as an argument to create the following empty directories:
-    - `connl_input` for step 1.
-    - `rawtext` for step 2.
-    - `puncttext` for step 3.
-    - `conll_tokenized` for step 4.
-    - `annotated_pos_sent` for step 5.
-    - `vertical_pos_sent` for step 6.
-    
-1. `convert_vtt_auto_to_conll-u.sh` Convert your .vtt files to CONLL
-This script assumes the existence of a directory called `conll_input` and takes as input the .vtt file that you would like to convert to CONLL format.
+0.5 Create processing directories (`conll_input`, `rawtext`, `puncttext`, `conll_tokenized`, `annotated_pos_sent`, `vertical_pos_sent`)
 
-It then calls `vtt_auto_to_conll-u.py` on the specified .vtt file and produces a corresponding `.conll_input`file, which consists of a tab-separated line number, the "token", several "empty" columns with underscores and the start and end time for each word. Tokenisation is done with the help of SoMaJo -- this also means that we do not retain the multi-word units in the vtt files, such as "a little". Instead in such cases, each individual token is set to the same start and end time.
+1. Convert `.vtt` to CONLL (`convert_vtt_auto_to_conll-u.sh`)
+- Calls `vtt_auto_to_conll-u.py`, tokenizes with SoMaJo, keeps timestamps.
 
-2. `extract_text_connl.py`
-This script takes as input the path of the non-annotated ConLL-files from their directory. It writes the content of the "token" column to a raw-text file, which can then be processed by NLP tools.
+2. Extract raw text (`extract_text_connl.py`)
+- Pulls token column into plain text files for punctuation restoration.
 
-3. `infer_punctuation.sh`
-Calls Alam et al.'s punctuation tool to insert punctuation marks. For this pipeline, we modified the inference script to insert not only the punctuation marks themselves, but also sentence-opening and closing XML tags (<s>, </s>) in after sentence-ending characters [\.\?!]. This script completes the sentence boundary marking for each file by inserting one opening tag in the beginning and one closing tag at the end.
-The script's input consists of the inference path, the weights path, the directory with raw texts and the output directory puncttext.
+3. Restore punctuation (`infer_punctuation.sh`)
+- Uses the punctuation restoration tool to add punctuation and `<s>`/`</s>` sentence tags.
 
-4. `tok_conll_merge.sh`
-The tokenized files now need to be merged with the "old" ConLL-files before tagging, because these still contain the timestamps for all original tokens. The shell script takes as input a the conll_input directory and the puncttext/ directory, and calls `merge_conll_somajo.py` to handle the merging process. Output is stored in `conll_tokenized`.
+4. Merge tokens with timestamps (`tok_conll_merge.sh`)
+- Merges punctuated text back into CONLL files while preserving timestamps.
 
-5. `annotate_english_pos_sent.sh`
-takes as input path to the UDPipe model, the path to the src/ folder of UDPipe, the conll_tokenized folder and annotates them with UDPipe (POS tagging and parsing), writing them to annotated_pos_sent/.
+5. Annotate with UDPipe (`annotate_english_pos_sent.sh`)
+- Adds POS tags, lemmas, and syntactic information.
 
-6. `postprocess_all.sh`
-Takes as an argument the directory containing the sub-directories for individual processing steps, and calls postprocess.sh, which in turn calls `postprocess_youtube_english.py`. This script reads information from the JSON file as text-level metadata and changes the formatting of sentence and token level annotation to match the CWB input format. It creates a .vrt file for each corpus text.
+6. Postprocess to CWB format (`postprocess_all.sh`)
+- Adds metadata and converts to `.vrt` files ready for corpus tools.
 
-## How to cite ##
+### Run everything automatically
+If you want to run all steps in one command, here's a concrete example (replace paths with yours):
+```
+./english/run_corpus_pipeline.sh /home/alice/corpus /home/alice/punct_tool/src/inference.py /home/alice/punct_tool/weights.pt /home/alice/udpipe/models /home/alice/udpipe/src my_corpus
+```
+Explanation: `CORPUS_PATH` is your base folder (with `vtt/` and `json/`), `INFERENCE_PATH` points to the punctuation tool's `inference.py`, `WEIGHT_PATH` is the `weights.pt` file, `PATH_TO_UDPIPE_MODEL` and `PATH_TO_UDPIPE` point to your UDPipe installation, and `CORPUS_NAME` is a short id for the output corpus.
+
+Tip: run individual steps first (e.g., convert one `.vtt`) to confirm paths and tools before the full run.
+
+## How to cite
 ```
 @inproceedings{dykes-et-al-2023-youtube,
-    title = "A Pipeline for the Creation of Multimodal Corpora from YouTube Videos",
-    author = "Dykes, Nathan  and
-      Uhrig, Peter  and
-      Wilson, Anna",
-    booktitle = "Proceedings of KONVENS 2023",
-    year = "to appear"
+  title = "A Pipeline for the Creation of Multimodal Corpora from YouTube Videos",
+  author = "Dykes, Nathan and Uhrig, Peter and Wilson, Anna",
+  booktitle = "Proceedings of KONVENS 2023",
+  year = "to appear"
 }
 ```
-## Acknowledgements ##
-This work was made possible by generous funding provided by the Deutsche Forschungsgemeinschaft (project number 468466485) and the Arts and Humanities Research Council (grant reference AH/W010720/1) to Peter Uhrig and Anna Wilson. The authors gratefully acknowledge the scientific support and HPC resources provided by the Erlangen National High Performance Computing Center (NHR@FAU) of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) under the NHR project b105dc to Peter Uhrig. NHR funding is provided by federal and Bavarian state authorities. NHR@FAU hardware is partially funded by the German Research Foundation (DFG) – 440719683. The authors also gratefully acknowledge funding by the Defence Science and Technology Laboratory, Ministry of Defence, awarded to a project led by Anna Wilson.
+
+## Contributing
+
+Want to contribute? Start small — docs are the best first contribution.
+
+- Improve documentation (this README or script comments)
+- Report issues with steps you tried
+- Add a small example or one new language support
+- Fix a typo or improve error messages in scripts
+
+First-time contributor checklist:
+
+1. Fork the repo and create a branch
+2. Make a small, focused change (e.g., README clarification)
+3. Run any relevant scripts locally (if you can)
+4. Open a Pull Request explaining what you changed and why
+
+## Glossary
+
+- CONLL Format: a standard tabular text format for linguistic annotations
+- UDPipe: tool for POS tagging, lemmatisation and parsing
+- Tokenization: splitting text into words/tokens
+- POS Tagging: labeling each word with its part-of-speech
+- Lemmatization: finding a word's base/dictionary form
+- CWB (Corpus Workbench): tools for corpus search and analysis
+- VTT: Video Text Track (YouTube captions)
+
+## Acknowledgements
+This work was supported by funding to Peter Uhrig and Anna Wilson and by computing resources from NHR@FAU. See original repository for full acknowledgements.
+
