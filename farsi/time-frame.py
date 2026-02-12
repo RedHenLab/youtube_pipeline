@@ -7,6 +7,22 @@ from hazm import word_tokenize
 #from tokenizer import clitic_tokenize
 
 def time_to_centiseconds(time_str):
+    """
+    Convert time string to seconds:centiseconds format.
+    
+    Supports two input formats:
+    - MM:SS,FF (minutes:seconds,milliseconds)
+    - HH:MM:SS,FF (hours:minutes:seconds,milliseconds)
+    
+    Args:
+        time_str: Time string in format MM:SS,FF or HH:MM:SS,FF
+        
+    Returns:
+        String in format "SECONDS:CENTISECONDS" (e.g., "125:03")
+        
+    Raises:
+        ValueError: If time format is invalid
+    """
     # Replace ',' with ':' and split by ':'
     time_parts = time_str.replace(',', ':').split(':')
     
@@ -27,6 +43,20 @@ def time_to_centiseconds(time_str):
 
 
 def convert_timeframe(start, end, text):
+    """
+    Convert a text segment with start/end times into word-level timestamps.
+    
+    Tokenizes the text and distributes the time duration proportionally
+    across words based on character count.
+    
+    Args:
+        start: Start time string in format '%M:%S,%f' (e.g., "01:23,456")
+        end: End time string in format '%M:%S,%f'
+        text: Text content to tokenize and timestamp
+        
+    Returns:
+        List of tuples containing (start_time, end_time, word) for each token
+    """
     start_time = datetime.strptime(start, '%M:%S,%f')
     end_time = datetime.strptime(end, '%M:%S,%f')
     duration = end_time - start_time
@@ -57,6 +87,18 @@ def convert_timeframe(start, end, text):
     return output
 
 def parse_vtt(file_path):
+    """
+    Parse a VTT (WebVTT) subtitle file and extract captions.
+    
+    Reads a WebVTT file and extracts timestamped caption blocks,
+    converting them into a structured format.
+    
+    Args:
+        file_path: Path to the VTT file to parse
+        
+    Returns:
+        List of tuples containing (start_time, end_time, text) for each caption
+    """
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
@@ -81,6 +123,16 @@ def parse_vtt(file_path):
     return captions
 
 def main(vtt_folder, conll_input):
+    """
+    Main function to process VTT files and convert to CONLL format.
+    
+    Reads VTT subtitle files, parses captions, tokenizes text with timestamps,
+    and writes output in CONLL format.
+    
+    Args:
+        vtt_folder: Directory containing input VTT files
+        conll_input: Directory for output CONLL files
+    """
     input_file = os.path.join(vtt_folder, "Ckr5G4EvEdU.vtt")
     output_file = os.path.join(conll_input, "Ckr5G4EvEdU.conll_input")
 

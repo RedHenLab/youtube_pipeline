@@ -2,7 +2,7 @@ import sys, re
 from datetime import datetime, timedelta
 from somajo import SoMaJo
 
-# We have 3-line blocks, and the new stuff can always be found in the last line, so we can probably ignore the secoond one.
+# We have 3-line blocks, and the new stuff can always be found in the last line, so we can probably ignore the second one.
 # ToDo: There are 10 msec pauses because of the line feeds. We should try to find out which way they are more likely.
 # ToDo: We may be able to use statistics for this (i.e. compare the average length of certain words at the beginning of sentence vs. somewhere else)
 # For now they will be added to the last word of the previous line. We can always change this if it causes trouble.
