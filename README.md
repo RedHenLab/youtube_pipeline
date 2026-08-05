@@ -1,86 +1,330 @@
-Pipeline to process YouTube auto-generated captions in multiple languages
-For a given collection of auto-captions and json metadata, the pipeline produces a CWB-compatible corpus in CONLL format with tokenisation, POS tagging, lemmatisation and further token-level features as created by UDPipe.
+# RedHen YouTube Transcript Processing Pipeline
 
-Scripts are written in bash and Python 3.
+A pipeline for processing YouTube auto-generated captions in multiple languages to create CWB-compatible corpora in CONLL-U format with tokenization, POS tagging, lemmatization, and additional linguistic features using UDPipe.
 
-## Input files ##
-The pipeline takes as input files created by the Python library [yt-dlp](https://pypi.org/project/yt-dlp/)
-You will need the auto-generated subtitles (.vtt files) along with accompanying json files (for metadata)
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Directory Structure](#directory-structure)
+- [Usage](#usage)
+  - [English Processing Pipeline](#english-processing-pipeline)
+  - [Persian/Farsi Processing Pipeline](#persianfarsi-processing-pipeline)
+- [Input Requirements](#input-requirements)
+- [Output Format](#output-format)
+- [Dependencies](#dependencies)
+- [Example Workflow](#example-workflow)
+- [Troubleshooting](#troubleshooting)
+- [License](#license)
 
-## Prerequisites ##
-- You will need an installation of UDPipe 1, along with the relevant model for the language in question ([https://ufal.mff.cuni.cz/udpipe/1](https://ufal.mff.cuni.cz/udpipe/1); English model: [https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3131/english-ewt-ud-2.5-191206.udpipe](https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3131/english-ewt-ud-2.5-191206.udpipe)).
-- You will need an installation of our fork of Alam et al.2020's punctuation restoration tool ([https://github.com/RedHenLab/punctuation-restoration)](https://github.com/RedHenLab/punctuation-restoration)) and [our weights file](http://go.redhenlab.org/pgu/punctuation_restoration/) (1.4 GB)
-- You will need an installation of SoMaJo for tokenisation (https://github.com/tsproisl/SoMaJo/tree/master/somajo)
+## Overview
 
-## Download ##
-To avoid problems with strange characters in filenames, we recommend using the YouTube video ID as filename. The following command will download the auto-generated subtitles and the info json file, but will not download the video:
+This pipeline processes YouTube auto-generated captions (VTT files) along with their associated JSON metadata files to produce linguistically annotated corpora in CWB-compatible CONLL-U format. The pipeline performs:
+- VTT to CONLL-U conversion
+- Text extraction
+- Punctuation restoration
+- Tokenization and merging
+- POS tagging and lemmatization (via UDPipe)
+- Corpus assembly
+
+The pipeline supports both English and Persian/Farsi processing pipelines with language-specific optimizations.
+
+## Features
+
+- **Multi-language Support**: Dedicated pipelines for English and Persian/Farsi
+- **Complete NLP Pipeline**: From raw VTT files to linguistically annotated corpora
+- **Modular Design**: Each processing step is modular and can be run independently
+- **CWB Compatible Output**: Produces CONLL-U format compatible with the Corpus Workbench (CWB)
+- **Punctuation Restoration**: Uses specialized models to restore punctuation in auto-generated captions
+- **Linguistic Annotation**: Leverages UDPipe for tokenization, POS tagging, and lemmatization
+
+## Prerequisites
+
+### System Requirements
+- Linux or macOS environment (WSL2 on Windows also works)
+- Bash shell
+- Python 3.6+
+- Basic command-line tools
+
+### Required Software
+
+#### 1. UDPipe 1
+- Download and install UDPipe 1: https://ufal.mff.cuni.cz/udpipe/1
+- Download language models:
+  - English: https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3131/english-ewt-ud-2.5-191206.udpipe
+  - Persian: https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3287/persian-seraji-ud-2.5-191206.udpipe
+
+#### 2. Punctuation Restoration Models
+- English: https://github.com/RedHenLab/punctuation-restoration
+- Persian/Farsi: Included in the `farsi/punctuation_restoration_for_farsi/` directory
+
+#### 3. Python Dependencies
+```bash
+pip install -r requirements.txt
 ```
-yt-dlp -i -o "%(id)s.%(ext)s" "https://www.youtube.com/watch?v=jNQXAC9IVRw" --skip-download --write-info-json --write-auto-sub --sub-lang en --verbose
+(If a requirements.txt exists, otherwise basic Python 3 should suffice for the scripts)
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/RedHenLab/youtube-pipeline.git
+cd youtube-pipeline
 ```
-Note that yt-dlp regularly needs to be updated to continue working. We recommend running
+
+2. Install UDPipe 1 following the instructions at https://ufal.mff.cuni.cz/udpipe/1
+
+3. Download the required UDPipe models:
+```bash
+# English model
+wget https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3131/english-ewt-ud-2.5-191206.udpipe -o english-ewt-ud-2.5-191206.udpipe
+
+# Persian model  
+wget https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3287/persian-seraji-ud-2.5-191206.udpipe -o persian-seraji-ud-2.5-191206.udpipe
 ```
-pip install --upgrade yt-dlp
+
+4. Set up the punctuation restoration models:
+   - English: Follow instructions in the RedHenLab punctuation-restoration repo
+   - Persian: The model is already included in `/farsi/punctuation_restoration_for_farsi/`
+
+5. Make scripts executable:
+```bash
+chmod +x *.sh
+chmod +x english/*.sh
+chmod +x farsi/*.sh
 ```
-before each download session.
 
-## Workflow ##
+## Directory Structure
 
-0. The scripts assume that you have the following directories in the directory where you want to build your corpus:
-- `vtt` contains your .vtt files
-- `json` contains the associated .json files
-- `webm` contains the video files
-
-In order to go through all corpus processing steps automatically, you can run
-
-```run_corpus_pipeline.sh CORPUS_PATH INFERENCE_PATH WEIGHT_PATH PATH_TO_UDPIPE_MODEL PATH_TO_UDPIPE CORPUS_NAME```
-
-with the following arguments:
-CORPUS_PATH: directory containing the `vtt`, `json` and `webm` directories. The results for other intermediate steps will be stored here.
-INFERENCE_PATH points to the inference script for punctuation restoration. In our repository, this is stored in src/inference.py in the punctuation tool's directory.
-WEIGHT_PATH points to the `weights.pt` file used for punctuation restoration.
-PATH_TO_UDPIPE_MODEL points to the `models` directory of your UDPipe installation
-PATH_TO_UDPIPE points to the `src` directory of your UDPipe installation
-CORPUS_NAME specifies the CWB ID for your corpus
-
-0.5 run `setup_directories.sh`, passing your desired base directory as an argument to create the following empty directories:
-    - `connl_input` for step 1.
-    - `rawtext` for step 2.
-    - `puncttext` for step 3.
-    - `conll_tokenized` for step 4.
-    - `annotated_pos_sent` for step 5.
-    - `vertical_pos_sent` for step 6.
-    
-1. `convert_vtt_auto_to_conll-u.sh` Convert your .vtt files to CONLL
-This script assumes the existence of a directory called `conll_input` and takes as input the .vtt file that you would like to convert to CONLL format.
-
-It then calls `vtt_auto_to_conll-u.py` on the specified .vtt file and produces a corresponding `.conll_input`file, which consists of a tab-separated line number, the "token", several "empty" columns with underscores and the start and end time for each word. Tokenisation is done with the help of SoMaJo -- this also means that we do not retain the multi-word units in the vtt files, such as "a little". Instead in such cases, each individual token is set to the same start and end time.
-
-2. `extract_text_connl.py`
-This script takes as input the path of the non-annotated ConLL-files from their directory. It writes the content of the "token" column to a raw-text file, which can then be processed by NLP tools.
-
-3. `infer_punctuation.sh`
-Calls Alam et al.'s punctuation tool to insert punctuation marks. For this pipeline, we modified the inference script to insert not only the punctuation marks themselves, but also sentence-opening and closing XML tags (<s>, </s>) in after sentence-ending characters [\.\?!]. This script completes the sentence boundary marking for each file by inserting one opening tag in the beginning and one closing tag at the end.
-The script's input consists of the inference path, the weights path, the directory with raw texts and the output directory puncttext.
-
-4. `tok_conll_merge.sh`
-The tokenized files now need to be merged with the "old" ConLL-files before tagging, because these still contain the timestamps for all original tokens. The shell script takes as input a the conll_input directory and the puncttext/ directory, and calls `merge_conll_somajo.py` to handle the merging process. Output is stored in `conll_tokenized`.
-
-5. `annotate_english_pos_sent.sh`
-takes as input path to the UDPipe model, the path to the src/ folder of UDPipe, the conll_tokenized folder and annotates them with UDPipe (POS tagging and parsing), writing them to annotated_pos_sent/.
-
-6. `postprocess_all.sh`
-Takes as an argument the directory containing the sub-directories for individual processing steps, and calls postprocess.sh, which in turn calls `postprocess_youtube_english.py`. This script reads information from the JSON file as text-level metadata and changes the formatting of sentence and token level annotation to match the CWB input format. It creates a .vrt file for each corpus text.
-
-## How to cite ##
 ```
-@inproceedings{dykes-et-al-2023-youtube,
-    title = "A Pipeline for the Creation of Multimodal Corpora from YouTube Videos",
-    author = "Dykes, Nathan  and
-      Uhrig, Peter  and
-      Wilson, Anna",
-    booktitle = "Proceedings of KONVENS 2023",
-    year = "to appear"
-}
+youtube_pipeline/
+├── english/
+│   ├── VTT_to_CONLL_u.py              # Convert VTT to initial CONLL-U
+│   ├── extract_text_connl.py          # Extract plain text from CONLL-U
+│   ├── infer_punctuation.sh           # Run punctuation restoration
+│   ├── tok_conll_merge.sh             # Merge tokens with punctuated text
+│   ├── annotate_english_pos_sent.sh   # Run UDPipe for POS tagging/lemmatization
+│   ├── postprocess_all.sh             # Final post-processing
+│   ├── assemble_corpus.sh             # Assemble final corpus
+│   ├── setup_directories.sh           # Create necessary directories
+│   ├── run_corpus_pipeline.sh         # Main execution script
+│   └── setup_directories.farsi.sh     # Directory setup for Farsi
+├── farsi/
+│   ├── convert_to_xml.py              # Convert VTT to XML format
+│   ├── final.py                       # Main Farsi processing script
+│   ├── time-frame.py                  # Time frame processing
+│   ├── punctuation_restoration_for_farsi/
+│   │   ├── model_trainer.py           # Training script (if needed)
+│   │   ├── predict.py                 # Prediction script
+        │   ├── predict_punctuation.py   # Punctuation prediction
+        │   └── model_test_suite.py      # Model testing
+        └── README_farsi.md              # Farsi-specific instructions
+├── LICENSE
+└── README.md
 ```
-## Acknowledgements ##
-This work was made possible by generous funding provided by the Deutsche Forschungsgemeinschaft (project number 468466485) and the Arts and Humanities Research Council (grant reference AH/W010720/1) to Peter Uhrig and Anna Wilson. The authors gratefully acknowledge the scientific support and HPC resources provided by the Erlangen National High Performance Computing Center (NHR@FAU) of the Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) under the NHR project b105dc to Peter Uhrig. NHR funding is provided by federal and Bavarian state authorities. NHR@FAU hardware is partially funded by the German Research Foundation (DFG) – 440719683. The authors also gratefully acknowledge funding by the Defence Science and Technology Laboratory, Ministry of Defence, awarded to a project led by Anna Wilson.
+
+## Usage
+
+### English Processing Pipeline
+
+The main pipeline for English processing is run via:
+
+```bash
+english/run_corpus_pipeline.sh <CORPUS_PATH> <INFERENCE_PATH> <WEIGHT_PATH> <UDPIPE_MODEL_PATH> <UDPIPE_PATH> <CORPUS_NAME>
+```
+
+Where:
+- `CORPUS_PATH`: Main directory for your corpus (should contain `vtt/` subdirectory with .vtt and .json files)
+- `INFERENCE_PATH`: Path to punctuation inference script (from punctuation-restoration repo)
+- `WEIGHT_PATH`: Path to punctuation model weights
+- `UDPIPE_MODEL_PATH`: Path to UDPipe English model (.udpipe file)
+- `UDPIPE_PATH`: Path to UDPipe 1 executable
+- `CORPUS_NAME`: Name for your corpus (used in output filename, no special characters except underscore)
+
+#### Step-by-Step Execution
+
+Alternatively, you can run each step individually for debugging:
+
+1. **Setup directories**:
+```bash
+english/setup_directories.sh /path/to/your/corpus
+```
+Creates: `conll_input/`, `rawtext/`, `puncttext/`, `conll_tokenized/`, `annotated_pos_sent/`, `vertical_pos_sent/`
+
+2. **Convert VTT to CONLL-U**:
+```bash
+english/convert_vtt_to_conll-u.sh /path/to/corpus/vtt /path/to/corpus/conll_input
+```
+
+3. **Extract plain text**:
+```bash
+python3 english/extract_text_connl.py /path/to/corpus/conll_input /path/to/corpus/rawtext
+```
+
+4. **Restore punctuation**:
+```bash
+english/infer_punctuation.sh /path/to/inference/script /path/to/weights /path/to/corpus/rawtext /path/to/corpus/puncttext
+```
+
+5. **Merge tokens with punctuated text**:
+```bash
+english/tok_conll_merge.sh /path/to/corpus/conll_input /path/to/corpus/puncttext /path/to/corpus/conll_tokenized
+```
+
+6. **Run UDPipe for POS tagging/lemmatization**:
+```bash
+english/annotate_english_pos_sent.sh /path/to/udpitch/model.udpipe /path/to/udpipe /path/to/corpus/conll_tokenized /path/to/corpus/annotated_pos_sent
+```
+
+7. **Post-process**:
+```bash
+english/postprocess_all.sh /path/to/corpus
+```
+
+8. **Assemble final corpus**:
+```bash
+english/assemble_corpus.sh /path/to/corpus/vertical_pos_sent CorpusName
+```
+
+### Persian/Farsi Processing Pipeline
+
+See `farsi/README_farsi.md` for detailed instructions on the Persian pipeline.
+
+The main Farsi processing script is:
+```bash
+python3 farsi/final.py /path/to/corpus
+```
+
+## Input Requirements
+
+The pipeline expects input files created by [yt-dlp](https://github.com/yt-dlp/yt-dlp):
+
+For each video, you need two files in the `vtt/` directory:
+1. `{video_id}.vtt` - Auto-generated subtitles in VTT format
+2. `{video_id}.info.json` - Metadata JSON file from yt-dlp
+
+Example file structure:
+```
+corpus_directory/
+└── vtt/
+    ├── video1id.vtt
+    ├── video1id.info.json
+    ├── video2id.vtt
+    ├── video2id.info.json
+    └ ...
+```
+
+The VTT files should contain the auto-generated captions from YouTube, and the JSON files contain metadata like video title, upload date, duration, etc.
+
+## Output Format
+
+The pipeline produces a CWB-compatible corpus in CoNLL-U format with the following columns:
+
+1. `ID` - Token index
+2. `FORM` - Token form
+3. `LEMMA` - Lemma form
+4. `UPOS` - Universal part-of-speech tag
+5. `XPOS` - Language-specific part-of-speech tag
+6. `FEATS` - Morphological features
+7. `HEAD` - Head of the current token
+8. `DEPREL` - Dependency relation to the head
+9. `DEPS` - Enhanced dependency graph (underscore if not available)
+10. `MISC` - Miscellaneous annotations (including original VTT timing info when available)
+
+Each sentence is separated by a blank line, and documents are separated by comment lines beginning with `#`.
+
+## Dependencies
+
+### Core Dependencies
+- **Bash** - For shell scripts
+- **Python 3.6+** - For Python scripts
+- **UDPipe 1** - For tokenization, POS tagging, and lemmatization
+- **wget/curl** - For downloading models (optional)
+
+### Language-Specific Dependencies
+
+#### English
+- UDPipe English model
+- English punctuation restoration model (from RedHenLab)
+
+#### Persian/Farsi
+- UDPipe Persian model
+- Persian punctuation restoration model (included)
+
+## Example Workflow
+
+Here's a complete example of processing a small corpus:
+
+```bash
+# 1. Download videos with yt-dlp (create your VTT and JSON files first)
+yt-dlp --write-auto-sub --sub-lang en --write-info-json <VIDEO_URLS>
+
+# 2. Organize files
+mkdir -p my_corpus/vtt
+mv *.vtt *.info.json my_corpus/vtt/
+
+# 3. Download required models
+# UDPipe models (as shown in Installation section)
+# Punctuation restoration models (follow respective repo instructions)
+
+# 4. Make scripts executable
+chmod +x english/*.sh
+
+# 5. Run the pipeline
+english/run_corpus_pipeline.sh \
+  ./my_corpus \
+  ./path/to/punctuation/inference.py \
+  ./path/to/punctuation/weights \
+  ./models/english-ewt-ud-2.5-191206.udpipe \
+  ./udpipe \
+  my_youtube_corpus
+
+# 6. Find your output corpus in:
+# my_corpus/vertical_pos_sent/my_youtube_corpus vertical
+```
+
+## Troubleshooting
+
+### Common Issues
+
+1. **"UDPipe not found" error**
+   - Ensure UDPipe 1 is installed and in your PATH, or provide the full path to the executable
+
+2. **Model loading errors**
+   - Verify the paths to your .udpipe files are correct
+   - Ensure you've downloaded the correct models for your language
+
+3. **Punctuation restoration issues**
+   - Make sure you're using compatible versions of the punctuation restoration models
+   - Check that the input format matches what the punctuation model expects
+
+4. **Permission errors**
+   - Run `chmod +x *.sh` on all shell scripts if you encounter execution permission issues
+
+5. **Encoding issues**
+   - The pipeline assumes UTF-8 encoding. Ensure your VTT files are properly UTF-8 encoded
+
+### Getting Help
+
+If you encounter issues:
+1. Check that all dependencies are properly installed
+2. Verify file paths are correct
+3. Ensure input files follow the expected naming convention
+4. Consult the language-specific README files for additional guidance
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+This pipeline uses and integrates several excellent open-source tools:
+- [UDPipe](https://ufal.mff.cuni.cz/udpipe/) for tokenization, POS tagging, and lemmatization
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) for downloading YouTube content and metadata
+- RedHenLab's punctuation restoration models
+- The Universal Dependencies project for linguistic annotations
+
+## Contact
+
+For questions or issues, please open an issue in the GitHub repository.
