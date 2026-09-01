@@ -1,6 +1,17 @@
 import sys, re
-from datetime import datetime, timedelta
 from somajo import SoMaJo
+
+def add_10ms(timestamp):
+    # Plain seconds arithmetic instead of datetime() -- datetime's hour field
+    # is capped at 23, but long VTT files (multi-hour streams/lectures) can
+    # have timestamps at or past 24:00:00.
+    h, m, s_ms = timestamp.split(":")
+    s, ms = s_ms.split(".")
+    total_ms = ((int(h) * 3600 + int(m) * 60 + int(s)) * 1000 + int(ms)) + 10
+    h, rem_ms = divmod(total_ms, 3600000)
+    m, rem_ms = divmod(rem_ms, 60000)
+    s, ms = divmod(rem_ms, 1000)
+    return f"{h:02d}:{m:02d}:{s:02d}.{ms:03d}"
 
 # We have 3-line blocks, and the new stuff can always be found in the last line, so we can probably ignore the secoond one.
 # ToDo: There are 10 msec pauses because of the line feeds. We should try to find out which way they are more likely.
@@ -22,13 +33,7 @@ with open(sys.argv[1], encoding="utf-8") as infile:
         if match1:
             # This is the first line of the triplet
             currenttime = match1.group(1)
-            # For proper time calculations, we need to do some stuff:
-            # We have to do this manually, since fromisoformat becomes available only in Python 3.7, and we do not have this on the servers yet...
-            endtime_iso = datetime(2000, 1, 1, int(match1.group(2)), int(match1.group(3)), int(match1.group(4)), int(match1.group(5))*1000)
-            delta = timedelta(milliseconds=10)
-            endtime_iso += delta
-            endtime = endtime_iso.strftime("%H:%M:%S.%f")[:-3]
-            #endtime = match1.group(2)
+            endtime = add_10ms(f"{match1.group(2)}:{match1.group(3)}:{match1.group(4)}.{match1.group(5)}")
             next(infile) # This is the second line. We are never interested in the second line.
             thirdline = next(infile)
             thirdline = thirdline.strip()
