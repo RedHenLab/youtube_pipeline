@@ -12,7 +12,7 @@ def convert_dependency_tree(vrt_content):
     for line in vrt_content.strip().split('\n'):
         parts = line.split()
         
-        if len(parts) < 8:  # Skip lines that don't have enough parts
+        if len(parts) < 10:  # Standard CONLL-U has 10 columns (ID..MISC); skip anything shorter
             continue
         token_index = int(parts[0])
         parent_index = int(parts[6])
