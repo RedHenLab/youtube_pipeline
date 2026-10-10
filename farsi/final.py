@@ -1,5 +1,6 @@
+import sys
 # Specify the file name
-file_name = 'annotated_pos_sent.txt'
+file_name = sys.argv[1] if len(sys.argv) > 1 else 'annotated_pos_sent.txt'
 
 # Open the file and read its contents
 with open(file_name, 'r', encoding='utf-8') as file:
@@ -12,7 +13,7 @@ def convert_dependency_tree(vrt_content):
     for line in vrt_content.strip().split('\n'):
         parts = line.split()
         
-        if len(parts) < 8:  # Skip lines that don't have enough parts
+        if len(parts) < 10:  # Skip lines that don't have enough parts
             continue
         token_index = int(parts[0])
         parent_index = int(parts[6])
@@ -24,7 +25,8 @@ def convert_dependency_tree(vrt_content):
     return result
 
 result = convert_dependency_tree(file_contents)
-with open('output.vrt', 'w', encoding='utf-8') as f:
+output_file = sys.argv[2] if len(sys.argv) > 2 else 'output.vrt'
+with open(output_file, 'w', encoding='utf-8') as f:
 # print(result)
     for item in result:
         item.pop(0)
@@ -44,3 +46,6 @@ with open('output.vrt', 'w', encoding='utf-8') as f:
 # Print the result
         
         #print(output_line[0])
+
+if __name__ == "__main__":
+    main()
