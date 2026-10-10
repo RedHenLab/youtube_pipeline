@@ -68,6 +68,13 @@ Use UDPipe for tokenization, POS tagging, and dependency parsing:
 ```
 /path/to/udpipe --input=conllu --tag --parse /path/to/persian-seraji-ud-2.5-191206.udpipe/ --outfile /path/to/output/annotated.txt /path/to/conllu/file
 ```
+## Step 5: Format and Convert Dependency Tree with final.py
+
+Run the `final.py` script to process the UDPipe output, compute dependency tree token offsets, extract timestamp segments, and format the data into a `.vrt` file:
+
+```bash
+python final.py annotated_pos_sent.txt output.vrt
+```
 
 ## Step 6: Convert to XML with xml.py
 
