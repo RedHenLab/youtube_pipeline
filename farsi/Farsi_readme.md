@@ -69,12 +69,20 @@ Use UDPipe for tokenization, POS tagging, and dependency parsing:
 /path/to/udpipe --input=conllu --tag --parse /path/to/persian-seraji-ud-2.5-191206.udpipe/ --outfile /path/to/output/annotated.txt /path/to/conllu/file
 ```
 
-## Step 6: Convert to XML with xml.py
+## Step 5: Format and Convert Dependency Tree with final.py
 
-Run xml.py to convert .fa.txt into XML format for CQPweb:
+Run `final.py` to process the UDPipe output, calculate dependency tree token offsets, and format into `.vrt` format:
 
+```bash
+python final.py -i /path/to/output/annotated.txt -o output.vrt
 ```
-python convert_to_xml.py --json_file "info.json" --annotated "output.fa.txt"
+
+## Step 6: Convert to XML with convert_to_xml.py
+
+Run `convert_to_xml.py` to convert `output.vrt` into XML format for CQPweb:
+
+```bash
+python convert_to_xml.py --json_file "info.json" --annotated "output.vrt"
 ```
 
 ## Step 7: Concatenate .vrt Files
@@ -93,8 +101,8 @@ Upload the concatenated .vrt file to CQPweb to query and analyze the corpus.
 # Folder Structure
 ```
 ├── time_frame.py        # Processes .vtt subtitles and generates .conllu files
-├── final.py             # Post-processes annotated text into .fa.txt format
-├── convert_to_xml.py               # Converts .fa.txt into .vrt format for CQPweb
+├── final.py             # Post-processes annotated text into .vrt format
+├── convert_to_xml.py    # Converts .vrt with metadata into corpus.vrt for CQPweb
 ├── README.md            # This file
 ├── info.json            # Metadata for the video from yt-dlp
 ├── annotated_pos_sent.txt  # Annotated file from UDPipe
