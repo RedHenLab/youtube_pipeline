@@ -69,12 +69,12 @@ Use UDPipe for tokenization, POS tagging, and dependency parsing:
 /path/to/udpipe --input=conllu --tag --parse /path/to/persian-seraji-ud-2.5-191206.udpipe/ --outfile /path/to/output/annotated.txt /path/to/conllu/file
 ```
 
-## Step 6: Convert to XML with xml.py
+## Step 6: Convert to XML with convert_to_xml.py
 
-Run xml.py to convert .fa.txt into XML format for CQPweb:
+Run `convert_to_xml.py` to convert `.fa.txt` or `.vrt` into XML format for CQPweb:
 
 ```
-python convert_to_xml.py --json_file "info.json" --annotated "output.fa.txt"
+python convert_to_xml.py --json_file "info.json" --annotated "output.fa.txt" --output "output.vrt"
 ```
 
 ## Step 7: Concatenate .vrt Files
